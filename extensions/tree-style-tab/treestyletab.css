@@ -1,0 +1,93 @@
+/* https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules */
+
+:root.sidebar tab-item.unread .label-content {
+  color: orange !important;
+}
+
+.newtab-button-box {
+  display: none;
+}
+
+#tabbar {
+  bottom: 0 !important;
+}
+
+tab-item.active .background {
+  background-color: #0040dd;
+}
+
+/* mark container tabs */
+.contextual-identity-marker {
+  top: 0.5em !important;
+  left: 0px !important;
+  right: auto !important;
+  bottom: 0.5em !important;
+  width: 2px !important;
+  margin: 0 !important;
+  max-height: auto !important;
+  height: auto !important;
+}
+
+/* change the base box to layout position:absolute box from the root container box to the tab item */
+:root.group-tab li {
+  position: relative;
+}
+
+:root.group-tab .default-favicon,
+:root.group-tab img,
+
+/* change tab border */
+:root.group-tab .label {
+  z-index: 100;
+}
+
+tab-item tab-item-substance:hover {
+  background: #0040dd9f !important;
+}
+
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
+
+tab-item.pinned tab-item-substance:hover tab-closebox {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* cancel needless separators on exceptions */
+tab-item[data-level="0"].pinned,
+tab-item[data-level="0"].pinned+tab-item[data-level="0"],
+tab-item[data-level="0"]+tab-item[data-level="0"]:not([data-child-ids]) {
+  margin-top: 0;
+}
+
+tab-label {
+  padding-left: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+:root.sidebar #background {
+  background: black;
+}
+
+tab-item.discarded tab-item-substance {
+  opacity: 0.75;
+}
+
+tab-item.discarded .label-content {
+  color: lightgrey;
+}
+
+tab-item {
+  --indent-line-color: dimgray;
+  --indent-line-color-active: darkgray;
+  --indent-line-width: 1px;
+  --indent-line-width-active: 1px;
+}
