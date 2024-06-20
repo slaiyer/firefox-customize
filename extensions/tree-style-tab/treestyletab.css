@@ -89,7 +89,7 @@ tab-label {
 }
 
 :root.sidebar #background {
-  background: #000
+  background: black
 }
 
 tab-item.discarded tab-item-substance {
@@ -97,12 +97,12 @@ tab-item.discarded tab-item-substance {
 }
 
 tab-item.discarded .label-content {
-  color: #d3d3d3
+  color: darkgray
 }
 
 tab-item {
   --indent-line-color: dimgray;
-  --indent-line-color-active: darkgray;
+  --indent-line-color-active: whitesmoke;
   --indent-line-width: 1px;
   --indent-line-width-active: 1px
 }
