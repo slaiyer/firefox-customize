@@ -22,7 +22,8 @@ tab-item.active .background {
   top: 0;
   left: 0;
   right: 0;
-  height: var(--newtab-button-size)
+  height: var(--newtab-button-size);
+  opacity: .5
 }
 
 #tabbar {
