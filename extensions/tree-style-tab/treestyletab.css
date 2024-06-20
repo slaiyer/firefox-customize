@@ -1,3 +1,8 @@
+:root {
+  --newtab-button-size: 20px;
+  --macblue: 0, 64, 221
+}
+
 #pinned-tabs-container,
 #tabbar {
   top: calc(var(--newtab-button-size) + 1px) !important
@@ -8,11 +13,7 @@
 }
 
 tab-item.active .background {
-  background-color: #0040dd
-}
-
-:root {
-  --newtab-button-size: 20px
+  background-color: rgb(var(--macblue))
 }
 
 .newtab-button-box {
@@ -58,7 +59,7 @@ tab-item.active .background {
 }
 
 tab-item tab-item-substance:hover {
-  background: #0040dd9f !important
+  background: rgba(var(--macblue), .75) !important
 }
 
 #tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
