@@ -93,11 +93,11 @@ tab-label {
 }
 
 tab-item.discarded tab-item-substance {
-  opacity: .75
+  opacity: .5
 }
 
 tab-item.discarded .label-content {
-  color: darkgray
+  color: lightgray
 }
 
 tab-item {
