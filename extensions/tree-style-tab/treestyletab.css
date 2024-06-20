@@ -4,16 +4,38 @@
   color: orange !important;
 }
 
+tab-item.active .background {
+  background-color: #0040dd;
+}
+
+:root {
+  --newtab-button-size: 20px;
+}
+
 .newtab-button-box {
-  display: none;
+  border-bottom: 1px solid var(--tab-border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--newtab-button-size);
 }
 
 #tabbar {
+  top: calc(var(--newtab-button-size) + 1px) !important;
   bottom: 0 !important;
 }
 
-tab-item.active .background {
-  background-color: #0040dd;
+#pinned-tabs-container {
+  top: calc(var(--newtab-button-size) + 1px) !important;
+}
+
+.overflow-indicator.start {
+  top: calc(var(--newtab-button-size) + 1px + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size));
+}
+
+.overflow-indicator.end {
+  bottom: calc(var(--subpanel-area-size) + var(--tabbar-bottom-area-size));
 }
 
 /* mark container tabs */
