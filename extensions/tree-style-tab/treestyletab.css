@@ -95,7 +95,7 @@ tab-label {
 }
 
 tab-item.discarded tab-item-substance {
-  opacity: .5
+  opacity: .75
 }
 
 tab-item.discarded .label-content {
