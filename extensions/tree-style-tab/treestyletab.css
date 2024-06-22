@@ -76,12 +76,6 @@ tab-item.pinned tab-item-substance:hover tab-closebox {
   top: 0
 }
 
-tab-item[data-level="0"]+tab-item[data-level="0"]:not([data-child-ids]),
-tab-item[data-level="0"].pinned,
-tab-item[data-level="0"].pinned+tab-item[data-level="0"] {
-  margin-top: 0
-}
-
 tab-label {
   padding-left: 4px;
   padding-top: 1px;
