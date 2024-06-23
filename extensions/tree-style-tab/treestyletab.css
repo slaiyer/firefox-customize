@@ -1,19 +1,19 @@
 :root {
   --newtab-button-size: 20px;
-  --macblue: 0, 64, 221
+  --macblue: 0, 64, 221;
 }
 
 #pinned-tabs-container,
 #tabbar {
-  top: calc(var(--newtab-button-size) + 1px) !important
+  top: calc(var(--newtab-button-size) + 1px) !important;
 }
 
 :root.sidebar tab-item.unread .label-content {
-  color: orange !important
+  color: orange !important;
 }
 
 tab-item.active .background {
-  background-color: rgb(var(--macblue))
+  background-color: rgb(var(--macblue));
 }
 
 .newtab-button-box {
@@ -23,48 +23,48 @@ tab-item.active .background {
   left: 0;
   right: 0;
   height: var(--newtab-button-size);
-  opacity: .5
+  opacity: 0.5;
 }
 
 #tabbar {
-  bottom: 0 !important
+  bottom: 0 !important;
 }
 
 .overflow-indicator.start {
-  top: calc(var(--newtab-button-size) + 1px + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size))
+  top: calc(var(--newtab-button-size) + 1px + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size));
 }
 
 .overflow-indicator.end {
-  bottom: calc(var(--subpanel-area-size) + var(--tabbar-bottom-area-size))
+  bottom: calc(var(--subpanel-area-size) + var(--tabbar-bottom-area-size));
 }
 
 .contextual-identity-marker {
-  top: .5em !important;
+  top: 0.5em !important;
   left: 0 !important;
   right: auto !important;
-  bottom: .5em !important;
+  bottom: 0.5em !important;
   width: 2px !important;
   margin: 0 !important;
   max-height: auto !important;
-  height: auto !important
+  height: auto !important;
 }
 
 :root.group-tab li {
-  position: relative
+  position: relative;
 }
 
 :root.group-tab .default-favicon,
 :root.group-tab .label,
 :root.group-tab img {
-  z-index: 100
+  z-index: 100;
 }
 
 tab-item tab-item-substance:hover {
-  background: rgba(var(--macblue), .75) !important
+  background: rgba(var(--macblue), 0.75) !important;
 }
 
 #tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
-  display: none
+  display: none;
 }
 
 tab-item.pinned tab-item-substance:hover tab-closebox {
@@ -73,7 +73,7 @@ tab-item.pinned tab-item-substance:hover tab-closebox {
   padding: 0;
   position: absolute;
   right: 0;
-  top: 0
+  top: 0;
 }
 
 tab-label {
@@ -81,24 +81,24 @@ tab-label {
   padding-top: 1px;
   padding-bottom: 1px;
   font-family: sans-serif;
-  font-size: 10px
+  font-size: 10px;
 }
 
 :root.sidebar #background {
-  background: black
+  background: black;
 }
 
 tab-item.discarded tab-item-substance {
-  opacity: .75
+  opacity: 0.75;
 }
 
 tab-item.discarded .label-content {
-  color: lightgray
+  color: lightgray;
 }
 
 tab-item {
   --indent-line-color: dimgray;
   --indent-line-color-active: whitesmoke;
   --indent-line-width: 1px;
-  --indent-line-width-active: 1px
+  --indent-line-width-active: 1px;
 }
