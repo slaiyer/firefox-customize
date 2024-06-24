@@ -9,7 +9,7 @@
 }
 
 :root.sidebar tab-item.unread .label-content {
-  color: orange !important;
+  color: orange;
 }
 
 tab-item.active .background {

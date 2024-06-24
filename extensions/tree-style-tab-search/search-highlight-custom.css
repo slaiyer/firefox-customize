@@ -1,0 +1,3 @@
+.tab.tst-search\:active :is(.label, .label-content) {
+    color: greenyellow !important;
+}
