@@ -1,0 +1,92 @@
+{
+	"options.panel.placeholder": [
+		""
+	],
+	"options.panel.darkTheme": [
+		true
+	],
+	"options.advanced.hideHeader": [
+		"\n#subpanel-container { height: 35px !important; }\n#subpanel-header { display: none !important; }\n"
+	],
+	"options.search.searchByTabIds": [
+		[
+			true,
+			true
+		]
+	],
+	"options.search.fieldsPrefix": [
+		[
+			true,
+			"title url"
+		]
+	],
+	"options.search.clearAfterFocus": [
+		false
+	],
+	"options.search.scrollActiveTab": [
+		true
+	],
+	"options.result.miss.styles.shrink": [
+		[
+			false,
+			50
+		]
+	],
+	"options.result.miss.styles.hide": [
+		true
+	],
+	"options.panel.wholeWord": [
+		false
+	],
+	"options.result.hit.styles.bold": [
+		false
+	],
+	"options.search.globalFocusKey": [
+		"Ctrl + Shift + F"
+	],
+	"options.result.miss.styles.opacity": [
+		[
+			false,
+			50
+		]
+	],
+	"options.result.child.styles.fgColor": [
+		[
+			false,
+			"#ff7d78"
+		]
+	],
+	"options.panel.matchCase": [
+		false
+	],
+	"options.result.active.styles.bold": [
+		false
+	],
+	"options.result.active.styles.fgColor": [
+		[
+			false,
+			"#d4fb78"
+		]
+	],
+	"options.result.hit.styles.fgColor": [
+		[
+			false,
+			"#feffff"
+		]
+	],
+	"options.panel.regExp": [
+		true
+	],
+	"options.search.revealOnFocus": [
+		true
+	],
+	"options.result.custom.styles.raw": [
+		".tab.tst-search\\:active :is(.label, .label-content) { color: greenyellow !important; }"
+	],
+	"options.panel.hideClear": [
+		false
+	],
+	"options.panel.hideCount": [
+		false
+	]
+}
