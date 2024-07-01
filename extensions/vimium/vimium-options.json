@@ -1,0 +1,5 @@
+{
+  "keyMappings": "map <c-p> togglePinTab\nmap <c-m> toggleMuteTab",
+  "ignoreKeyboardLayout": true,
+  "settingsVersion": "2.1.2"
+}
