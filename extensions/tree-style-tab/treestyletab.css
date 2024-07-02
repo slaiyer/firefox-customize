@@ -98,7 +98,7 @@ tab-item.discarded .label-content {
 
 tab-item {
   --indent-line-color: dimgray;
-  --indent-line-color-active: whitesmoke;
+  --indent-line-color-active: lightgray;
   --indent-line-width: 1px;
   --indent-line-width-active: 1px;
 }
