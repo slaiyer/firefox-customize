@@ -1,5 +1,7 @@
 {
-  "keyMappings": "map <c-p> togglePinTab\nmap <c-m> toggleMuteTab",
+  "filterLinkHints": true,
+  "keyMappings": "map <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-p> togglePinTab",
+  "regexFindMode": true,
   "ignoreKeyboardLayout": true,
   "settingsVersion": "2.1.2"
 }
