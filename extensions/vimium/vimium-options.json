@@ -1,5 +1,4 @@
 {
-  "filterLinkHints": true,
   "keyMappings": "map <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-p> togglePinTab",
   "regexFindMode": true,
   "settingsVersion": "2.1.2",
