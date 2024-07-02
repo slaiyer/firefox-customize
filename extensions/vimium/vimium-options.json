@@ -9,8 +9,12 @@
       "pattern": "https?://mail.google.com/*"
     },
     {
-      "passKeys": "f",
+      "passKeys": "fsdmrv",
       "pattern": "https?://www.sonyliv.com/*"
+    },
+    {
+      "passKeys": "fmt",
+      "pattern": "https?://www.youtube.com/*"
     }
   ]
 }
