@@ -13,7 +13,7 @@
 }
 
 tab-item.active .background {
-  background-color: rgb(var(--macblue));
+  background-color: rgb(var(--macblue)) !important;
 }
 
 .newtab-button-box {
