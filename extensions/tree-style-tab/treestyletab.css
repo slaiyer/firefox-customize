@@ -103,6 +103,6 @@ tab-item {
   --indent-line-width-active: 1px;
 }
 
-tab-item.loading {
-  background: darkblue;
+tab-item.loading .background {
+  background-color: rgba(var(--macblue), 0.5);
 }
