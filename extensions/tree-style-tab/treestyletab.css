@@ -18,7 +18,7 @@ tab-item.active .background {
 
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5) !important;
-  filter: invert(0.5);
+  filter: invert(0.25);
 }
 
 .newtab-button-box {
