@@ -90,7 +90,7 @@ tab-label {
 }
 
 :root.sidebar #background {
-  background: black;
+  background: #171717;
 }
 
 tab-item.discarded tab-item-substance {
