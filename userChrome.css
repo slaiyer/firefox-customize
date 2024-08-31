@@ -19,3 +19,33 @@
 #navigator-toolbox {
   font-family: sans-serif !important;
 }
+
+:root {
+  --toolbarbutton-inner-padding: 0px !important;
+  --tab-min-height: 0px !important;
+}
+
+.titlebar-button {
+  padding-block: 0px !important;
+}
+
+#urlbar-container,
+#search-container {
+  padding-block: 0px !important;
+}
+
+#titlebar {
+  -moz-appearance: none !important;
+}
+
+:root[sizemode="maximized"] #navigator-toolbox {
+  margin-top: 0px
+}
+
+#tabbrowser-tabs .tab-text {
+  font-size: 8pt !important;
+}
+
+#urlbar {
+  font-size: 8pt !important
+}
