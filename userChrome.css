@@ -35,11 +35,11 @@
 }
 
 #titlebar {
-  -moz-appearance: none !important;
+  appearance: none !important;
 }
 
 :root[sizemode="maximized"] #navigator-toolbox {
-  margin-top: 0px
+  margin-top: 0px;
 }
 
 #tabbrowser-tabs .tab-text {
@@ -47,5 +47,5 @@
 }
 
 #urlbar {
-  font-size: 8pt !important
+  font-size: 8pt !important;
 }
