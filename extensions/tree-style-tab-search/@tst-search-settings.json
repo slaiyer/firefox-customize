@@ -1,12 +1,12 @@
 {
-	"options.panel.placeholder": [
-		""
+	"options.panel.hideCount": [
+		false
 	],
-	"options.panel.darkTheme": [
-		true
+	"options.panel.matchCase": [
+		false
 	],
 	"options.advanced.hideHeader": [
-		"\n#subpanel-container { height: 35px !important; }\n#subpanel-header { display: none !important; }\n"
+		"\n\t\t\t\t\t#subpanel-container { height: 35px !important; }\n\t\t\t\t\t#subpanel-header { display: none !important; }\n\t\t\t\t"
 	],
 	"options.search.searchByTabIds": [
 		[
@@ -35,10 +35,10 @@
 	"options.result.miss.styles.hide": [
 		true
 	],
-	"options.panel.wholeWord": [
-		false
+	"options.search.revealOnFocus": [
+		true
 	],
-	"options.result.hit.styles.bold": [
+	"options.panel.wholeWord": [
 		false
 	],
 	"options.search.globalFocusKey": [
@@ -50,23 +50,20 @@
 			50
 		]
 	],
+	"options.result.custom.styles.raw": [
+		""
+	],
 	"options.result.child.styles.fgColor": [
 		[
-			false,
+			true,
 			"#ff7d78"
 		]
 	],
-	"options.panel.matchCase": [
+	"options.result.hit.styles.bold": [
 		false
 	],
 	"options.result.active.styles.bold": [
 		false
-	],
-	"options.result.active.styles.fgColor": [
-		[
-			false,
-			"#d4fb78"
-		]
 	],
 	"options.result.hit.styles.fgColor": [
 		[
@@ -74,19 +71,22 @@
 			"#feffff"
 		]
 	],
-	"options.panel.regExp": [
-		true
-	],
-	"options.search.revealOnFocus": [
-		true
-	],
-	"options.result.custom.styles.raw": [
-		".tab.tst-search\\:active :is(.label, .label-content) { color: greenyellow !important; }"
+	"options.result.active.styles.fgColor": [
+		[
+			true,
+			"#d4fb78"
+		]
 	],
 	"options.panel.hideClear": [
 		false
 	],
-	"options.panel.hideCount": [
-		false
+	"options.panel.placeholder": [
+		""
+	],
+	"options.panel.darkTheme": [
+		null
+	],
+	"options.panel.regExp": [
+		true
 	]
 }
