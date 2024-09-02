@@ -93,12 +93,8 @@ tab-label {
   background: #171717;
 }
 
-tab-item.discarded tab-item-substance {
-  opacity: 0.75;
-}
-
 tab-item.discarded .label-content {
-  color: lightgray;
+  color: darkgray;
 }
 
 tab-item {
