@@ -105,5 +105,5 @@ tab-item {
 }
 
 tab-item.loading .background {
-  background-color: rgba(var(--macblue), 0.5);
+  background-color: rgba(var(--macblue), 0.25);
 }
