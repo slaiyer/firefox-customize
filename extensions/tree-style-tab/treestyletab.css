@@ -5,7 +5,7 @@
 
 #pinned-tabs-container,
 #tabbar {
-  top: calc(var(--newtab-button-size) + 1px) !important;
+  top: var(--newtab-button-size) !important;
 }
 
 :root.sidebar tab-item.unread .label-content {
@@ -22,7 +22,6 @@ tab-item.pinned .background {
 }
 
 .newtab-button-box {
-  border-bottom: 1px solid var(--tab-border);
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +35,7 @@ tab-item.pinned .background {
 }
 
 .overflow-indicator.start {
-  top: calc(var(--newtab-button-size) + 1px + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size));
+  top: calc(var(--newtab-button-size) + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size));
 }
 
 .overflow-indicator.end {
