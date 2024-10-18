@@ -4,7 +4,9 @@
   "animation": false,
   "autoAttachOnNewTabCommand": 3,
   "autoCollapseExpandSubtreeOnAttach": false,
+  "autoGroupNewTabsFromBookmarks": false,
   "autoGroupNewTabsFromFirefoxView": true,
+  "autoGroupNewTabsFromOthers": true,
   "avoidDiscardedTabToBeActivatedIfPossible": true,
   "cachedExternalAddons": [
     "multipletab@piro.sakura.ne.jp",
@@ -14,9 +16,10 @@
     "copy-selected-tabs-to-clipboard@piro.sakura.ne.jp",
     "save-selected-tabs-to-files@piro.sakura.ne.jp",
     "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
-    "tst-auto-sticky-tabs@piro.sakura.ne.jp"
+    "tst-auto-sticky-tabs@piro.sakura.ne.jp",
+    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}"
   ],
-  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbmV3dGFiLWJ1dHRvbi1zaXplOiAyMHB4OwogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKfQoKI3Bpbm5lZC10YWJzLWNvbnRhaW5lciwKI3RhYmJhciB7CiAgdG9wOiBjYWxjKHZhcigtLW5ld3RhYi1idXR0b24tc2l6ZSkgKyAxcHgpICFpbXBvcnRhbnQ7Cn0KCjpyb290LnNpZGViYXIgdGFiLWl0ZW0udW5yZWFkIC5sYWJlbC1jb250ZW50IHsKICBjb2xvcjogb3JhbmdlOwp9Cgp0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSk7Cn0KCi5uZXd0YWItYnV0dG9uLWJveCB7CiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLXRhYi1ib3JkZXIpOwogIHBvc2l0aW9uOiBmaXhlZDsKICB0b3A6IDA7CiAgbGVmdDogMDsKICByaWdodDogMDsKICBoZWlnaHQ6IHZhcigtLW5ld3RhYi1idXR0b24tc2l6ZSk7CiAgb3BhY2l0eTogMC41Owp9CgojdGFiYmFyIHsKICBib3R0b206IDAgIWltcG9ydGFudDsKfQoKLm92ZXJmbG93LWluZGljYXRvci5zdGFydCB7CiAgdG9wOiBjYWxjKHZhcigtLW5ld3RhYi1idXR0b24tc2l6ZSkgKyAxcHggKyB2YXIoLS10YWJiYXItdG9wLWFyZWEtc2l6ZSkgKyB2YXIoLS1waW5uZWQtdGFicy1hcmVhLXNpemUpKTsKfQoKLm92ZXJmbG93LWluZGljYXRvci5lbmQgewogIGJvdHRvbTogY2FsYyh2YXIoLS1zdWJwYW5lbC1hcmVhLXNpemUpICsgdmFyKC0tdGFiYmFyLWJvdHRvbS1hcmVhLXNpemUpKTsKfQoKLmNvbnRleHR1YWwtaWRlbnRpdHktbWFya2VyIHsKICB0b3A6IDAuNWVtICFpbXBvcnRhbnQ7CiAgbGVmdDogMCAhaW1wb3J0YW50OwogIHJpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7CiAgYm90dG9tOiAwLjVlbSAhaW1wb3J0YW50OwogIHdpZHRoOiAycHggIWltcG9ydGFudDsKICBtYXJnaW46IDAgIWltcG9ydGFudDsKICBtYXgtaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7CiAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7Cn0KCjpyb290Lmdyb3VwLXRhYiBsaSB7CiAgcG9zaXRpb246IHJlbGF0aXZlOwp9Cgo6cm9vdC5ncm91cC10YWIgLmRlZmF1bHQtZmF2aWNvbiwKOnJvb3QuZ3JvdXAtdGFiIC5sYWJlbCwKOnJvb3QuZ3JvdXAtdGFiIGltZyB7CiAgei1pbmRleDogMTAwOwp9Cgp0YWItaXRlbSB0YWItaXRlbS1zdWJzdGFuY2U6aG92ZXIgewogIGJhY2tncm91bmQ6IHJnYmEodmFyKC0tbWFjYmx1ZSksIDAuNzUpICFpbXBvcnRhbnQ7Cn0KCiN0YWJiYXIgdGFiLWl0ZW0gdGFiLWl0ZW0tc3Vic3RhbmNlOm5vdCg6aG92ZXIpIHRhYi1jbG9zZWJveCB7CiAgZGlzcGxheTogbm9uZTsKfQoKdGFiLWl0ZW0ucGlubmVkIHRhYi1pdGVtLXN1YnN0YW5jZTpob3ZlciB0YWItY2xvc2Vib3ggewogIGRpc3BsYXk6IGlubGluZS1ibG9jazsKICBtYXJnaW46IDA7CiAgcGFkZGluZzogMDsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgcmlnaHQ6IDA7CiAgdG9wOiAwOwp9Cgp0YWItbGFiZWwgewogIHBhZGRpbmctbGVmdDogMnB4OwogIHBhZGRpbmctdG9wOiAxcHg7CiAgcGFkZGluZy1ib3R0b206IDFweDsKICBmb250LWZhbWlseTogc2Fucy1zZXJpZjsKICBmb250LXNpemU6IDEwcHg7Cn0KCjpyb290LnNpZGViYXIgI2JhY2tncm91bmQgewogIGJhY2tncm91bmQ6IGJsYWNrOwp9Cgp0YWItaXRlbS5kaXNjYXJkZWQgdGFiLWl0ZW0tc3Vic3RhbmNlIHsKICBvcGFjaXR5OiAwLjc1Owp9Cgp0YWItaXRlbS5kaXNjYXJkZWQgLmxhYmVsLWNvbnRlbnQgewogIGNvbG9yOiBsaWdodGdyYXk7Cn0KCnRhYi1pdGVtIHsKICAtLWluZGVudC1saW5lLWNvbG9yOiBkaW1ncmF5OwogIC0taW5kZW50LWxpbmUtY29sb3ItYWN0aXZlOiBsaWdodGdyYXk7CiAgLS1pbmRlbnQtbGluZS13aWR0aDogMXB4OwogIC0taW5kZW50LWxpbmUtd2lkdGgtYWN0aXZlOiAxcHg7Cn0K",
+  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbmV3dGFiLWJ1dHRvbi1zaXplOiAyMHB4OwogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKfQoKI3Bpbm5lZC10YWJzLWNvbnRhaW5lciwKI3RhYmJhciB7CiAgdG9wOiB2YXIoLS1uZXd0YWItYnV0dG9uLXNpemUpICFpbXBvcnRhbnQ7Cn0KCjpyb290LnNpZGViYXIgdGFiLWl0ZW0udW5yZWFkIC5sYWJlbC1jb250ZW50IHsKICBjb2xvcjogb3JhbmdlOwp9Cgp0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSkgIWltcG9ydGFudDsKfQoKdGFiLWl0ZW0ucGlubmVkIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKHZhcigtLW1hY2JsdWUpLCAwLjUpOwogIGZpbHRlcjogaW52ZXJ0KDAuMSk7Cn0KCi5uZXd0YWItYnV0dG9uLWJveCB7CiAgcG9zaXRpb246IGZpeGVkOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIGhlaWdodDogdmFyKC0tbmV3dGFiLWJ1dHRvbi1zaXplKTsKICBvcGFjaXR5OiAwLjU7Cn0KCiN0YWJiYXIgewogIGJvdHRvbTogMCAhaW1wb3J0YW50Owp9Cgoub3ZlcmZsb3ctaW5kaWNhdG9yLnN0YXJ0IHsKICB0b3A6IGNhbGModmFyKC0tbmV3dGFiLWJ1dHRvbi1zaXplKSArIHZhcigtLXRhYmJhci10b3AtYXJlYS1zaXplKSArIHZhcigtLXBpbm5lZC10YWJzLWFyZWEtc2l6ZSkpOwp9Cgoub3ZlcmZsb3ctaW5kaWNhdG9yLmVuZCB7CiAgYm90dG9tOiBjYWxjKHZhcigtLXN1YnBhbmVsLWFyZWEtc2l6ZSkgKyB2YXIoLS10YWJiYXItYm90dG9tLWFyZWEtc2l6ZSkpOwp9CgouY29udGV4dHVhbC1pZGVudGl0eS1tYXJrZXIgewogIHRvcDogMC41cmVtICFpbXBvcnRhbnQ7CiAgbGVmdDogMCAhaW1wb3J0YW50OwogIHJpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7CiAgYm90dG9tOiAwLjVyZW0gIWltcG9ydGFudDsKICB3aWR0aDogMnB4ICFpbXBvcnRhbnQ7CiAgbWFyZ2luOiAwICFpbXBvcnRhbnQ7CiAgbWF4LWhlaWdodDogYXV0byAhaW1wb3J0YW50OwogIGhlaWdodDogYXV0byAhaW1wb3J0YW50Owp9Cgo6cm9vdC5ncm91cC10YWIgbGkgewogIHBvc2l0aW9uOiByZWxhdGl2ZTsKfQoKOnJvb3QuZ3JvdXAtdGFiIC5kZWZhdWx0LWZhdmljb24sCjpyb290Lmdyb3VwLXRhYiAubGFiZWwsCjpyb290Lmdyb3VwLXRhYiBpbWcgewogIHotaW5kZXg6IDEwMDsKfQoKdGFiLWl0ZW0gdGFiLWl0ZW0tc3Vic3RhbmNlOmhvdmVyIHsKICBiYWNrZ3JvdW5kOiByZ2JhKHZhcigtLW1hY2JsdWUpLCAwLjc1KSAhaW1wb3J0YW50Owp9CgojdGFiYmFyIHRhYi1pdGVtIHRhYi1pdGVtLXN1YnN0YW5jZTpub3QoOmhvdmVyKSB0YWItY2xvc2Vib3ggewogIGRpc3BsYXk6IG5vbmU7Cn0KCnRhYi1pdGVtLnBpbm5lZCB0YWItaXRlbS1zdWJzdGFuY2U6aG92ZXIgdGFiLWNsb3NlYm94IHsKICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgbWFyZ2luOiAwOwogIHBhZGRpbmc6IDA7CiAgcG9zaXRpb246IGFic29sdXRlOwogIHJpZ2h0OiAwOwogIHRvcDogMDsKfQoKdGFiLWxhYmVsIHsKICBwYWRkaW5nLWxlZnQ6IDJweDsKICBwYWRkaW5nLXRvcDogMXB4OwogIHBhZGRpbmctYm90dG9tOiAxcHg7CiAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7CiAgZm9udC1zaXplOiAxMHB4Owp9Cgo6cm9vdC5zaWRlYmFyICNiYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kOiAjMTcxNzE3Owp9Cgp0YWItaXRlbS5kaXNjYXJkZWQgLmxhYmVsLWNvbnRlbnQgewogIGNvbG9yOiBkYXJrZ3JheTsKfQoKdGFiLWl0ZW0gewogIC0taW5kZW50LWxpbmUtY29sb3I6IGRpbWdyYXk7CiAgLS1pbmRlbnQtbGluZS1jb2xvci1hY3RpdmU6IGxpZ2h0Z3JheTsKICAtLWluZGVudC1saW5lLXdpZHRoOiAxcHg7CiAgLS1pbmRlbnQtbGluZS13aWR0aC1hY3RpdmU6IDFweDsKfQoKdGFiLWl0ZW0ubG9hZGluZyAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSh2YXIoLS1tYWNibHVlKSwgMC4yNSk7Cn0=",
   "colorScheme": "system-color",
   "configsVersion": 31,
   "context_closeDescendants": true,
@@ -32,18 +35,28 @@
   "context_topLevel_sendTreeToDevice": false,
   "context_topLevel_toggleMuteTree": true,
   "context_topLevel_toggleSticky": false,
+  "delayForDuplicatedTabDetection": 320,
   "enableMacOSBehaviors": true,
   "faviconizePinnedTabs": false,
+  "groupTabTemporaryStateForAPI": 1,
   "incognitoAllowedExternalAddons": [
     "@tst-search",
     "tst-more-tree-commands@piro.sakura.ne.jp",
     "tst-indent-line@piro.sakura.ne.jp",
-    "multipletab@piro.sakura.ne.jp"
+    "multipletab@piro.sakura.ne.jp",
+    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}",
+    "tst-auto-sticky-tabs@piro.sakura.ne.jp",
+    "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
+    "save-selected-tabs-to-files@piro.sakura.ne.jp",
+    "copy-selected-tabs-to-clipboard@piro.sakura.ne.jp"
   ],
   "insertDroppedTabsAt": -2,
   "insertNewChildAt": 3,
   "lastSelectedSubPanelProviderId": "@tst-search",
   "notifiedFeaturesVersion": 9,
+  "optionsExpandedGroups": [
+    "group-allConfigs"
+  ],
   "optionsExpandedSections": [
     "section-appearance",
     "section-advanced",
@@ -51,7 +64,6 @@
     "section-newTab",
     "section-newTabWithOwner",
     "section-contextMenu",
-    "section-treeBehavior",
     "section-debug",
     "section-addons"
   ],
@@ -62,7 +74,9 @@
   "showDialogInSidebar": true,
   "showExpertOptions": true,
   "sidebarWidthInWindow": {
-    "3": 311,
+    "3": 310,
+    "9": 311,
+    "16": 310,
     "22": 311,
     "24": 311,
     "57": 307,
@@ -70,12 +84,27 @@
     "79": 311,
     "83": 311,
     "85": 311,
-    "100": 307,
+    "95": 311,
+    "97": 311,
+    "99": 311,
+    "109": 310,
+    "137": 311,
+    "150": 311,
+    "172": 311,
+    "314": 311,
     "568": 307,
+    "712": 311,
+    "804": 309,
+    "1717": 311,
+    "2029": 311,
     "4474": 311,
+    "5967": 310,
     "6639": 311,
-    "6916": 311,
-    "7025": 311
+    "7025": 311,
+    "7851": 311,
+    "9536": 309,
+    "10813": 311,
+    "12410": 311
   },
   "style": "none",
   "suppressGapFromShownOrHiddenToolbarOnFullScreen": true,
@@ -84,7 +113,7 @@
       "id": "device-1718588286455-59855",
       "name": "m1-ff-dev",
       "icon": "device-desktop",
-      "timestamp": 1719876164710
+      "timestamp": 1729165919788
     }
   },
   "treeDoubleClickBehavior": 1,
@@ -99,5 +128,5 @@
   "userStyleRules7": "",
   "userStyleRulesFieldHeight": "627px",
   "userStyleRulesFieldTheme": "gruvbox-dark",
-  "workaroundForBug1548949DroppedTabs": "1719784344659-37082/1299"
+  "workaroundForBug1548949DroppedTabs": "1728984596951-24487/580"
 }
