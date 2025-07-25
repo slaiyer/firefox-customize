@@ -1,108 +1,50 @@
 :root {
-  --newtab-button-size: 20px;
   --macblue: 0, 64, 221;
-}
-
-#pinned-tabs-container,
-#tabbar {
-  top: var(--newtab-button-size) !important;
-}
-
-:root.sidebar tab-item.unread .label-content {
-  color: orange;
-}
-
-tab-item.active .background {
-  background-color: rgb(var(--macblue)) !important;
-}
-
-tab-item.pinned .background {
-  background-color: rgba(var(--macblue), 0.5);
-  filter: invert(0.1);
-}
-
-.newtab-button-box {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: var(--newtab-button-size);
-  opacity: 0.5;
-}
-
-#tabbar {
-  bottom: 0 !important;
-}
-
-.overflow-indicator.start {
-  top: calc(var(--newtab-button-size) + var(--tabbar-top-area-size) + var(--pinned-tabs-area-size));
-}
-
-.overflow-indicator.end {
-  bottom: calc(var(--subpanel-area-size) + var(--tabbar-bottom-area-size));
-}
-
-.contextual-identity-marker {
-  top: 0.5rem !important;
-  left: 0 !important;
-  right: auto !important;
-  bottom: 0.5rem !important;
-  width: 2px !important;
-  margin: 0 !important;
-  max-height: auto !important;
-  height: auto !important;
-}
-
-:root.group-tab li {
-  position: relative;
-}
-
-:root.group-tab .default-favicon,
-:root.group-tab .label,
-:root.group-tab img {
-  z-index: 100;
-}
-
-tab-item tab-item-substance:hover {
-  background: rgba(var(--macblue), 0.75) !important;
-}
-
-#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
-  display: none;
-}
-
-tab-item.pinned tab-item-substance:hover tab-closebox {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-tab-label {
-  padding-left: 2px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  font-family: sans-serif;
-  font-size: 10px;
-}
-
-:root.sidebar #background {
-  background: #171717;
 }
 
 tab-item.discarded .label-content {
   color: darkgray;
 }
 
-tab-item {
-  --indent-line-color: dimgray;
-  --indent-line-color-active: lightgray;
-  --indent-line-width: 1px;
-  --indent-line-width-active: 1px;
+.tab {
+  height: 18px;
 }
 
-tab-item.loading .background {
-  background-color: rgba(var(--macblue), 0.25);
+.label {
+  padding: 0;
+  font-family: 'Lucida Grande';
+}
+
+.tab:not(:hover) .closebox {
+  display: none;
+}
+
+tab-item tab-item-substance:hover {
+  background-color: rgb(var(--macblue));
+}
+
+tab-item tab-item-substance:hover .label-content {
+  color: white;
+}
+
+tab-item:not(.pinned) tab-item-substance {
+  padding: 0;
+}
+
+tab-item.pinned .background {
+  background-color: rgba(var(--macblue), 0.5);
+  filter: invert(0.2);
+}
+
+tab-item.active .background {
+  background-color: rgb(var(--macblue));
+}
+
+tab-item-substance {
+  border: none;
+  background-color: #111;
+}
+
+.newtab-button-box {
+  display: none;
 }
