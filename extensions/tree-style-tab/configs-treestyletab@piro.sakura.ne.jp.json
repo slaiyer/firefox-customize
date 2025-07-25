@@ -14,7 +14,7 @@
     "tst-more-tree-commands@piro.sakura.ne.jp",
     "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}"
   ],
-  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIC5sYWJlbC1jb250ZW50IHsKICBjb2xvcjogZGFya2dyYXk7Cn0KCi50YWIgewogIGhlaWdodDogMThweDsKfQoKLmxhYmVsIHsKICBwYWRkaW5nOiAwOwogIGZvbnQtZmFtaWx5OiAnTHVjaWRhIEdyYW5kZSc7Cn0KCi50YWI6bm90KDpob3ZlcikgLmNsb3NlYm94IHsKICBkaXNwbGF5OiBub25lOwp9Cgp0YWItaXRlbSB0YWItaXRlbS1zdWJzdGFuY2U6aG92ZXIgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSk7Cn0KCnRhYi1pdGVtIHRhYi1pdGVtLXN1YnN0YW5jZTpob3ZlciAubGFiZWwtY29udGVudCB7CiAgY29sb3I6IHdoaXRlOwp9Cgp0YWItaXRlbTpub3QoLnBpbm5lZCkgdGFiLWl0ZW0tc3Vic3RhbmNlIHsKICBwYWRkaW5nOiAwOwp9Cgp0YWItaXRlbS5waW5uZWQgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYmEodmFyKC0tbWFjYmx1ZSksIDAuNSk7CiAgZmlsdGVyOiBpbnZlcnQoMC4yKTsKfQoKdGFiLWl0ZW0uYWN0aXZlIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IodmFyKC0tbWFjYmx1ZSkpOwp9Cgp0YWItaXRlbS1zdWJzdGFuY2UgewogIGJvcmRlcjogbm9uZTsKICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTExOwp9CgoubmV3dGFiLWJ1dHRvbi1ib3ggewogIGRpc3BsYXk6IG5vbmU7Cn0K",
+  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKfQoKLnRhYiB7CiAgaGVpZ2h0OiAxOHB4Owp9CgoubGFiZWwgewogIGZvbnQtZmFtaWx5OiAnTHVjaWRhIEdyYW5kZSc7CiAgcGFkZGluZzogMDsKfQoKLm5ld3RhYi1idXR0b24tYm94IHsKICBkaXNwbGF5OiBub25lOwp9Cgp0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSk7Cn0KCnRhYi1pdGVtLnBpbm5lZCAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSh2YXIoLS1tYWNibHVlKSwgMC41KTsKICBmaWx0ZXI6IGludmVydCgwLjIpOwp9Cgp0YWItaXRlbS1zdWJzdGFuY2UgewogIGJhY2tncm91bmQtY29sb3I6ICMxMTE7CiAgYm9yZGVyOiBub25lOwogIHBhZGRpbmc6IDA7Cn0KCnRhYi1pdGVtLXN1YnN0YW5jZTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKHZhcigtLW1hY2JsdWUpKTsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIHRhYi1mYXZpY29uIHsKICBmaWx0ZXI6IGJyaWdodG5lc3MoMC41KTsKfQo=",
   "colorScheme": "system-color",
   "configsVersion": 33,
   "context_closeTree": false,
@@ -43,7 +43,8 @@
     "tst-active-tab-in-collapsed-tree@piro.sakura.ne.jp",
     "tst-more-tree-commands@piro.sakura.ne.jp",
     "copy-selected-tabs-to-clipboard@piro.sakura.ne.jp",
-    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}"
+    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}",
+    "multipletab@piro.sakura.ne.jp"
   ],
   "insertDroppedTabsAt": -2,
   "lastSelectedSubPanelProviderId": "@tst-search",
@@ -134,7 +135,7 @@
       "id": "device-1718588286455-59855",
       "name": "m1-ff-dev",
       "icon": "device-desktop",
-      "timestamp": 1753362917334
+      "timestamp": 1753478900272
     }
   },
   "tabPreviewTooltip": true,
