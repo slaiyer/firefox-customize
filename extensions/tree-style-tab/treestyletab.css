@@ -1,20 +1,19 @@
 :root {
   --macblue: 0, 64, 221;
-  --favicon-size: 12px;
+  --favicon-size: 10px;
+}
+
+.newtab-button-box {
+  display: none;
 }
 
 .tab {
   height: 16px;
-  background-color: #111;
 }
 
 .label {
   font: 10px 'Lucida Grande';
   padding: 0;
-}
-
-.newtab-button-box {
-  display: none;
 }
 
 tab-item.active .background {
@@ -24,6 +23,14 @@ tab-item.active .background {
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
   filter: invert(0.2);
+}
+
+.throbber {
+  display: none;
+}
+
+tab-sound-button {
+  padding-inline: 0;
 }
 
 tab-item-substance {
@@ -36,6 +43,10 @@ tab-item-substance:hover {
   background-color: rgb(var(--macblue));
 }
 
+tab-favicon {
+  backdrop-filter: invert(0.25);
+}
+
 tab-item.discarded tab-favicon {
-  filter: brightness(0.5);
+  filter: brightness(0.75);
 }
