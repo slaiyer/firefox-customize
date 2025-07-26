@@ -1,13 +1,15 @@
 :root {
   --macblue: 0, 64, 221;
+  --favicon-size: 12px;
 }
 
 .tab {
-  height: 18px;
+  height: 16px;
+  background-color: #111;
 }
 
 .label {
-  font-family: 'Lucida Grande';
+  font: 10px 'Lucida Grande';
   padding: 0;
 }
 
