@@ -39,6 +39,10 @@ tab-item-substance {
   padding: 0;
 }
 
+tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
+
 tab-item-substance:hover {
   background-color: rgb(var(--macblue));
 }
