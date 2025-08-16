@@ -1,7 +1,7 @@
 :root {
+  --favicon-size: 10px;
   --macblue: 0, 64, 221;
   --bloodred: 136,8, 8;
-  --favicon-size: 10px;
 }
 
 .newtab-button-box {
@@ -9,6 +9,10 @@
 }
 
 .throbber {
+  display: none;
+}
+
+tab-item:not(:hover) tab-closebox {
   display: none;
 }
 
@@ -23,11 +27,11 @@ tab-item .label {
   padding: 0;
 }
 
-tab-item:hover .background {
+tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
 }
 
-tab-item.active .background {
+tab-item:hover .background {
   background-color: rgb(var(--macblue)) !important;
 }
 
@@ -44,14 +48,10 @@ tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
 }
 
-tab-item:not(:hover) tab-closebox {
-  display: none;
+tab-item.discarded .background {
+  background-color: #111;
 }
 
 tab-favicon {
   filter: drop-shadow(0 0 1px);
-}
-
-tab-item.discarded .background {
-  background-color: #222;
 }
