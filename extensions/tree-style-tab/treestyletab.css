@@ -1,5 +1,5 @@
 :root {
-  --throbber-size: 8px;
+  --throbber-size: 10px;
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
@@ -12,7 +12,7 @@
 tab-item-substance {
   background-color: black;
   border: none;
-  padding: 0;
+  padding-top: 1px;
 }
 
 tab-item .label {
@@ -43,6 +43,10 @@ tab-closebox {
 
 tab-item:not(:hover) tab-closebox {
   display: none;
+}
+
+tab-item.pinned:hover tab-closebox {
+  display: inline-block;
 }
 
 tab-sound-button {
