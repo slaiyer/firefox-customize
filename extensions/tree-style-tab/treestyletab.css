@@ -9,10 +9,6 @@
   display: none;
 }
 
-tab-item:not(:hover) tab-closebox {
-  display: none;
-}
-
 tab-item-substance {
   background-color: black;
   border: none;
@@ -41,9 +37,12 @@ tab-item.pinned .background {
   filter: invert(0.2);
 }
 
-tab-item:hover tab-closebox {
+tab-closebox {
   padding: 0;
-  display: inline-block;
+}
+
+tab-item:not(:hover) tab-closebox {
+  display: none;
 }
 
 tab-sound-button {
