@@ -1,14 +1,11 @@
 :root {
+  --throbber-size: 8px;
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
 }
 
 .newtab-button-box {
-  display: none;
-}
-
-.throbber {
   display: none;
 }
 
