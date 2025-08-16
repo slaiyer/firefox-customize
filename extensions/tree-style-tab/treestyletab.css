@@ -25,7 +25,7 @@ tab-item .label {
 }
 
 tab-item.unread .label-content {
-  font-style: italic;
+  font-style: oblique;
 }
 
 tab-item.active .background {
@@ -41,8 +41,13 @@ tab-item.pinned .background {
   filter: invert(0.2);
 }
 
-tab-item.pinned tab-item-substance:hover tab-closebox {
+tab-item:hover tab-closebox {
+  padding: 0;
   display: inline-block;
+}
+
+tab-sound-button {
+  padding-inline: 0;
 }
 
 tab-item.sound-playing .background {
