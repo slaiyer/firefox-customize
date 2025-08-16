@@ -3,18 +3,22 @@
   "acceleratedTabCreation": true,
   "animation": false,
   "autoCollapseExpandSubtreeOnAttach": false,
+  "autoExpandOnTabSwitchingShortcutsDelay": 500,
   "autoGroupNewTabsFromFirefoxView": true,
   "autoGroupNewTabsFromOthers": true,
   "avoidDiscardedTabToBeActivatedIfPossible": true,
+  "baseIndent": 10,
   "cachedExternalAddons": [
     "multipletab@piro.sakura.ne.jp",
     "@tst-search",
     "tst-indent-line@piro.sakura.ne.jp",
     "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
     "tst-more-tree-commands@piro.sakura.ne.jp",
-    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}"
+    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}",
+    "copy-selected-tabs-to-clipboard@piro.sakura.ne.jp"
   ],
-  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKfQoKLnRhYiB7CiAgaGVpZ2h0OiAxOHB4Owp9CgoubGFiZWwgewogIGZvbnQtZmFtaWx5OiAnTHVjaWRhIEdyYW5kZSc7CiAgcGFkZGluZzogMDsKfQoKLm5ld3RhYi1idXR0b24tYm94IHsKICBkaXNwbGF5OiBub25lOwp9Cgp0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSk7Cn0KCnRhYi1pdGVtLnBpbm5lZCAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSh2YXIoLS1tYWNibHVlKSwgMC41KTsKICBmaWx0ZXI6IGludmVydCgwLjIpOwp9Cgp0YWItaXRlbS1zdWJzdGFuY2UgewogIGJhY2tncm91bmQtY29sb3I6ICMxMTE7CiAgYm9yZGVyOiBub25lOwogIHBhZGRpbmc6IDA7Cn0KCnRhYi1pdGVtLXN1YnN0YW5jZTpob3ZlciB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKHZhcigtLW1hY2JsdWUpKTsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIHRhYi1mYXZpY29uIHsKICBmaWx0ZXI6IGJyaWdodG5lc3MoMC41KTsKfQo=",
+  "cancelGapSuppresserHoverDelay": 500,
+  "chunkedUserStyleRules0": "OnJvb3QgewogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKICAtLWJsb29kcmVkOiAxMzYsOCwgODsKICAtLWZhdmljb24tc2l6ZTogMTBweDsKfQoKLm5ld3RhYi1idXR0b24tYm94IHsKICBkaXNwbGF5OiBub25lOwp9CgoudGhyb2JiZXIgewogIGRpc3BsYXk6IG5vbmU7Cn0KCnRhYi1pdGVtLXN1YnN0YW5jZSB7CiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7CiAgYm9yZGVyOiBub25lOwogIHBhZGRpbmc6IDA7Cn0KCnRhYi1pdGVtIC5sYWJlbCB7CiAgZm9udDogMTBweCAnTHVjaWRhIEdyYW5kZSc7CiAgcGFkZGluZzogMDsKfQoKdGFiLWl0ZW06aG92ZXIgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYih2YXIoLS1tYWNibHVlKSkgIWltcG9ydGFudDsKfQoKdGFiLWl0ZW0uYWN0aXZlIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IodmFyKC0tbWFjYmx1ZSkpICFpbXBvcnRhbnQ7Cn0KCnRhYi1pdGVtLnBpbm5lZCAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSh2YXIoLS1tYWNibHVlKSwgMC41KTsKICBmaWx0ZXI6IGludmVydCgwLjIpOwp9Cgp0YWItaXRlbS5zb3VuZC1wbGF5aW5nIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKHZhcigtLWJsb29kcmVkKSk7Cn0KCnRhYi1pdGVtLm11dGVkIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKHZhcigtLWJsb29kcmVkKSwgMC41KTsKfQoKdGFiLWl0ZW06bm90KDpob3ZlcikgdGFiLWNsb3NlYm94IHsKICBkaXNwbGF5OiBub25lOwp9Cgp0YWItZmF2aWNvbiB7CiAgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgMXB4KTsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjIyOwp9",
   "colorScheme": "system-color",
   "configsVersion": 33,
   "context_closeTree": false,
@@ -31,6 +35,8 @@
   "context_topLevel_toggleMuteTree": true,
   "context_topLevel_toggleSticky": false,
   "delayForDuplicatedTabDetection": 500,
+  "delayToBlockUserOperationForTabsRestoration": 500,
+  "delayToShowProgressForBlockedUserOperation": 500,
   "enableMacOSBehaviors": true,
   "exposeUnblockAutoplayFeatures": true,
   "faviconizePinnedTabs": false,
@@ -75,7 +81,6 @@
   "showExpertOptions": true,
   "sidebarWidthInWindow": {
     "3": 359,
-    "9": 311,
     "16": 310,
     "22": 311,
     "24": 311,
@@ -97,7 +102,9 @@
     "347": 304,
     "413": 360,
     "568": 307,
+    "591": 216,
     "712": 311,
+    "1068": 359,
     "1277": 311,
     "1717": 311,
     "2029": 311,
@@ -122,6 +129,7 @@
     "15433": 311,
     "15477": 311,
     "16548": 311,
+    "23149": 216,
     "37992": 216
   },
   "simulateSVGContextFill": false,
@@ -135,10 +143,11 @@
       "id": "device-1718588286455-59855",
       "name": "m1-ff-dev",
       "icon": "device-desktop",
-      "timestamp": 1753478900272
+      "timestamp": 1755235126552
     }
   },
   "tabPreviewTooltip": true,
+  "tabPreviewTooltipDelayMsec": 0,
   "treeDoubleClickBehavior": 1,
   "userStyleRules": "",
   "userStyleRules0": "",
@@ -149,6 +158,7 @@
   "userStyleRules5": "",
   "userStyleRules6": "",
   "userStyleRules7": "",
-  "userStyleRulesFieldHeight": "1027px",
-  "workaroundForBug1548949DroppedItems": ""
+  "userStyleRulesFieldHeight": "1024px",
+  "workaroundForBug1548949DroppedItems": "",
+  "zoomable": true
 }

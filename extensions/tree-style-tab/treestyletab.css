@@ -12,14 +12,14 @@
   display: none;
 }
 
-.label {
-  font: 10px 'Lucida Grande';
-  padding: 0;
-}
-
 tab-item-substance {
   background-color: black;
   border: none;
+  padding: 0;
+}
+
+tab-item .label {
+  font: 10px 'Lucida Grande';
   padding: 0;
 }
 
