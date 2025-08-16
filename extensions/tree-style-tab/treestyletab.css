@@ -41,7 +41,7 @@ tab-item.pinned .background {
 }
 
 tab-item.sound-playing .background {
-  background-color: rgba(var(--bloodred));
+  background-color: rgb(var(--bloodred));
 }
 
 tab-item.muted .background {
