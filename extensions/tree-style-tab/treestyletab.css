@@ -1,5 +1,6 @@
 :root {
   --macblue: 0, 64, 221;
+  --bloodred: 136,8, 8;
   --favicon-size: 10px;
 }
 
@@ -11,46 +12,54 @@
   height: 16px;
 }
 
+.throbber {
+  display: none;
+}
+
+
 .label {
   font: 10px 'Lucida Grande';
   padding: 0;
 }
 
+tab-item:hover .background {
+  background-color: rgb(var(--macblue)) !important;
+}
+
 tab-item.active .background {
-  background-color: rgb(var(--macblue));
+  background-color: rgb(var(--macblue)) !important;
 }
 
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
   filter: invert(0.2);
 }
-
-.throbber {
-  display: none;
-}
-
 tab-sound-button {
   padding-inline: 0;
 }
 
+tab-item.sound-playing .background {
+  background-color: rgba(var(--bloodred));
+}
+
+tab-item.muted .background {
+  background-color: rgba(var(--bloodred), 0.5);
+}
+
 tab-item-substance {
-  background-color: #111;
+  background-color: black;
   border: none;
   padding: 0;
 }
 
-tab-item-substance:not(:hover) tab-closebox {
+tab-item:not(:hover) tab-closebox {
   display: none;
-}
-
-tab-item-substance:hover {
-  background-color: rgb(var(--macblue));
 }
 
 tab-favicon {
   filter: drop-shadow(0 0 1px);
 }
 
-tab-item.discarded tab-favicon {
-  filter: brightness(0.75);
+tab-item.discarded .background {
+  background-color: #222;
 }
