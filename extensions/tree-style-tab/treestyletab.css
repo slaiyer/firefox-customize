@@ -1,4 +1,70 @@
 :root {
+  --favicon-size: 10px;
+  --macblue: 0, 64, 221;
+  --bloodred: 102, 0, 0;
+}
+
+.newtab-button-box {
+  display: none;
+}
+
+.throbber {
+  display: none;
+}
+
+tab-item:not(:hover) tab-closebox {
+  display: none;
+}
+
+tab-item-substance {
+  background-color: black;
+  border: none;
+  padding: 0;
+}
+
+tab-item .label {
+  font: 10px 'Lucida Grande';
+  padding: 0;
+}
+
+tab-item.unread .label-content {
+  font-style: italic;
+}
+
+tab-item.active .background {
+  background-color: rgb(var(--macblue)) !important;
+}
+
+tab-item:hover .background {
+  background-color: rgb(var(--macblue)) !important;
+}
+
+tab-item.pinned .background {
+  background-color: rgba(var(--macblue), 0.5);
+  filter: invert(0.2);
+}
+
+tab-item.pinned tab-item-substance:hover tab-closebox {
+  display: inline-block;
+}
+
+tab-item.sound-playing .background {
+  background-color: rgb(var(--bloodred));
+}
+
+tab-item.muted .background {
+  background-color: rgba(var(--bloodred), 0.5);
+}
+
+tab-item.discarded .background {
+  background-color: #111;
+}
+
+tab-favicon {
+  filter: drop-shadow(0 0 1px);
+}
+
+:root {
   --browser-background: unset;
   --browser-bg-images: unset;
   --browser-bg-bg-position: unset;
@@ -68,69 +134,3 @@
 @keyframes tab-burst-animation {}
 @keyframes tab-burst-animation-light {}
 @keyframes blink {}
-
-:root {
-  --favicon-size: 10px;
-  --macblue: 0, 64, 221;
-  --bloodred: 102, 0, 0;
-}
-
-.newtab-button-box {
-  display: none;
-}
-
-.throbber {
-  display: none;
-}
-
-tab-item:not(:hover) tab-closebox {
-  display: none;
-}
-
-tab-item-substance {
-  background-color: black;
-  border: none;
-  padding: 0;
-}
-
-tab-item .label {
-  font: 10px 'Lucida Grande';
-  padding: 0;
-}
-
-tab-item.unread .label-content {
-  font-style: italic;
-}
-
-tab-item.active .background {
-  background-color: rgb(var(--macblue)) !important;
-}
-
-tab-item:hover .background {
-  background-color: rgb(var(--macblue)) !important;
-}
-
-tab-item.pinned .background {
-  background-color: rgba(var(--macblue), 0.5);
-  filter: invert(0.2);
-}
-
-tab-item.pinned tab-item-substance:hover tab-closebox {
-  display: inline-block;
-}
-
-tab-item.sound-playing .background {
-  background-color: rgb(var(--bloodred));
-}
-
-tab-item.muted .background {
-  background-color: rgba(var(--bloodred), 0.5);
-}
-
-tab-item.discarded .background {
-  background-color: #111;
-}
-
-tab-favicon {
-  filter: drop-shadow(0 0 1px);
-}
