@@ -1,4 +1,5 @@
 :root {
+  --tab-size: 16px;
   --throbber-size: 10px;
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
@@ -72,6 +73,7 @@ tab-favicon {
 tab-closebox {
   display: none;
   padding: 0;
+  overflow: hidden;
 }
 
 :root {
