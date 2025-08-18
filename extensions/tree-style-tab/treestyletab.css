@@ -1,5 +1,5 @@
 :root {
-  --tab-size: 16px;
+  --tab-size: 18px;
   --throbber-size: 10px;
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
@@ -63,7 +63,7 @@ tab-item.muted .background {
 tab-item-substance {
   background-color: black;
   border: none;
-  padding-inline: 0;
+  padding: 0;
 }
 
 tab-favicon {
@@ -73,7 +73,7 @@ tab-favicon {
 tab-closebox {
   display: none;
   padding: 0;
-  overflow: hidden;
+  margin: 0;
 }
 
 :root {
