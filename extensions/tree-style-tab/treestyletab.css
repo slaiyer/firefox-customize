@@ -9,10 +9,12 @@
   display: none;
 }
 
-tab-item-substance {
-  background-color: black;
+.pinned-tabs-container {
   border: none;
-  padding-inline: 0;
+}
+
+tab-item {
+  margin: 0;
 }
 
 tab-item .label {
@@ -37,11 +39,6 @@ tab-item.pinned .background {
   filter: invert(0.2);
 }
 
-tab-closebox {
-  display: none;
-  padding: 0;
-}
-
 tab-item:hover tab-closebox {
   display: unset;
 }
@@ -58,8 +55,19 @@ tab-item.discarded .background {
   background-color: #222;
 }
 
+tab-item-substance {
+  background-color: black;
+  border: none;
+  padding-inline: 0;
+}
+
 tab-favicon {
   filter: drop-shadow(0 0 1px);
+}
+
+tab-closebox {
+  display: none;
+  padding: 0;
 }
 
 :root {
