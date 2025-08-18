@@ -12,13 +12,11 @@
 tab-item-substance {
   background-color: black;
   border: none;
-  padding-top: 1px;
 }
 
 tab-item .label {
   font: 10px 'Lucida Grande';
   padding: 0;
-  padding-top: 2px;
 }
 
 tab-item.unread .label-content {
