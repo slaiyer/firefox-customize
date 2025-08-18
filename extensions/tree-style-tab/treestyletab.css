@@ -34,13 +34,17 @@ tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
 }
 
-tab-item:hover .background {
-  background-color: rgb(var(--macblue)) !important;
-}
-
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
   filter: invert(0.2);
+}
+
+tab-item.discarded .background {
+  background-color: #222;
+}
+
+tab-item:hover .background {
+  background-color: rgb(var(--macblue)) !important;
 }
 
 tab-item:hover tab-closebox {
@@ -53,10 +57,6 @@ tab-item.sound-playing .background {
 
 tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
-}
-
-tab-item.discarded .background {
-  background-color: #222;
 }
 
 tab-item-substance {
