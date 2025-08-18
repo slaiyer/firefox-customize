@@ -51,6 +51,10 @@ tab-item:hover .background {
   background-color: rgb(var(--macblue)) !important;
 }
 
+tab-closebox {
+  display: none;
+}
+
 tab-item:hover tab-closebox {
   display: unset;
 }
