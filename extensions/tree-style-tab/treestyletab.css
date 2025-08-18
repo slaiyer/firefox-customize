@@ -37,19 +37,12 @@ tab-item.pinned .background {
 }
 
 tab-closebox {
+  display: none;
   padding: 0;
 }
 
-tab-item:not(:hover) tab-closebox {
-  display: none;
-}
-
-tab-item.pinned:hover tab-closebox {
-  display: inline-block;
-}
-
-tab-sound-button {
-  padding-inline: 0;
+tab-item:hover tab-closebox {
+  display: unset;
 }
 
 tab-item.sound-playing .background {
