@@ -9,8 +9,12 @@
   display: none;
 }
 
-.pinned-tabs-container {
+#pinned-tabs-container {
   border: none;
+}
+
+.pinned {
+  padding: 0;
 }
 
 tab-item {
@@ -101,7 +105,6 @@ tab-closebox {
   --theme-colors-bookmark_text: unset;
   --theme-colors-button_background_active: unset;
   --theme-colors-button_background_hover: unset;
-  --theme-colors-frame: unset;
   --theme-colors-icons: unset;
   --theme-colors-icons_attention: unset;
   --theme-colors-ntp_background: unset;
