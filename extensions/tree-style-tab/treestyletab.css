@@ -12,6 +12,7 @@
 tab-item-substance {
   background-color: black;
   border: none;
+  padding-inline: 0;
 }
 
 tab-item .label {
@@ -54,7 +55,7 @@ tab-item.muted .background {
 }
 
 tab-item.discarded .background {
-  background-color: #111;
+  background-color: #222;
 }
 
 tab-favicon {
@@ -62,7 +63,7 @@ tab-favicon {
 }
 
 :root {
-  --browser-background: unset;
+  --browser-background: black;
   --browser-bg-images: unset;
   --browser-bg-bg-position: unset;
   --browser-bg-bg-size: unset;
