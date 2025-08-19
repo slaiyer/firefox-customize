@@ -78,6 +78,7 @@
   "renderHiddenTabs": true,
   "scrollLines": 5,
   "shiftTabsForScrollbarDistance": "",
+  "showCollapsedDescendantsByLegacyTooltipOnSidebar": false,
   "showContextualIdentitiesSelector": true,
   "showDialogInSidebar": true,
   "showExpertOptions": true,
@@ -147,8 +148,6 @@
       "timestamp": 1755539283517
     }
   },
-  "tabPreviewTooltip": true,
-  "tabPreviewTooltipDelayMsec": 0,
   "treeDoubleClickBehavior": 1,
   "userStyleRules": "",
   "userStyleRules0": "",
