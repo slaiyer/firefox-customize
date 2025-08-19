@@ -19,7 +19,7 @@
 }
 
 tab-item {
-  --indent-line-color: #333;
+  --indent-line-color: #222;
   --indent-line-color-active: #777;
   --indent-line-width: 1px;
   --indent-line-width-active: 1px;
