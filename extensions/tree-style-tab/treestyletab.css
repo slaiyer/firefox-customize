@@ -7,7 +7,7 @@
 }
 
 #background {
-  background-color: #111;
+  background-color: black;
 }
 
 .newtab-button-box {
@@ -25,38 +25,36 @@ tab-item {
   --indent-line-width-active: 1px;
 }
 
-tab-item .label {
-  font: 10px 'Lucida Grande';
-  margin-left: 2px;
+tab-item .background {
+  background-color: #111;
 }
 
-tab-item.unread .label-content {
-  font-style: oblique;
+tab-item.pinned .background {
+  background-color: rgba(var(--macblue), 0.5);
+  filter: invert(0.1);
 }
 
 tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
 }
 
-tab-item.pinned .background {
-  background-color: rgba(var(--macblue), 0.5);
-  filter: invert(0.2);
+tab-item.discarded {
+  color: darkgrey;
+  opacity: 1;
 }
 
 tab-item.discarded .background {
-  background-color: #222;
+  background-color: black;
 }
 
 tab-item:hover .background {
   background-color: rgb(var(--macblue)) !important;
+  filter: invert(0.1);
 }
 
-tab-closebox {
-  display: none;
-}
-
-tab-item:hover tab-closebox {
-  display: unset;
+tab-favicon {
+  filter: drop-shadow(0 0 1px);
+  margin-right: 2px;
 }
 
 tab-item.sound-playing .background {
@@ -67,11 +65,19 @@ tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
 }
 
-tab-item-substance {
-  background-color: black;
+tab-item .label {
+  font: 10px 'Lucida Grande';
+  margin-left: 2px;
 }
 
-tab-favicon {
-  filter: drop-shadow(0 0 1px);
-  margin-right: 2px;
+tab-item.unread .label-content {
+  font-style: oblique;
+}
+
+tab-closebox {
+  display: none;
+}
+
+tab-item:hover tab-closebox {
+  display: unset;
 }
