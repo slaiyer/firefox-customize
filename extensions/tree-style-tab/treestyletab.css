@@ -4,6 +4,21 @@
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
+  --multiselected-color: Highlight;
+}
+
+:root.mutiple-highlighted tab-item.highlighted tab-item-substance::after {
+  background: var(--multiselected-color);
+  bottom: 0;
+  content: " ";
+  display: block;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  opacity: var(--multiselected-color-opacity);
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  z-index: 10;
 }
 
 #background {
@@ -54,7 +69,7 @@ tab-item:hover .background {
 
 tab-favicon {
   filter: drop-shadow(0 0 1px);
-  margin-right: 2px;
+  margin-inline-end: 2px;
 }
 
 tab-item.sound-playing .background {
@@ -67,7 +82,7 @@ tab-item.muted .background {
 
 tab-item .label {
   font: 10px 'Lucida Grande';
-  margin-left: 2px;
+  margin-inline-start: 2px;
 }
 
 tab-item.unread .label-content {
