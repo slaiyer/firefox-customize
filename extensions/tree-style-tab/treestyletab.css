@@ -81,7 +81,7 @@ tab-item.muted .background {
 }
 
 tab-item .label {
-  font: 10px 'Lucida Grande';
+  font: 10px 'Lucida Grande', sans-serif;
   margin-inline-start: 2px;
 }
 
