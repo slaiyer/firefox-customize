@@ -4,6 +4,7 @@
   --favicon-size: 10px;
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
+  --unread: 63, 63, 63;
   --multiselected-color: Highlight;
 }
 
@@ -86,8 +87,8 @@ tab-item .label {
   margin-inline-start: 2px;
 }
 
-tab-item.unread .label-content {
-  font-style: oblique;
+tab-item.unread .background {
+  background-color: rgba(var(--unread), 0.5);
 }
 
 tab-closebox {
