@@ -143,6 +143,7 @@
   "style": "none",
   "successorTabControlLevel": 1,
   "suppressGapFromShownOrHiddenToolbarOnFullScreen": true,
+  "syncDeviceExpirationDays": 0,
   "syncDevices": {
     "device-1718588286455-59855": {
       "id": "device-1718588286455-59855",
