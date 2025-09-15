@@ -91,3 +91,7 @@ tab-closebox {
 tab-item:hover tab-closebox {
   display: unset;
 }
+
+#subpanel-container {
+  display: none !important;
+}
