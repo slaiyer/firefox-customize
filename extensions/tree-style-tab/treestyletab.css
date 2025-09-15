@@ -5,6 +5,8 @@
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
   --multiselected-color: Highlight;
+  --subpanel-area-size: 0px !important;
+  --subpanel-content-size: 0px !important;
 }
 
 :root.mutiple-highlighted tab-item.highlighted tab-item-substance::after {
