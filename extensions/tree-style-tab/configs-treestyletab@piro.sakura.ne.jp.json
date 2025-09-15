@@ -56,7 +56,6 @@
   ],
   "insertDroppedTabsAt": -2,
   "lastSelectedSubPanelProviderId": "@tst-search",
-  "lastSubPanelHeight": 24,
   "middleClickPasteURLOnNewTabButton": true,
   "notifiedFeaturesVersion": 9,
   "openAllBookmarksWithStructureDiscarded": false,
@@ -71,13 +70,12 @@
     "section-contextMenu",
     "section-debug",
     "section-advanced",
-    "section-addons",
-    "section-appearance"
+    "section-addons"
   ],
   "outOfScreenTabsRenderingPages": -1,
   "parentTabOperationBehaviorMode": 1,
   "renderHiddenTabs": true,
-  "scrollLines": 5,
+  "scrollLines": 10,
   "shiftTabsForScrollbarDistance": "",
   "showCollapsedDescendantsByLegacyTooltipOnSidebar": false,
   "showContextualIdentitiesSelector": true,
@@ -150,7 +148,7 @@
       "id": "device-1718588286455-59855",
       "name": "m1-ff-dev",
       "icon": "device-desktop",
-      "timestamp": 1757882501076
+      "timestamp": 1757931912680
     }
   },
   "treeDoubleClickBehavior": 1,
