@@ -1,5 +1,5 @@
 {
-    "version": "2.0.125.1",
+    "version": "2.0.130.1",
     "settings": {
         "blur": 0,
         "brightness": 100,
@@ -21,9 +21,9 @@
         "cinemamodewideplayer": true,
         "controlbar": {
             "active": true,
-            "autohide": false,
+            "autohide": true,
             "centered": true,
-            "position": "absolute"
+            "position": "fixed"
         },
         "controls": [
             "loop",
@@ -42,11 +42,11 @@
             "options"
         ],
         "controlsvisible": false,
-        "controlspeed": true,
+        "controlspeed": false,
         "controlspeedmousebutton": false,
         "controlvolume": false,
         "controlvolumemousebutton": false,
-        "convertshorts": true,
+        "convertshorts": false,
         "customcolors": {
             "--main-color": "#00adee",
             "--main-background": "#111111",
@@ -80,15 +80,15 @@
         "miniplayerposition": "_top-left",
         "miniplayersize": "_640x360",
         "newestcomments": false,
-        "overridespeeds": true,
-        "pauseforegroundtab": true,
+        "overridespeeds": false,
+        "pauseforegroundtab": false,
         "pausevideos": true,
         "popuplayersize": "640x360",
         "qualityembeds": "medium",
         "qualityembedsfullscreen": "hd1080",
-        "qualityplaylists": "hd1080",
+        "qualityplaylists": "hd720",
         "qualityplaylistsfullscreen": "hd1080",
-        "qualityvideos": "hd1080",
+        "qualityvideos": "hd720",
         "qualityvideosfullscreen": "hd1080",
         "reload": false,
         "reversemousewheeldirection": false,
@@ -106,6 +106,6 @@
         "volumemultiplier": 3,
         "volumevariation": 5,
         "wideplayer": false,
-        "wideplayerviewport": false
+        "wideplayerviewport": true
     }
 }
