@@ -80,8 +80,8 @@ tab-item .label {
   margin-inline-start: 2px;
 }
 
-tab-item.unread .background {
-  background-color: #222;
+tab-item.unread .label {
+  color: #fdb !important;
 }
 
 tab-closebox {
