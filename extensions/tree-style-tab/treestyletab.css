@@ -54,7 +54,7 @@ tab-item.active .background {
 
 tab-item.discarded {
   opacity: 1;
-  color: darkgrey;
+  color: silver;
 }
 
 tab-item:hover .background {
