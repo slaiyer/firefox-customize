@@ -2,7 +2,10 @@
   "filterLinkHints": true,
   "keyMappings": "map <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-p> togglePinTab\nunmap x",
   "regexFindMode": true,
+  "scrollStepSize": 100,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google maps\nb: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\naz: https://www.amazon.com/s/?field-keywords=%s\n# qw: https://www.qwant.com/?q=%s Qwant",
   "settingsVersion": "2.3",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-size: 10px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}",
   "exclusionRules": [
     {
       "passKeys": "",
@@ -13,7 +16,7 @@
       "pattern": "https?://www.sonyliv.com/*"
     },
     {
-      "passKeys": "fsdrv",
+      "passKeys": "fsdmrv",
       "pattern": "https?://animesuge.to/*"
     },
     {
@@ -25,11 +28,11 @@
       "pattern": "https?://leetcode.com/*"
     },
     {
-      "passKeys": "fmtjlkc,./<>0123456789",
+      "passKeys": "fsdrvmtjlkc,./<>0123456789",
       "pattern": "https?://www.youtube.com/*"
     },
     {
-      "passKeys": "fm",
+      "passKeys": "fsdmrv",
       "pattern": "https?://www.hotstar.com/*"
     },
     {
