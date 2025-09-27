@@ -1,8 +1,8 @@
 {
   "filterLinkHints": true,
-  "keyMappings": "map <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-p> togglePinTab",
+  "keyMappings": "map <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-p> togglePinTab\nunmap x",
   "regexFindMode": true,
-  "settingsVersion": "2.1.2",
+  "settingsVersion": "2.3",
   "exclusionRules": [
     {
       "passKeys": "",
@@ -13,8 +13,28 @@
       "pattern": "https?://www.sonyliv.com/*"
     },
     {
-      "passKeys": "fmt",
+      "passKeys": "fsdrv",
+      "pattern": "https?://animesuge.to/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://wourdle.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://leetcode.com/*"
+    },
+    {
+      "passKeys": "fmtjlkc,./<>0123456789",
       "pattern": "https?://www.youtube.com/*"
+    },
+    {
+      "passKeys": "fm",
+      "pattern": "https?://www.hotstar.com/*"
+    },
+    {
+      "passKeys": "fmjklsdzxvgr<>N",
+      "pattern": "https?://www.crunchyroll.com/*"
     }
   ]
 }

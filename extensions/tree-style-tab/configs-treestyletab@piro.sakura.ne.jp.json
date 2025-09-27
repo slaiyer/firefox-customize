@@ -69,8 +69,7 @@
     "section-newTabWithOwner",
     "section-contextMenu",
     "section-debug",
-    "section-advanced",
-    "section-appearance"
+    "section-advanced"
   ],
   "outOfScreenTabsRenderingPages": -1,
   "parentTabOperationBehaviorMode": 1,
@@ -142,7 +141,6 @@
   },
   "simulateSVGContextFill": false,
   "skipCollapsedTabsForTabSwitchingShortcuts": true,
-  "smoothScrollEnabled": false,
   "style": "none",
   "successorTabControlLevel": 1,
   "suppressGapFromShownOrHiddenToolbarOnFullScreen": true,
@@ -152,7 +150,7 @@
       "id": "device-1718588286455-59855",
       "name": "m1-ff-dev",
       "icon": "device-desktop",
-      "timestamp": 1758316259212
+      "timestamp": 1758955721431
     }
   },
   "treeDoubleClickBehavior": 1,
@@ -167,6 +165,6 @@
   "userStyleRules7": "",
   "userStyleRulesFieldHeight": "1024px",
   "warnOnAutoGroupNewTabs": false,
-  "workaroundForBug1548949DroppedItems": "1758202198081-24973/513",
+  "workaroundForBug1548949DroppedItems": "",
   "zoomable": true
 }
