@@ -56,3 +56,12 @@
 #identity-icon-box {
   background-color: black !important;
 }
+
+#back-button,
+#forward-button {
+  display: none !important;
+}
+
+#page-action-buttons {
+  display: none !important;
+}
