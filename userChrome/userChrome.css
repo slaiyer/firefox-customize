@@ -32,6 +32,7 @@
 #urlbar-container,
 #search-container {
   padding-block: 0px !important;
+  background-color: black;
 }
 
 #titlebar {
@@ -48,4 +49,10 @@
 
 #urlbar {
   font-size: 10px !important;
+}
+
+#nav-bar-customization-target,
+#PanelUI-button,
+#identity-icon-box {
+  background-color: black !important;
 }
