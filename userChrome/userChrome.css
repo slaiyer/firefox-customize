@@ -69,7 +69,6 @@
   display: none !important;
 }
 
-/* Apply to top UI toolbars */
 #navigator-toolbox,
 #nav-bar,
 #PersonalToolbar,
@@ -80,21 +79,18 @@
   color: white !important;
 }
 
-/* URL bar and Search bar backgrounds */
 #urlbar,
 .searchbar-textbox {
   background-color: black !important;
   color: white !important;
 }
 
-/* URL bar expanded dropdown */
 #urlbarView,
 .urlbarView {
   background-color: black !important;
   color: white !important;
 }
 
-/* Search dropdown (one-off search engine buttons and suggestions) */
 .searchbar-engine-one-off-item,
 .search-one-offs,
 .autocomplete-richlistbox,
@@ -103,7 +99,6 @@
   color: white !important;
 }
 
-/* Extension popup panels (extension dropdowns) */
 panel,
 panelview,
 #widget-overflow,
@@ -113,28 +108,24 @@ panelview,
   color: white !important;
 }
 
-/* Hamburger menu dropdown */
 #appMenu-popup,
 panelview {
   background-color: black !important;
   color: white !important;
 }
 
-/* Lock icon (site identity) popup */
 #identity-popup,
 .identity-popup {
   background-color: black !important;
   color: white !important;
 }
 
-/* Shield icon (tracking protection) popup */
 #protections-popup,
 .protections-popup {
   background-color: black !important;
   color: white !important;
 }
 
-/* Optional: Fix text color in buttons/labels */
 toolbarbutton,
 toolbarbutton .toolbarbutton-text,
 label,
@@ -144,10 +135,41 @@ menuitem {
   color: white !important;
 }
 
-/* Optional: Remove borders if they clash with black background */
 panel,
 panelview,
 #urlbarView,
 .autocomplete-richlistbox {
   border: none !important;
+}
+
+:root[privatebrowsingmode="temporary"] {
+
+  #navigator-toolbox,
+  #nav-bar,
+  #PersonalToolbar,
+  #TabsToolbar,
+  #toolbar-menubar,
+  .urlbar-background {
+    background-color: #25003E !important;
+    color: white !important;
+  }
+
+  #urlbar,
+  .searchbar-textbox {
+    background-color: #25003E !important;
+    color: white !important;
+  }
+
+  #nav-bar-customization-target,
+  #PanelUI-button,
+  #identity-icon-box,
+  #urlbar-searchmode-switcher {
+    background-color: #25003E !important;
+  }
+
+  #urlbar-container,
+  #search-container {
+    padding-block: 0px !important;
+    background-color: #25003E;
+  }
 }
