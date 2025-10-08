@@ -1,7 +1,7 @@
 :root {
   --tab-size: 18px;
-  --throbber-size: 10px;
-  --favicon-size: 10px;
+  --throbber-size: 11px;
+  --favicon-size: 11px;
   --macblue: 0, 64, 221;
   --bloodred: 102, 0, 0;
   --multiselected-color: Highlight;
@@ -67,6 +67,10 @@ tab-favicon {
   margin-inline-end: 2px;
 }
 
+.favicon-image, .favicon-builtin, .favicon-default {
+  vertical-align: text-bottom;
+}
+
 tab-item.sound-playing .background {
   background-color: rgb(var(--bloodred));
 }
@@ -76,7 +80,7 @@ tab-item.muted .background {
 }
 
 tab-item .label {
-  font: 10px 'Lucida Grande', sans-serif;
+  font: 11px 'Lucida Grande', sans-serif;
   margin-inline-start: 2px;
 }
 
