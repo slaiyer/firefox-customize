@@ -1,6 +1,6 @@
 {
   "filterLinkHints": true,
-  "keyMappings": "unmap x\nmap J nextTab\nmap K previousTab\nmap <c-v> passNextKey\nmap <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-M> toggleMuteTab other\nmap <c-p> togglePinTab\nmap m Marks.activateCreateMode swap\nmap ` Marks.activateGotoMode swap",
+  "keyMappings": "unmap x\nunmap r\nunmap R\nmap J nextTab\nmap K previousTab\nmap <c-v> passNextKey\nmap <c-f> LinkHints.activateModeWithQueue\nmap <c-m> toggleMuteTab\nmap <c-M> toggleMuteTab other\nmap <c-p> togglePinTab\nmap m Marks.activateCreateMode swap\nmap ` Marks.activateGotoMode swap",
   "regexFindMode": true,
   "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google maps\nb: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\naz: https://www.amazon.com/s/?field-keywords=%s\n# qw: https://www.qwant.com/?q=%s Qwant",
   "settingsVersion": "2.3",
