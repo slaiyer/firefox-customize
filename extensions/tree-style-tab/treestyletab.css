@@ -67,8 +67,8 @@ tab-favicon {
   margin-inline-end: 2px;
 }
 
-.favicon-image, .favicon-builtin, .favicon-default {
-  vertical-align: text-bottom;
+.label-content {
+  line-height: var(--tab-size);
 }
 
 tab-item.sound-playing .background {
