@@ -23,6 +23,7 @@
 :root {
   --toolbarbutton-inner-padding: 0px !important;
   --tab-min-height: 0px !important;
+  --sidebar-border-color: black !important;
 }
 
 .titlebar-button {
