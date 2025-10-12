@@ -18,6 +18,7 @@
 
 #navigator-toolbox {
   font: 11px 'Lucida Grande', sans-serif !important;
+  border-bottom: 1px solid var(--chrome-content-separator-color) !important;
 }
 
 :root {
