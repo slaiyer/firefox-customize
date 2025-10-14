@@ -1,5 +1,5 @@
 backup:
-  (cd config && just backup)
-  (cd extensions && just backup)
-  (cd userChrome && just backup)
+  just config/backup
+  just extensions/backup
+  just userChrome/backup
 
