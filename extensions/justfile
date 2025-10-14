@@ -1,0 +1,6 @@
+backup:
+  -mv ~/Downloads/config.json ./enhancer-for-youtube/
+  -mv ~/Downloads/{configs-treestyletab@piro.sakura.ne.jp.json,treestyletab.css} ./tree-style-tab/
+  -mv ~/Downloads/@tst-search-settings.json ./tree-style-tab-search/
+  -mv ~/Downloads/vimium-options.json ./vimium/
+

@@ -1,0 +1,4 @@
+backup:
+  -cp -f link-user.js ./user.js
+  cp -f link-prefs.js ./prefs.js
+
