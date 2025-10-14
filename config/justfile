@@ -1,4 +1,4 @@
 backup:
-  -cp -f link-user.js ./user.js
-  cp -f link-prefs.js ./prefs.js
+  -cp -f ../profile/user.js ./user.js
+  cp -f ../profile/prefs.js ./prefs.js
 
