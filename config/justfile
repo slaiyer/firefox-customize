@@ -1,4 +1,6 @@
+install:
+  -cp -f ../profile/user.js ./user.js
+
 backup:
   -cp -f ../profile/user.js ./user.js
   cp -f ../profile/prefs.js ./prefs.js
-

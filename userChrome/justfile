@@ -1,3 +1,0 @@
-backup:
-  cp -f ../profile/chrome/userChrome.css ./userChrome.css
-

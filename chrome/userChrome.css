@@ -65,13 +65,13 @@
 #forward-button {
   display: none !important;
 }
-*/
 
+/* bookmark indicator */
 #page-action-buttons {
   display: none !important;
 }
 
-#navigator-toolbox,
+*/ #navigator-toolbox,
 #nav-bar,
 #PersonalToolbar,
 #TabsToolbar,

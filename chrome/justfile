@@ -1,0 +1,5 @@
+install:
+  cp -f ./userChrome.css ../profile/chrome/userChrome.css
+
+backup:
+  cp -f ../profile/chrome/userChrome.css ./userChrome.css
