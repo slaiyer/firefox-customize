@@ -1,0 +1,1 @@
+/Users/sid/Library/Application Support/Firefox/Profiles/5x7o6t5i.dev-edition-default/prefs.js
