@@ -38,6 +38,10 @@
   background-color: black;
 }
 
+#urlbar-input {
+  font: 10px monospace !important;
+}
+
 #titlebar {
   appearance: none !important;
 }
