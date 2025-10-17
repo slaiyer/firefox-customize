@@ -25,6 +25,7 @@
   --toolbarbutton-inner-padding: 0px !important;
   --tab-min-height: 0px !important;
   --sidebar-border-color: black !important;
+  --button-border-radius: var(--border-radius-xsmall) !important;
 }
 
 .titlebar-button {
@@ -152,13 +153,13 @@ panelview,
   #TabsToolbar,
   #toolbar-menubar,
   .urlbar-background {
-    background-color: #25003E !important;
+    background-color: var(--tabpanel-background-color) !important;
     color: white !important;
   }
 
   #urlbar,
   .searchbar-textbox {
-    background-color: #25003E !important;
+    background-color: var(--tabpanel-background-color) !important;
     color: white !important;
   }
 
@@ -166,12 +167,12 @@ panelview,
   #PanelUI-button,
   #identity-icon-box,
   #urlbar-searchmode-switcher {
-    background-color: #25003E !important;
+    background-color: var(--tabpanel-background-color) !important;
   }
 
   #urlbar-container,
   #search-container {
     padding-block: 0px !important;
-    background-color: #25003E;
+    background-color: var(--tabpanel-background-color);
   }
 }
