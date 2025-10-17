@@ -1,1 +1,1 @@
-/Users/sid/Library/Application Support/Firefox/Profiles/5x7o6t5i.dev-edition-default
+/Users/sid/Library/Application Support/Firefox/Profiles/btd2c4l9.default-release
