@@ -49,7 +49,7 @@ tab-item.pinned .background {
 
 tab-item.active .background {
   border: thin groove silver;
-  border-radius: calc(var(--tab-size) / 2);
+  border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--macblue)) !important;
   filter: none;
 }
@@ -61,7 +61,7 @@ tab-item.discarded {
 
 tab-item:hover .background {
   border: thin groove silver;
-  border-radius: calc(var(--tab-size) / 2);
+  border-radius: calc(var(--tab-size) / 4);
 }
 
 tab-favicon {
