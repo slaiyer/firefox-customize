@@ -51,7 +51,6 @@ tab-item.active .background {
   border: thin groove silver;
   border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--macblue)) !important;
-  filter: none;
 }
 
 tab-item.discarded {
