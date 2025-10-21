@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+tab-twisty::before {
+  vertical-align: middle;
+}
+
 tab-item {
   --indent-line-color: #222;
   --indent-line-color-active: #777;
