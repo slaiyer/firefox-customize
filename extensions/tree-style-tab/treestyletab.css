@@ -51,10 +51,15 @@ tab-item.pinned .background {
   filter: invert(0.1);
 }
 
+tab-item.pinned .label {
+  filter: drop-shadow(0 0 4px);
+}
+
 tab-item.active .background {
+  border: thin groove silver;
   border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--macblue)) !important;
-  filter: drop-shadow(0 0 calc(var(--tab-size) / 4) silver);
+  filter: drop-shadow(0 0 4px silver);
 }
 
 tab-item.discarded {
