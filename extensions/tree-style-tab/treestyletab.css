@@ -52,9 +52,9 @@ tab-item.pinned .background {
 }
 
 tab-item.active .background {
-  border: thin groove silver;
   border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--macblue)) !important;
+  filter: drop-shadow(0 0 calc(var(--tab-size) / 4) silver);
 }
 
 tab-item.discarded {
