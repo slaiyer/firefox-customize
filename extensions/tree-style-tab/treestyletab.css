@@ -52,7 +52,7 @@ tab-item.pinned .background {
 }
 
 tab-item.pinned .label {
-  filter: drop-shadow(0 0 4px);
+  filter: drop-shadow(0 0 2px);
 }
 
 tab-item.active .background {
