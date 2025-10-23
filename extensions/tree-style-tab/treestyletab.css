@@ -59,7 +59,7 @@ tab-item.active .background {
   border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--macblue)) !important;
   box-shadow: inset 0 0 4px silver;
-  filter: drop-shadow(0 0 4px silver);
+  filter: drop-shadow(0 0 2px silver);
 }
 
 tab-item.discarded {
@@ -84,13 +84,13 @@ tab-favicon {
 tab-item.sound-playing .background {
   background-color: rgb(var(--bloodred));
   box-shadow: inset 0 0 4px red;
-  filter: drop-shadow(0 0 4px red);
+  filter: drop-shadow(0 0 2px red);
 }
 
 tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
   box-shadow: inset 0 0 4px red;
-  filter: drop-shadow(0 0 4px red);
+  filter: drop-shadow(0 0 2px red);
 }
 
 tab-item .label {
