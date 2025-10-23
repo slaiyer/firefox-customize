@@ -83,14 +83,14 @@ tab-favicon {
 
 tab-item.sound-playing .background {
   background-color: rgb(var(--bloodred));
-  box-shadow: inset 0 0 4px orange;
-  filter: drop-shadow(0 0 4px orange);
+  box-shadow: inset 0 0 4px red;
+  filter: drop-shadow(0 0 4px red);
 }
 
 tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
-  box-shadow: inset 0 0 4px orange;
-  filter: drop-shadow(0 0 4px orange);
+  box-shadow: inset 0 0 4px red;
+  filter: drop-shadow(0 0 4px red);
 }
 
 tab-item .label {
