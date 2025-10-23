@@ -82,12 +82,14 @@ tab-favicon {
 }
 
 tab-item.sound-playing .background {
+  border-radius: calc(var(--tab-size) / 4);
   background-color: rgb(var(--bloodred));
   box-shadow: inset 0 0 4px red;
   filter: drop-shadow(0 0 2px red);
 }
 
 tab-item.muted .background {
+  border-radius: calc(var(--tab-size) / 4);
   background-color: rgba(var(--bloodred), 0.5);
   box-shadow: inset 0 0 4px red;
   filter: drop-shadow(0 0 2px red);
