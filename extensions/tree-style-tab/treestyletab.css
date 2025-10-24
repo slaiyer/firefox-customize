@@ -48,7 +48,7 @@ tab-item {
 
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
-  border-left: thick solid rgb(var(--macblue));
+  border-left: thick ridge rgb(var(--macblue));
   filter: invert(0.1);
 }
 
