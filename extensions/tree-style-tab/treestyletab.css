@@ -94,6 +94,7 @@ tab-item.muted .background {
 
 tab-item .label {
   font: 11px 'Lucida Grande', sans-serif;
+  font-weight: lighter !important;
   margin-inline-start: 2px;
 }
 
