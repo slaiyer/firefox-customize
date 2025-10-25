@@ -40,6 +40,7 @@
 
 #urlbar-input {
   font: 11px 'M Plus Code Latin 60', monospace !important;
+  font-weight: lighter !important;
 }
 
 #titlebar {
