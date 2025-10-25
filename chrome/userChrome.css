@@ -18,6 +18,7 @@
 
 #navigator-toolbox {
   font: 11px 'Lucida Grande', sans-serif !important;
+  font-weight: lighter !important;
   border-bottom: 1px solid var(--chrome-content-separator-color) !important;
 }
 
@@ -26,6 +27,7 @@
   --tab-min-height: 0px !important;
   --sidebar-border-color: black !important;
   --button-border-radius: var(--border-radius-xsmall) !important;
+  font-weight: lighter !important;
 }
 
 .titlebar-button {
@@ -40,6 +42,7 @@
 
 #urlbar-input {
   font: 11px monospace !important;
+  font-weight: lighter !important;
 }
 
 #titlebar {
@@ -52,10 +55,12 @@
 
 #tabbrowser-tabs .tab-text {
   font-size: 11px !important;
+  font-weight: lighter !important;
 }
 
 #urlbar {
   font-size: 11px !important;
+  font-weight: lighter !important;
 }
 
 #nav-bar-customization-target,
