@@ -69,6 +69,10 @@ tab-item:hover .background {
   border-radius: 4px;
 }
 
+tab-item-substance:hover {
+  padding-left: 1px;
+}
+
 tab-favicon {
   filter: drop-shadow(0 0 1px);
   margin-inline-end: 2px;
