@@ -52,14 +52,16 @@ tab-item .background {
 
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
-  border-left: thick ridge rgb(var(--macblue)) !important;
+  border-left: thick ridge rgb(var(--macblue));
+  box-shadow: inset 0 0 4px rgb(var(--macblue));
   filter: invert(0.1);
 }
 
 tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
-  box-shadow: inset 0 0 2px silver;
-  filter: drop-shadow(0 0 1px silver);
+  border-left: thick solid darkblue;
+  box-shadow: inset 0 0 4px darkblue;
+  filter: drop-shadow(0 0 4px blue);
 }
 
 tab-item.discarded {
@@ -78,21 +80,21 @@ tab-favicon {
 
 tab-item.sound-playing .background {
   background-color: rgb(var(--bloodred));
-  border-left: solid red !important;
-  box-shadow: inset 0 0 2px red;
-  filter: drop-shadow(0 0 1px red) !important;
+  border-left: ridge red !important;
+  box-shadow: inset 0 0 4px red !important;
+  filter: drop-shadow(0 0 4px red) !important;
 }
 
 tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
-  border-left: solid rgb(var(--bloodred)) !important;
-  box-shadow: inset 0 0 2px red;
-  filter: drop-shadow(0 0 1px silver) !important;
+  box-shadow: inset 0 0 4px rgb(var(--bloodred));
+  filter: drop-shadow(0 0 4px red);
 }
 
 tab-item:hover .background {
+  border-radius: 4px;
   border-left: silver !important;
-  box-shadow: inset 0 0 4px silver;
+  box-shadow: inset 0 0 4px silver !important;
 }
 
 tab-item .label {
