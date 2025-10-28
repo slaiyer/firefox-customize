@@ -52,7 +52,7 @@ tab-item .background {
 
 tab-item.pinned .background {
   background-color: rgba(var(--macblue), 0.5);
-  border-left: solid silver !important;
+  border-left: thick ridge rgb(var(--macblue)) !important;
   filter: invert(0.1);
 }
 
@@ -67,14 +67,6 @@ tab-item.discarded {
   color: silver;
 }
 
-tab-item:hover .background {
-  box-shadow: inset 0 0 2px silver;
-}
-
-tab-item-substance:hover {
-  padding-left: 1px;
-}
-
 tab-favicon {
   filter: drop-shadow(0 0 1px);
   margin-inline-end: 2px;
@@ -87,14 +79,20 @@ tab-favicon {
 tab-item.sound-playing .background {
   background-color: rgb(var(--bloodred));
   border-left: solid red !important;
-  box-shadow: inset 0 0 2px silver;
+  box-shadow: inset 0 0 2px red;
   filter: drop-shadow(0 0 1px red) !important;
 }
 
 tab-item.muted .background {
   background-color: rgba(var(--bloodred), 0.5);
-  box-shadow: inset 0 0 2px silver;
+  border-left: solid rgb(var(--bloodred)) !important;
+  box-shadow: inset 0 0 2px red;
   filter: drop-shadow(0 0 1px silver) !important;
+}
+
+tab-item:hover .background {
+  border-left: silver !important;
+  box-shadow: inset 0 0 4px silver;
 }
 
 tab-item .label {
