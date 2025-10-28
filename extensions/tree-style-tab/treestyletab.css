@@ -59,8 +59,9 @@ tab-item.pinned .background {
 
 tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
-  border-left: ridge silver;
   box-shadow: inset 0 0 4px blue;
+  border-left: ridge silver;
+  filter: none !important;
 }
 
 tab-item.discarded {
