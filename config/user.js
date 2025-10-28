@@ -14,3 +14,4 @@ user_pref("browser.fullscreen.exit_on_escape", false);
 user_pref("browser.history_swipe_animation.disabled", true);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("browser.tabs.loadBookmarksInTabs", true);

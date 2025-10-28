@@ -28,6 +28,11 @@
   --button-border-radius: var(--border-radius-xsmall) !important;
 }
 
+:root,
+#urlbar-container {
+  min-width: 0 !important;
+}
+
 .titlebar-button {
   padding-block: 0px !important;
 }
