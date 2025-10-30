@@ -103,13 +103,18 @@ tab-item.muted .background {
 }
 
 tab-item:hover .background {
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   box-shadow: inset 0 0 4px silver !important;
 }
 
-tab-item:hover > span.extra-items-container {
-  border-radius: 4px 0 0 4px;
-  box-shadow: inset 0 0 4px silver;
+tab-item:hover > span.extra-items-container::before {
+  z-index: 99999;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  margin: 0 2px;
+  border-top: 1px solid var(--indent-line-color-active);
+  transform: translateY(calc(var(--tab-size) / 2));
 }
 
 tab-item .label {
