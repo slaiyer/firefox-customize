@@ -70,7 +70,7 @@ tab-item.active > span.extra-items-container::before {
   content: "";
   width: 100%;
   margin: 0 2px;
-  border-top: 1px solid silver;
+  border-top: 1px solid var(--indent-line-color-active);
   transform: translateY(calc(var(--tab-size) / 2));
 }
 
