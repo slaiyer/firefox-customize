@@ -66,7 +66,7 @@ tab-item.active .background {
 tab-item.active > span.extra-items-container::before {
   display: inline-block;
   content: "";
-  border-top: 1px solid white;
+  border-top: 1px solid silver;
   width: 100%;
   margin: 0 calc(var(--tab-size) / 2);
   transform: translateY(calc(var(--tab-size) / 2));
