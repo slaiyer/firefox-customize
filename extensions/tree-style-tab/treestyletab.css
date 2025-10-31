@@ -125,11 +125,11 @@ tab-item.unread .label {
 }
 
 tab-closebox {
-  display: none;
+  visibility: hidden;
 }
 
 tab-item:hover tab-closebox {
-  display: unset;
+  visibility: visible;
 }
 
 #subpanel-container {
