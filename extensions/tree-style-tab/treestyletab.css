@@ -41,7 +41,7 @@ tab-twisty::before {
 
 tab-item {
   --indent-line-color: #222;
-  --indent-line-color-active: #777;
+  --indent-line-color-active: silver;
   --indent-line-width: 1px;
   --indent-line-width-active: 1px;
 }
@@ -60,7 +60,7 @@ tab-item.pinned .background {
 tab-item.active .background {
   border-left: groove silver !important;
   background-color: rgb(var(--macblue)) !important;
-  box-shadow: inset 0 0 4px blue;
+  box-shadow: inset 0 0 4px darkblue;
   filter: none !important;
 }
 
