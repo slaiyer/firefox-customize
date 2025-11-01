@@ -12,7 +12,7 @@
 :root.mutiple-highlighted tab-item.highlighted tab-item-substance::after {
   background: var(--multiselected-color);
   bottom: 0;
-  content: " ";
+  content: "";
   display: block;
   inset-inline-start: 0;
   inset-inline-end: 0;
@@ -40,10 +40,11 @@ tab-twisty::before {
 }
 
 tab-item {
-  --indent-line-color: #222;
+  --indent-line-color: #333;
   --indent-line-color-active: silver;
   --indent-line-width: 1px;
   --indent-line-width-active: 1px;
+  --indent-line-opacity: 0;
 }
 
 tab-item .background {
@@ -62,15 +63,6 @@ tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
   box-shadow: inset 0 0 4px darkblue;
   filter: none !important;
-}
-
-tab-item.active > span.extra-items-container::before {
-  z-index: 99999;
-  content: "";
-  width: 100%;
-  margin: 0 2px;
-  border-top: 1px solid var(--indent-line-color-active);
-  transform: translateY(calc(var(--tab-size) / 2));
 }
 
 tab-item.discarded {
