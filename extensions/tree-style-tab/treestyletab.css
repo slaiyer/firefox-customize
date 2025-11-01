@@ -35,8 +35,16 @@
   padding: 0;
 }
 
+tab-twisty {
+  visibility: hidden;
+}
+
 tab-twisty::before {
   vertical-align: middle;
+}
+
+#tabbar:hover tab-twisty {
+  visibility: visible;
 }
 
 tab-item {
