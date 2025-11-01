@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+#pinned-tabs-container-resizer {
+  display: none;
+}
+
 tab-twisty {
   visibility: hidden;
 }
