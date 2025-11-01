@@ -1,0 +1,2 @@
+page:
+    printf 'ext+treestyletab:options?independent=true#userStyleRulesField' | pbcopy
