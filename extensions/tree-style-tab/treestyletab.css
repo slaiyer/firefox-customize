@@ -70,6 +70,14 @@ tab-item.pinned .background {
   filter: invert(0.1);
 }
 
+tab-item.pinned tab-closebox {
+  display: initial;
+}
+
+tab-item.pinned:hover tab-closebox {
+  visibility: visible;
+}
+
 tab-item.active .background {
   border-left: groove silver !important;
   background-color: rgb(var(--macblue)) !important;
