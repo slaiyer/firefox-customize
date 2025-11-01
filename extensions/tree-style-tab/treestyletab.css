@@ -79,8 +79,16 @@ tab-item.discarded {
 }
 
 tab-favicon {
-  filter: drop-shadow(0 0 1px);
+  opacity: 0.75;
   margin-inline-end: 2px;
+}
+
+#tabbar:hover tab-favicon {
+  opacity: 1;
+}
+
+tab-item:hover tab-favicon {
+  filter: drop-shadow(0 0 1px);
 }
 
 .label-content {
