@@ -1,0 +1,233 @@
+{
+    "schemeVersion": 2,
+    "enabled": false,
+    "fetchNews": true,
+    "theme": {
+        "mode": 1,
+        "brightness": 100,
+        "contrast": 100,
+        "grayscale": 0,
+        "sepia": 0,
+        "useFont": false,
+        "fontFamily": "Helvetica Neue",
+        "textStroke": 0,
+        "engine": "dynamicTheme",
+        "stylesheet": "",
+        "darkSchemeBackgroundColor": "#181a1b",
+        "darkSchemeTextColor": "#e8e6e3",
+        "lightSchemeBackgroundColor": "#dcdad7",
+        "lightSchemeTextColor": "#181a1b",
+        "scrollbarColor": "auto",
+        "selectionColor": "auto",
+        "styleSystemControls": true,
+        "lightColorScheme": "Default",
+        "darkColorScheme": "Default",
+        "immediateModify": true
+    },
+    "presets": [],
+    "customThemes": [
+        {
+            "url": [
+                "*.officeapps.live.com"
+            ],
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Helvetica Neue",
+                "textStroke": 0,
+                "engine": "cssFilter",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "builtIn": true
+        },
+        {
+            "url": [
+                "*.sharepoint.com"
+            ],
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Helvetica Neue",
+                "textStroke": 0,
+                "engine": "cssFilter",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "builtIn": true
+        },
+        {
+            "url": [
+                "docs.google.com"
+            ],
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Helvetica Neue",
+                "textStroke": 0,
+                "engine": "cssFilter",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "builtIn": true
+        },
+        {
+            "url": [
+                "onedrive.live.com"
+            ],
+            "theme": {
+                "mode": 1,
+                "brightness": 100,
+                "contrast": 100,
+                "grayscale": 0,
+                "sepia": 0,
+                "useFont": false,
+                "fontFamily": "Helvetica Neue",
+                "textStroke": 0,
+                "engine": "cssFilter",
+                "stylesheet": "",
+                "darkSchemeBackgroundColor": "#181a1b",
+                "darkSchemeTextColor": "#e8e6e3",
+                "lightSchemeBackgroundColor": "#dcdad7",
+                "lightSchemeTextColor": "#181a1b",
+                "scrollbarColor": "",
+                "selectionColor": "auto",
+                "styleSystemControls": false,
+                "lightColorScheme": "Default",
+                "darkColorScheme": "Default",
+                "immediateModify": false
+            },
+            "builtIn": true
+        }
+    ],
+    "enabledByDefault": true,
+    "enabledFor": [
+        "nathan.rs",
+        "www.atvbt.com"
+    ],
+    "disabledFor": [
+        "docs.google.com",
+        "vault.bitwarden.com",
+        "mail.google.com",
+        "www.triumphmotorcyclesindia.com",
+        "www.cockroachlabs.com",
+        "htmx.org",
+        "cloud.google.com",
+        "www.linkedin.com",
+        "mail.proton.me",
+        "en.wikipedia.org",
+        "carto.bruitparif.fr",
+        "forms.office.com",
+        "deepwiki.com",
+        "demo.duckui.com",
+        "solar.lowtechmagazine.com",
+        "developer.mozilla.org",
+        "opensource.apple.com",
+        "detective.wiki",
+        "www.triumphmotorcycles.co.uk",
+        "www.sonyliv.com",
+        "www.instagram.com",
+        "www.nike.com",
+        "www.adidas.co.in",
+        "www.mizunogolf-india.com",
+        "meet.google.com",
+        "sports100.tv",
+        "boards.greenhouse.io",
+        "app.greenhouse.io",
+        "apps.docusign.com",
+        "www.philips.co.in"
+    ],
+    "changeBrowserTheme": false,
+    "syncSettings": true,
+    "syncSitesFixes": true,
+    "automation": {
+        "enabled": true,
+        "mode": "system",
+        "behavior": "OnOff"
+    },
+    "time": {
+        "activation": "18:00",
+        "deactivation": "9:00"
+    },
+    "location": {
+        "latitude": null,
+        "longitude": null
+    },
+    "previewNewDesign": true,
+    "previewNewestDesign": false,
+    "enableForPDF": true,
+    "enableForProtectedPages": true,
+    "enableContextMenus": true,
+    "detectDarkTheme": true,
+    "automationBehaviour": "OnOff",
+    "notifyOfNews": false,
+    "readNews": [
+        "v4-9-16",
+        "v4-9",
+        "attention",
+        "dr-5-announcement",
+        "2m-users",
+        "automation",
+        "product-hunt-golden-kitty-2018",
+        "time-settings",
+        "safari",
+        "500k-users",
+        "stylish",
+        "product-hunt",
+        "custom-site-settings",
+        "thanks-for-contribution",
+        "dynamic-theme",
+        "chrome-favorites-2021",
+        "thanks-2021",
+        "5m-users",
+        "detect-dark-theme",
+        "no-war"
+    ],
+    "displayedNews": [
+        "detect-dark-theme"
+    ],
+    "installation": {
+        "date": 1760730815870,
+        "reason": "update",
+        "version": "4.9.86"
+    }
+}
