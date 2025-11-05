@@ -41,6 +41,7 @@
 
 tab-twisty {
   visibility: hidden;
+  margin-left: 1px;
 }
 
 tab-twisty::before {
