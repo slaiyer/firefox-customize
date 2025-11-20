@@ -1,5 +1,5 @@
 {
-    "version": "2.0.130.1",
+    "version": "2.0.124.2",
     "settings": {
         "blur": 0,
         "brightness": 100,
@@ -13,7 +13,7 @@
         "backgroundcolor": "#000000",
         "backgroundopacity": 85,
         "blackbars": false,
-        "blockautoplay": true,
+        "blockautoplay": false,
         "blockhfrformats": false,
         "blockwebmformats": false,
         "boostvolume": false,
@@ -23,7 +23,7 @@
             "active": true,
             "autohide": true,
             "centered": true,
-            "position": "fixed"
+            "position": "absolute"
         },
         "controls": [
             "loop",
@@ -70,7 +70,7 @@
         "hidechat": false,
         "hidecomments": false,
         "hiderelated": false,
-        "hideshorts": false,
+        "hideshorts": true,
         "ignoreplaylists": true,
         "ignorepopupplayer": true,
         "localecode": "en_US",
