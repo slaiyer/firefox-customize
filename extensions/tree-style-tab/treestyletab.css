@@ -79,10 +79,6 @@ tab-item.pinned tab-closebox {
   display: initial;
 }
 
-tab-item.pinned:hover tab-closebox {
-  visibility: visible;
-}
-
 tab-item.active .background {
   background-color: rgb(var(--macblue)) !important;
   box-shadow: inset 0 0 4px darkblue;
@@ -137,6 +133,8 @@ tab-item.muted .background {
 }
 
 tab-item:hover .background {
+  border: none !important;
+  border-radius: 4px !important;
   box-shadow: inset 0 0 4px silver !important;
 }
 
