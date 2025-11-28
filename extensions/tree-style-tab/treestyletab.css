@@ -118,6 +118,7 @@ tab-item.sound-playing .background {
 
 #tabbar:hover tab-item.sound-playing .background {
   border-left: solid red !important;
+  box-shadow: inset 0 0 8px red !important;
   filter: drop-shadow(0 0 4px red) !important;
 }
 
@@ -127,6 +128,7 @@ tab-item.muted .background {
 }
 
 #tabbar:hover tab-item.muted .background {
+  box-shadow: inset 0 0 4px red !important;
   filter: drop-shadow(0 0 4px red) !important;
 }
 
