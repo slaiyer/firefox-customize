@@ -162,6 +162,7 @@ tab-item.unread .label {
 
 tab-closebox {
   visibility: hidden;
+  padding-right: 3px;
 }
 
 tab-item:hover tab-closebox {
