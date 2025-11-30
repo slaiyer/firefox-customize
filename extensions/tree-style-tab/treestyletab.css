@@ -79,6 +79,7 @@ tab-item.pinned tab-closebox {
 }
 
 tab-item.active .background {
+  border-radius: 4px !important;
   background-color: rgb(var(--macblue)) !important;
   box-shadow: inset 0 0 4px black;
 }
