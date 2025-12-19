@@ -15,5 +15,4 @@ user_pref("browser.history_swipe_animation.disabled", true);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.loadBookmarksInTabs", true);
-user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
