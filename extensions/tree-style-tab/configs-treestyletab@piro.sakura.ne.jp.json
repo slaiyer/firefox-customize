@@ -6,15 +6,13 @@
   "autoExpandOnTabSwitchingShortcutsDelay": 500,
   "autoGroupNewTabsFromFirefoxView": true,
   "autoGroupNewTabsFromOthers": true,
-  "avoidDiscardedTabToBeActivatedIfPossible": true,
   "baseIndent": 10,
   "cachedExternalAddons": [
-    "multipletab@piro.sakura.ne.jp",
     "tst-indent-line@piro.sakura.ne.jp",
     "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
     "tst-more-tree-commands@piro.sakura.ne.jp",
     "copy-selected-tabs-to-clipboard@piro.sakura.ne.jp",
-    "{7aa0a466-58f8-427b-8cd2-e94645c4edc2}"
+    "@tst-search"
   ],
   "cancelGapSuppresserHoverDelay": 500,
   "chunkedUserStyleRules0": "OnJvb3QgewogIC0tdGFiLXNpemU6IDE4cHg7CiAgLS10aHJvYmJlci1zaXplOiAxNHB4OwogIC0tZmF2aWNvbi1zaXplOiAxNHB4OwogIC0tbWFjYmx1ZTogMCwgNjQsIDIyMTsKICAtLWJsb29kcmVkOiAxMDIsIDAsIDA7CiAgLS1tdWx0aXNlbGVjdGVkLWNvbG9yOiBIaWdobGlnaHQ7CiAgLS1zdWJwYW5lbC1hcmVhLXNpemU6IDBweCAhaW1wb3J0YW50OwogIC0tc3VicGFuZWwtY29udGVudC1zaXplOiAwcHggIWltcG9ydGFudDsKfQoKOnJvb3QubXV0aXBsZS1oaWdobGlnaHRlZCB0YWItaXRlbS5oaWdobGlnaHRlZCB0YWItaXRlbS1zdWJzdGFuY2U6OmFmdGVyIHsKICBiYWNrZ3JvdW5kOiB2YXIoLS1tdWx0aXNlbGVjdGVkLWNvbG9yKTsKICBib3R0b206IDA7CiAgY29udGVudDogIiI7CiAgZGlzcGxheTogYmxvY2s7CiAgaW5zZXQtaW5saW5lLXN0YXJ0OiAwOwogIGluc2V0LWlubGluZS1lbmQ6IDA7CiAgb3BhY2l0eTogdmFyKC0tbXVsdGlzZWxlY3RlZC1jb2xvci1vcGFjaXR5KTsKICBwb2ludGVyLWV2ZW50czogbm9uZTsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAwOwogIHotaW5kZXg6IDEwOwp9CgojYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7Cn0KCi5uZXd0YWItYnV0dG9uLWJveCB7CiAgZGlzcGxheTogbm9uZTsKfQoKLnBpbm5lZCB7CiAgcGFkZGluZzogMDsKfQoKI3Bpbm5lZC10YWJzLWNvbnRhaW5lci1yZXNpemVyIHsKICBkaXNwbGF5OiBub25lOwp9Cgp0YWItdHdpc3R5IHsKICB2aXNpYmlsaXR5OiBoaWRkZW47CiAgbWFyZ2luLWxlZnQ6IDFweDsKfQoKdGFiLXR3aXN0eTo6YmVmb3JlIHsKICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOwp9CgojdGFiYmFyOmhvdmVyIHRhYi10d2lzdHkgewogIHZpc2liaWxpdHk6IHZpc2libGU7Cn0KCnRhYi1pdGVtIHsKICAtLWluZGVudC1saW5lLWNvbG9yOiAjMzMzOwogIC0taW5kZW50LWxpbmUtY29sb3ItYWN0aXZlOiBzaWx2ZXI7CiAgLS1pbmRlbnQtbGluZS13aWR0aDogMXB4OwogIC0taW5kZW50LWxpbmUtd2lkdGgtYWN0aXZlOiAxcHg7CiAgLS1pbmRlbnQtbGluZS1vcGFjaXR5OiAwOwp9Cgp0YWItaXRlbSAuYmFja2dyb3VuZCB7CiAgYm9yZGVyLXJhZGl1czogNHB4Owp9Cgp0YWItaXRlbS5waW5uZWQgLmJhY2tncm91bmQgewogIGJvcmRlci1yYWRpdXM6IDBweDsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKHZhcigtLW1hY2JsdWUpLCAwLjUpOwogIGZpbHRlcjogaW52ZXJ0KDAuMSk7Cn0KCiN0YWJiYXI6aG92ZXIgdGFiLWl0ZW0ucGlubmVkIC5iYWNrZ3JvdW5kIHsKICBib3JkZXItbGVmdDogdGhpY2sgcmlkZ2UgcmdiKHZhcigtLW1hY2JsdWUpKTsKfQoKdGFiLWl0ZW0ucGlubmVkIHRhYi1jbG9zZWJveCB7CiAgZGlzcGxheTogaW5pdGlhbDsKfQoKdGFiLWl0ZW0uYWN0aXZlIC5iYWNrZ3JvdW5kIHsKICBib3JkZXItcmFkaXVzOiA0cHggIWltcG9ydGFudDsKICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IodmFyKC0tbWFjYmx1ZSkpICFpbXBvcnRhbnQ7CiAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDRweCBibGFjazsKfQoKI3RhYmJhcjpob3ZlciB0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIGJvcmRlci1sZWZ0OiByaWRnZSBzaWx2ZXIgIWltcG9ydGFudDsKICBib3JkZXItcmlnaHQ6IHJpZGdlIHNpbHZlciAhaW1wb3J0YW50OwogIGJveC1zaGFkb3c6IGluc2V0IDAgMCA0cHggIzc3NzsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIHsKICBvcGFjaXR5OiAxOwogIGNvbG9yOiBzaWx2ZXI7Cn0KCnRhYi1mYXZpY29uIHsKICBvcGFjaXR5OiAwLjc1OwogIG1hcmdpbi1pbmxpbmUtZW5kOiAycHg7Cn0KCiN0YWJiYXI6aG92ZXIgdGFiLWZhdmljb24gewogIG9wYWNpdHk6IDE7Cn0KCnRhYi1pdGVtOmhvdmVyIHRhYi1mYXZpY29uIHsKICBmaWx0ZXI6IGRyb3Atc2hhZG93KDAgMCAxcHgpOwp9CgoubGFiZWwtY29udGVudCB7CiAgbGluZS1oZWlnaHQ6IHZhcigtLXRhYi1zaXplKTsKfQoKdGFiLWl0ZW0uc291bmQtcGxheWluZyAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKHZhcigtLWJsb29kcmVkKSk7CiAgYm94LXNoYWRvdzogaW5zZXQgMCAwIDRweCByZWQgIWltcG9ydGFudDsKICBmaWx0ZXI6IGRyb3Atc2hhZG93KDAgMCAycHggcmVkKSAhaW1wb3J0YW50Owp9CgojdGFiYmFyOmhvdmVyIHRhYi1pdGVtLnNvdW5kLXBsYXlpbmcgLmJhY2tncm91bmQgewogIGJvcmRlci1sZWZ0OiBzb2xpZCByZWQgIWltcG9ydGFudDsKICBib3JkZXItcmlnaHQ6IHNvbGlkIHJlZCAhaW1wb3J0YW50OwogIGJveC1zaGFkb3c6IGluc2V0IDAgMCA4cHggcmVkICFpbXBvcnRhbnQ7CiAgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDAgNHB4IHJlZCkgIWltcG9ydGFudDsKfQoKdGFiLWl0ZW0ubXV0ZWQgLmJhY2tncm91bmQgewogIGJhY2tncm91bmQtY29sb3I6IHJnYmEodmFyKC0tYmxvb2RyZWQpLCAwLjUpOwogIGJveC1zaGFkb3c6IGluc2V0IDAgMCA0cHggcmdiKHZhcigtLWJsb29kcmVkKSkgIWltcG9ydGFudDsKfQoKI3RhYmJhcjpob3ZlciB0YWItaXRlbS5tdXRlZCAuYmFja2dyb3VuZCB7CiAgYm9yZGVyLWxlZnQ6IHNvbGlkIHJnYih2YXIoLS1ibG9vZHJlZCkpICFpbXBvcnRhbnQ7CiAgYm9yZGVyLXJpZ2h0OiBzb2xpZCByZ2IodmFyKC0tYmxvb2RyZWQpKSAhaW1wb3J0YW50OwogIGJveC1zaGFkb3c6IGluc2V0IDAgMCA4cHggcmdiKHZhcigtLWJsb29kcmVkKSkgIWltcG9ydGFudDsKfQoKdGFiLWl0ZW06aG92ZXIgLmJhY2tncm91bmQgewogIGJvcmRlcjogbm9uZSAhaW1wb3J0YW50OwogIGJvcmRlci1yYWRpdXM6IDRweCAhaW1wb3J0YW50OwogIGJveC1zaGFkb3c6IGluc2V0IDAgMCA0cHggc2lsdmVyICFpbXBvcnRhbnQ7Cn0KCnRhYi1pdGVtOmhvdmVyID4gc3Bhbi5leHRyYS1pdGVtcy1jb250YWluZXI6OmJlZm9yZSB7CiAgei1pbmRleDogOTk5OTk7CiAgY29udGVudDogIiI7CiAgd2lkdGg6IDEwMCU7CiAgbWFyZ2luOiAwIDJweDsKICBib3JkZXItdG9wOiAxcHggc29saWQgdmFyKC0taW5kZW50LWxpbmUtY29sb3ItYWN0aXZlKTsKICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoY2FsYyh2YXIoLS10YWItc2l6ZSkgLyAyKSk7Cn0KCiN0YWJiYXI6aG92ZXIgdGFiLWl0ZW0uYWN0aXZlID4gc3Bhbi5leHRyYS1pdGVtcy1jb250YWluZXI6OmJlZm9yZSB7CiAgei1pbmRleDogOTk5OTk7CiAgY29udGVudDogIiI7CiAgd2lkdGg6IDEwMCU7CiAgbWFyZ2luOiAwIDJweDsKICBib3JkZXItdG9wOiAxcHggc29saWQgdmFyKC0taW5kZW50LWxpbmUtY29sb3ItYWN0aXZlKTsKICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoY2FsYyh2YXIoLS10YWItc2l6ZSkgLyAyKSk7Cn0KCnRhYi1pdGVtIC5sYWJlbCB7CiAgZm9udDogMTFweCAnTHVjaWRhIEdyYW5kZScsIHNhbnMtc2VyaWY7CiAgZm9udC13ZWlnaHQ6IGxpZ2h0ZXIgIWltcG9ydGFudDsKICBtYXJnaW4taW5saW5lLXN0YXJ0OiAycHg7Cn0KCnRhYi1pdGVtLnVucmVhZCAubGFiZWwgewogIGNvbG9yOiAjZmRiICFpbXBvcnRhbnQ7Cn0KCnRhYi1jbG9zZWJveCB7CiAgdmlzaWJpbGl0eTogaGlkZGVuOwogIHBhZGRpbmctcmlnaHQ6IDNweDsKfQoKdGFiLWl0ZW06aG92ZXIgdGFiLWNsb3NlYm94IHsKICB2aXNpYmlsaXR5OiB2aXNpYmxlOwp9Cgojc3VicGFuZWwtY29udGFpbmVyIHsKICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7Cn0=",
@@ -38,7 +36,8 @@
   "fadeOutDiscardedTabs": false,
   "faviconizePinnedTabs": false,
   "faviconizedTabScale": 1,
-  "groupTabTemporaryStateForChildrenOfFirefoxView": 2,
+  "groupTabTemporaryStateForAPI": 1,
+  "groupTabTemporaryStateForOrphanedTabs": 1,
   "incognitoAllowedExternalAddons": [
     "@tst-search",
     "tst-indent-line@piro.sakura.ne.jp",
@@ -54,7 +53,9 @@
   "lastSelectedSubPanelProviderId": "@tst-search",
   "middleClickPasteURLOnNewTabButton": true,
   "notifiedFeaturesVersion": 9,
-  "openAllBookmarksWithStructureDiscarded": false,
+  "optionsExpandedGroups": [
+    "group-allConfigs"
+  ],
   "optionsExpandedSections": [
     "section-drag",
     "section-treeBehavior",
@@ -63,6 +64,7 @@
     "section-contextMenu",
     "section-advanced",
     "section-debug",
+    "section-addons",
     "section-appearance"
   ],
   "outOfScreenTabsRenderingPages": -1,
@@ -76,6 +78,7 @@
   "showExpertOptions": true,
   "sidebarWidthInWindow": {
     "3": 216,
+    "5": 216,
     "22": 311,
     "24": 311,
     "57": 307,
@@ -86,11 +89,13 @@
     "95": 311,
     "97": 311,
     "102": 314,
-    "109": 310,
     "115": 216,
     "133": 311,
+    "136": 216,
     "137": 311,
+    "162": 216,
     "170": 311,
+    "190": 216,
     "202": 216,
     "220": 216,
     "268": 216,
@@ -101,12 +106,11 @@
     "413": 360,
     "491": 314,
     "523": 216,
+    "532": 216,
     "568": 307,
     "576": 216,
     "591": 216,
     "680": 216,
-    "712": 311,
-    "809": 0,
     "1068": 359,
     "1108": 216,
     "1277": 311,
@@ -120,6 +124,7 @@
     "2078": 311,
     "2107": 216,
     "2324": 216,
+    "2572": 216,
     "2704": 216,
     "3168": 311,
     "3286": 216,
@@ -132,13 +137,16 @@
     "5017": 314,
     "5141": 370,
     "5351": 311,
+    "5718": 216,
     "5836": 311,
     "5967": 310,
     "6087": 216,
     "6236": 310,
     "6639": 311,
     "7025": 311,
+    "7131": 216,
     "7851": 311,
+    "8546": 216,
     "9229": 216,
     "9271": 216,
     "9536": 309,
@@ -160,12 +168,18 @@
     "15477": 311,
     "15507": 216,
     "16548": 311,
+    "16777": 216,
     "17623": 216,
+    "17875": 216,
     "20467": 216,
     "23149": 216,
-    "37992": 216
+    "23252": 216,
+    "35674": 216,
+    "37992": 216,
+    "57472": 216
   },
   "simulateSVGContextFill": false,
+  "simulateSelectOwnerOnClose": false,
   "skipCollapsedTabsForTabSwitchingShortcuts": true,
   "style": "none",
   "successorTabControlLevel": 1,
@@ -176,7 +190,7 @@
       "id": "device-1760731851019-4139",
       "name": "m1",
       "icon": "device-desktop",
-      "timestamp": 1774490695679
+      "timestamp": 1785025262381
     },
     "device-1718588286455-59855": {
       "id": "device-1718588286455-59855",
@@ -197,6 +211,5 @@
   "userStyleRules7": "",
   "userStyleRulesFieldHeight": "1072px",
   "warnOnAutoGroupNewTabs": false,
-  "workaroundForBug1548949DroppedItems": "",
   "zoomable": true
 }
