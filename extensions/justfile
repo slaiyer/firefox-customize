@@ -4,4 +4,3 @@ backup:
   -mv ~/Downloads/auto-tab-discard-preferences.json ./auto-tab-discard/
   -mv ~/Downloads/@tst-search-settings.json ./tree-style-tab-search/
   -mv ~/Downloads/vimium-options.json ./vimium/
-
