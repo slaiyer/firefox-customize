@@ -36,6 +36,11 @@
   "fadeOutDiscardedTabs": false,
   "faviconizePinnedTabs": false,
   "faviconizedTabScale": 1,
+  "grantedRemovingTabIds": [
+    56,
+    57,
+    58
+  ],
   "groupTabTemporaryStateForAPI": 1,
   "groupTabTemporaryStateForOrphanedTabs": 1,
   "incognitoAllowedExternalAddons": [
@@ -77,7 +82,7 @@
   "showDialogInSidebar": true,
   "showExpertOptions": true,
   "sidebarWidthInWindow": {
-    "3": 216,
+    "3": 215,
     "5": 216,
     "22": 311,
     "24": 311,
@@ -92,7 +97,6 @@
     "115": 216,
     "133": 311,
     "136": 216,
-    "137": 311,
     "162": 216,
     "170": 311,
     "190": 216,
@@ -113,6 +117,7 @@
     "680": 216,
     "1068": 359,
     "1108": 216,
+    "1261": 216,
     "1277": 311,
     "1358": 216,
     "1439": 216,
@@ -146,6 +151,7 @@
     "7025": 311,
     "7131": 216,
     "7851": 311,
+    "8035": 216,
     "8546": 216,
     "9229": 216,
     "9271": 216,
@@ -190,7 +196,7 @@
       "id": "device-1760731851019-4139",
       "name": "m1",
       "icon": "device-desktop",
-      "timestamp": 1785025262381
+      "timestamp": 1786999385600
     },
     "device-1718588286455-59855": {
       "id": "device-1718588286455-59855",
