@@ -17,7 +17,7 @@
 }
 
 #navigator-toolbox {
-  font: 11px 'LucidaGrande Nerd Font Light', sans-serif !important;
+  font: 12px 'LucidaGrande Nerd Font Light', sans-serif !important;
   border-bottom: 1px solid var(--chrome-content-separator-color) !important;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #urlbar-input {
-  font: 10px 'MesloLGS NF', monospace !important;
+  font: 12px 'MesloLGS NF', monospace !important;
 }
 
 #titlebar {
@@ -56,11 +56,11 @@
 }
 
 #tabbrowser-tabs .tab-text {
-  font-size: 11px !important;
+  font-size: 12px !important;
 }
 
 #urlbar {
-  font-size: 11px !important;
+  font-size: 12px !important;
 }
 
 #nav-bar-customization-target,
