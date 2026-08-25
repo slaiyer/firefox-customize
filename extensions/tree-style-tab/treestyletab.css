@@ -161,7 +161,7 @@ tab-item:hover > span.extra-items-container::before {
 }
 
 tab-item .label {
-  font: 12px 'Lucida Grande', sans-serif;
+  font: 13px 'Lucida Grande', sans-serif;
   font-weight: lighter !important;
   margin-inline-start: 2px;
 }
