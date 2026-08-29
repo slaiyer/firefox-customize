@@ -31,25 +31,8 @@
   display: none;
 }
 
-.pinned {
-  padding: 0;
-}
-
 #pinned-tabs-container-resizer {
-  display: none;
-}
-
-tab-twisty {
   visibility: hidden;
-  margin-left: 1px;
-}
-
-tab-twisty::before {
-  vertical-align: middle;
-}
-
-#tabbar:hover tab-twisty {
-  visibility: visible;
 }
 
 tab-item {
@@ -96,16 +79,12 @@ tab-item.discarded {
 }
 
 tab-favicon {
-  opacity: 0.75;
+  opacity: 0.8;
   margin-inline-end: 2px;
 }
 
-#tabbar:hover tab-favicon {
+tab-item:hover:hover tab-favicon {
   opacity: 1;
-}
-
-tab-item:hover tab-favicon {
-  filter: drop-shadow(0 0 1px);
 }
 
 .label-content {
@@ -161,7 +140,7 @@ tab-item:hover > span.extra-items-container::before {
 }
 
 tab-item .label {
-  font: 13px 'Lucida Grande', sans-serif;
+  font: 13px sans-serif;
   font-weight: lighter !important;
   margin-inline-start: 2px;
 }
