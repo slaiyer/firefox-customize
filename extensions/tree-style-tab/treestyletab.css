@@ -31,10 +31,6 @@
   display: none;
 }
 
-#pinned-tabs-container-resizer {
-  visibility: hidden;
-}
-
 tab-item {
   --indent-line-color: #333;
   --indent-line-color-active: silver;
