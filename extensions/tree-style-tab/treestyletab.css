@@ -120,7 +120,7 @@ tab-item.muted .background {
 tab-item:hover .background {
   border: none !important;
   border-radius: 4px !important;
-  box-shadow: inset 0 0 4px silver !important;
+  box-shadow: inset 0 0 4px white !important;
 }
 
 tab-item:hover > span.extra-items-container::before {
