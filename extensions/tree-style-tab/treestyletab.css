@@ -145,7 +145,7 @@ tab-item .label {
   margin-inline-start: 2px;
 }
 
-tab-item:is(:hover, .active, .pinned, .highlighted, .sound-playing, .muted) .label {
+tab-item:is(.pinned, .highlighted, .sound-playing, .muted) .label {
   text-shadow: 0 0 5px currentColor;
 }
 
