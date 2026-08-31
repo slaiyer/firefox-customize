@@ -37,6 +37,8 @@ tab-item {
   --indent-line-width: 1px;
   --indent-line-width-active: 1px;
   --indent-line-opacity: 0;
+  font: 13px sans-serif;
+  font-weight: lighter;
 }
 
 tab-item .background {
@@ -53,7 +55,11 @@ tab-item.pinned .background {
   border-left: thick ridge rgb(var(--macblue));
 }
 
-tab-item.pinned tab-closebox {
+tab-item:not(:hover) tab-closebox {
+  display: none;
+}
+
+tab-item.pinned:hover tab-closebox {
   display: initial;
 }
 
@@ -79,7 +85,7 @@ tab-favicon {
   margin-inline-end: 2px;
 }
 
-tab-item:hover:hover tab-favicon {
+tab-item:hover tab-favicon {
   opacity: 1;
 }
 
@@ -136,13 +142,11 @@ tab-item:hover > span.extra-items-container::before {
 }
 
 tab-item .label {
-  font: 13px sans-serif;
-  font-weight: lighter !important;
   margin-inline-start: 2px;
 }
 
 tab-item:is(:hover, .active, .pinned, .highlighted, .sound-playing, .muted) .label {
-  text-shadow: 0 0 5px currentColor !important;
+  text-shadow: 0 0 5px currentColor;
 }
 
 tab-item.unread .label {
@@ -150,12 +154,7 @@ tab-item.unread .label {
 }
 
 tab-closebox {
-  visibility: hidden;
   padding-right: 3px;
-}
-
-tab-item:hover tab-closebox {
-  visibility: visible;
 }
 
 #subpanel-container {
