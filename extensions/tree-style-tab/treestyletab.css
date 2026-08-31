@@ -141,6 +141,10 @@ tab-item .label {
   margin-inline-start: 2px;
 }
 
+tab-item:is(.active, .muted, .sound-playing, .pinned, .highlighted) .label {
+  text-shadow: 0 0 5px currentColor !important;
+}
+
 tab-item.unread .label {
   color: #fdb !important;
 }
