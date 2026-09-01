@@ -157,6 +157,6 @@ tab-item.muted .background {
     z-index: 99999;
 }
 
-tab-item:is(:hover, .pinned, .highlighted, .sound-playing, .muted) .label {
+tab-item:is(.pinned, .highlighted, .sound-playing, .muted) .label {
     text-shadow: 0 0 5px currentColor;
 }
