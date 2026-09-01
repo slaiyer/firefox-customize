@@ -33,8 +33,10 @@
   "fadeOutDiscardedTabs": false,
   "faviconizePinnedTabs": false,
   "faviconizedTabScale": 1,
-  "groupTabTemporaryStateForAPI": 1,
-  "groupTabTemporaryStateForOrphanedTabs": 1,
+  "groupTabTemporaryStateForAPI": 2,
+  "groupTabTemporaryStateForChildrenOfPinned": 2,
+  "groupTabTemporaryStateForNewTabsFromBookmarks": 2,
+  "groupTabTemporaryStateForNewTabsFromOthers": 2,
   "incognitoAllowedExternalAddons": [
     "@tst-search",
     "tst-indent-line@piro.sakura.ne.jp",
@@ -47,7 +49,9 @@
     "multipletab@piro.sakura.ne.jp"
   ],
   "insertDroppedTabsAt": -2,
+  "insertNewChildAt": 3,
   "lastSelectedSubPanelProviderId": "@tst-search",
+  "maxTreeLevel": 6,
   "middleClickPasteURLOnNewTabButton": true,
   "notifiedFeaturesVersion": 9,
   "optionsExpandedGroups": [
@@ -56,18 +60,18 @@
   "optionsExpandedSections": [
     "section-drag",
     "section-treeBehavior",
-    "section-newTab",
     "section-newTabWithOwner",
     "section-contextMenu",
     "section-advanced",
     "section-debug",
-    "section-appearance"
+    "section-appearance",
+    "section-newTab"
   ],
-  "outOfScreenTabsRenderingPages": -1,
   "parentTabOperationBehaviorMode": 1,
   "renderHiddenTabs": true,
   "scrollLines": 10,
   "shiftTabsForScrollbarDistance": "",
+  "shiftTabsForScrollbarOnlyOnHover": true,
   "showAutoGroupOptionHint": false,
   "showContextualIdentitiesSelector": true,
   "showDialogInSidebar": true,
@@ -177,7 +181,7 @@
     "57472": 216
   },
   "simulateSVGContextFill": false,
-  "simulateSelectOwnerOnClose": false,
+  "simulateTabsLoadInBackgroundInverted": true,
   "skipCollapsedTabsForTabSwitchingShortcuts": true,
   "style": "none",
   "successorTabControlLevel": 1,
@@ -197,6 +201,8 @@
       "timestamp": 1760270042315
     }
   },
+  "tabPreviewTooltip": true,
+  "tabsLoadInBackgroundDiscarded": true,
   "treeDoubleClickBehavior": 1,
   "userStyleRules": "",
   "userStyleRules0": "",
@@ -209,5 +215,6 @@
   "userStyleRules7": "",
   "userStyleRulesFieldHeight": "1072px",
   "warnOnAutoGroupNewTabs": false,
+  "warnOnCloseTabsWithListing": false,
   "zoomable": true
 }
