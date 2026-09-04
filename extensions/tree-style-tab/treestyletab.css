@@ -67,6 +67,10 @@ tab-item.pinned:hover tab-closebox {
     display: initial;
 }
 
+#pinned-tabs-container-resizer {
+	background-color: #333;
+}
+
 tab-item.active .background {
     background-color: rgb(var(--macblue)) !important;
     border-radius: 4px !important;
@@ -161,6 +165,6 @@ tab-item.muted .background {
     z-index: 99999;
 }
 
-tab-item:is(.pinned, .highlighted, .sound-playing, .muted) .label {
+tab-item:is(.pinned, .highlighted, .sound-playing, .muted):not(.active) .label {
     text-shadow: 0 0 5px currentColor;
 }
