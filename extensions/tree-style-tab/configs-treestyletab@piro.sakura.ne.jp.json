@@ -23,6 +23,9 @@
   "middleClickPasteURLOnNewTabButton": true,
   "moveParentBehavior_noSidebar_collapsed": 2,
   "notifiedFeaturesVersion": 9,
+  "optionsExpandedGroups": [
+    "group-allConfigs"
+  ],
   "optionsExpandedSections": [
     "section-addons",
     "section-advanced",
