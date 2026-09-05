@@ -98,7 +98,6 @@ tab-item.highlighted:not(.active) .background {
 
 tab-item.discarded {
     color: silver;
-    opacity: 1;
 }
 
 tab-favicon {
