@@ -31,10 +31,6 @@
     display: none;
 }
 
-#subpanel-container {
-    display: none !important;
-}
-
 tab-item {
     --indent-line-color-active: silver;
     --indent-line-color: #333;
@@ -55,12 +51,8 @@ tab-item.pinned .background {
     filter: invert(0.1);
 }
 
-#tabbar:hover tab-item.pinned .background {
-    border-left: thick ridge rgb(var(--macblue));
-}
-
 tab-item:not(:hover) tab-closebox {
-    display: none;
+    visibility: hidden;
 }
 
 tab-item.pinned:hover tab-closebox {
@@ -72,9 +64,8 @@ tab-item.pinned:hover tab-closebox {
 }
 
 tab-item.active .background {
-    background-color: rgb(var(--macblue)) !important;
-    border-radius: 4px !important;
-    box-shadow: inset 0 0 4px black;
+    background-color: rgb(var(--macblue));
+    border-radius: 4px;
 }
 
 #tabbar:hover tab-item.active .extra-items-container::before {
@@ -87,13 +78,11 @@ tab-item.active .background {
 }
 
 #tabbar:hover tab-item.active .background {
-    border-left: ridge silver !important;
-    border-right: ridge silver !important;
-    box-shadow: inset 0 0 4px #777;
+    outline: 1px solid silver;
 }
 
 tab-item.highlighted:not(.active) .background {
-    box-shadow: inset 2px 0 2px rgb(var(--macblue)) !important;
+    outline: 2px solid rgb(var(--macblue));
 }
 
 tab-item.discarded {
@@ -106,13 +95,16 @@ tab-favicon {
 }
 
 tab-item:hover .background {
-    border-radius: 4px !important;
-    border: none !important;
-    box-shadow: inset 0 0 4px white !important;
+    border-radius: 4px;
+    outline: 1px solid silver;
 }
 
 tab-item:hover tab-favicon {
     opacity: 1;
+}
+
+tab-item:hover {
+    text-shadow: 0 0 2px currentColor;
 }
 
 tab-item .label {
@@ -124,7 +116,7 @@ tab-item .label {
 }
 
 tab-item.unread .label {
-    color: #fdb !important;
+    color: #fdb;
 }
 
 tab-closebox {
@@ -133,28 +125,14 @@ tab-closebox {
 
 tab-item.sound-playing .background {
     background-color: rgb(var(--bloodred));
-    box-shadow: inset 0 0 4px red !important;
-    filter: drop-shadow(0 0 2px red) !important;
-}
-
-#tabbar:hover tab-item.sound-playing .background {
-    border-left: solid red !important;
-    border-right: solid red !important;
-    box-shadow: inset 0 0 8px red !important;
-    filter: drop-shadow(0 0 4px red) !important;
+    outline: 1px solid red;
 }
 
 tab-item.muted .background {
-    background-color: rgba(var(--bloodred), 0.5);
-    box-shadow: inset 0 0 4px rgb(var(--bloodred)) !important;
+    background-color: rgb(var(--bloodred), 0.5);
+    outline: 1px solid red;
 }
 
-#tabbar:hover tab-item.muted .background {
-    border-left: solid rgb(var(--bloodred)) !important;
-    border-right: solid rgb(var(--bloodred)) !important;
-    box-shadow: inset 0 0 8px rgb(var(--bloodred)) !important;
-}
-
-tab-item:is(.highlighted):not(.active) .label {
-    text-shadow: 0 0 5px currentColor;
+tab-item.highlighted:not(.active) .label {
+    text-shadow: 0 0 2px currentColor;
 }
