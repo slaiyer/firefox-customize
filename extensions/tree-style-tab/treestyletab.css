@@ -4,7 +4,6 @@
     --macblue: 0, 64, 221;
     --multiselected-color: Highlight;
     --subpanel-area-size: 0px !important;
-    --subpanel-content-size: 0px !important;
     --tab-size: 20px;
     --throbber-size: 16px;
 }
@@ -28,6 +27,10 @@
 }
 
 .newtab-button-box {
+    display: none;
+}
+
+#subpanel-container {
     display: none;
 }
 
