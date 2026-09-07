@@ -37,7 +37,7 @@
   ],
   "parentTabOperationBehaviorMode": -1,
   "renderHiddenTabs": true,
-  "shiftTabsForScrollbarOnlyOnHover": true,
+  "shiftTabsForScrollbarDistance": "0em",
   "showContextualIdentitiesSelector": true,
   "showExpertOptions": true,
   "sidebarPosition": 1,
