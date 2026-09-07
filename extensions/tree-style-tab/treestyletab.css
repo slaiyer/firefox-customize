@@ -40,8 +40,7 @@ tab-item {
     --indent-line-opacity: 0;
     --indent-line-width-active: 1px;
     --indent-line-width: 1px;
-    font-weight: lighter;
-    font: 13px sans-serif;
+    font: lighter 13px sans-serif;
 }
 
 tab-item .background {
@@ -71,21 +70,18 @@ tab-item.active .background {
     border-radius: 4px;
 }
 
-#tabbar:hover tab-item.active .extra-items-container::before {
+#tabbar:hover tab-item.highlighted .extra-items-container::before {
     border-top: 1px solid var(--indent-line-color-active);
     content: "";
     margin: 0 2px;
     transform: translateY(calc(var(--tab-size) / 2));
-    width: 100%;
+    width: 75%;
     z-index: 99999;
 }
 
-#tabbar:hover tab-item.active .background {
-    outline: 1px solid silver;
-}
-
 tab-item.highlighted:not(.active) .background {
-    outline: 2px solid rgb(var(--macblue));
+    outline: 2px ridge rgb(var(--macblue));
+    outline-offset: -1px;
 }
 
 tab-item.discarded {
@@ -99,7 +95,8 @@ tab-favicon {
 
 tab-item:hover .background {
     border-radius: 4px;
-    outline: 1px solid silver;
+    outline: 1px ridge silver !important;
+    outline-offset: -1px;
 }
 
 tab-item:hover tab-favicon {
@@ -128,12 +125,14 @@ tab-closebox {
 
 tab-item.sound-playing .background {
     background-color: rgb(var(--bloodred));
-    outline: 1px solid red;
+    outline: 1px ridge red;
+    outline-offset: -1px;
 }
 
 tab-item.muted .background {
     background-color: rgb(var(--bloodred), 0.5);
-    outline: 1px solid red;
+    outline: 1px ridge red;
+    outline-offset: -1px;
 }
 
 tab-item.highlighted:not(.active) .label {
