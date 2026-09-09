@@ -1,0 +1,26 @@
+{
+	"name": "Vimium C",
+	"@time": "9/10/2026, 12:03:09 AM",
+	"time": 1788978789579,
+	"environment": {
+		"extension": "2.12.3",
+		"platform": "mac",
+		"firefox": 155
+	},
+	"filterLinkHints": true,
+	"keyLayout": 2,
+	"keyMappings": [
+		"#!no-check",
+		"map Z openUrl url=\"vimium://status\\u0020toggle\\u0020^\\u0020Z\"",
+		"unmap x",
+		"unmap r",
+		"unmap R",
+		"unmap o",
+		"unmap O",
+		"unmap p",
+		"map <c-f> LinkHints.activateWithQueue",
+		""
+	],
+	"regexFindMode": true,
+	"vimSync": true
+}
