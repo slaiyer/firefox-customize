@@ -103,7 +103,7 @@ tab-item:hover tab-favicon {
     opacity: 1;
 }
 
-tab-item-substance:hover {
+tab-item-substance:hover:not(.active) {
     text-shadow: 0 0 3px currentColor;
 }
 
