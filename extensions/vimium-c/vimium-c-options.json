@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "9/10/2026, 12:03:09 AM",
-	"time": 1788978789579,
+	"@time": "9/10/2026, 4:06:51 PM",
+	"time": 1789036611514,
 	"environment": {
 		"extension": "2.12.3",
 		"platform": "mac",
@@ -22,5 +22,22 @@
 		""
 	],
 	"regexFindMode": true,
+	"userDefinedCss": [
+		"/* #ui */",
+		"* {",
+		"    font-family: \"LucidaGrande Nerd Font\", sans-serif !important;",
+		"}",
+		"",
+		"/* #omni */",
+		"* {",
+		"    font-family: \"LucidaGrande Nerd Font\", sans-serif !important;",
+		"}",
+		"",
+		"/* #find */",
+		"* {",
+		"    font-family: \"LucidaGrande Nerd Font\", sans-serif !important;",
+		"}",
+		""
+	],
 	"vimSync": true
 }
