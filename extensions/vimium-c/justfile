@@ -1,0 +1,2 @@
+backup:
+    mv ~/Downloads/vimium_c-*.json ./vimium-c-options.json
