@@ -1,2 +1,2 @@
 page:
-    printf 'ext+treestyletab:options?independent=true#userStyleRulesField' | pbcopy
+    open -a firefox 'ext+treestyletab:options?independent=true#userStyleRulesField'

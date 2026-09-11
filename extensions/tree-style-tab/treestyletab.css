@@ -54,7 +54,7 @@ tab-item.pinned .background {
 }
 
 tab-item:not(:hover) tab-closebox {
-    visibility: hidden;
+    visibility: hidden !important;
 }
 
 tab-item.pinned:hover tab-closebox {
