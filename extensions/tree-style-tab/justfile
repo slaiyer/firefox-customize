@@ -1,2 +1,5 @@
 page:
     open -a firefox 'ext+treestyletab:options?independent=true#userStyleRulesField'
+
+backup:
+    mv ~/Downloads/treestyletab.css ~/Downloads/configs-treestyletab@piro.sakura.ne.jp.json ./
