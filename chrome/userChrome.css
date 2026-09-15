@@ -202,4 +202,11 @@ panelview,
         padding-block: 0px !important;
         background-color: var(--tabpanel-background-color);
     }
+
+    #urlbar,
+    .searchbar-textbox,
+    #urlbarView,
+    .urlbar-background {
+        background-color: rebeccapurple !important;
+    }
 }
