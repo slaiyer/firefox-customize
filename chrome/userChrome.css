@@ -169,7 +169,8 @@ panelview,
     .searchbar-textbox,
     #urlbarView,
     .urlbar-background {
-        background-color: #3F3F3F !important;
+        background-color: #303030 !important;
+        border-radius: 4px !important;
     }
 }
 
@@ -186,7 +187,6 @@ panelview,
 
     #urlbar,
     .searchbar-textbox {
-        background-color: var(--tabpanel-background-color) !important;
         color: white !important;
     }
 
@@ -207,6 +207,8 @@ panelview,
     .searchbar-textbox,
     #urlbarView,
     .urlbar-background {
-        background-color: rebeccapurple !important;
+        background-color: indigo !important;
+        border: 2px solid indigo !important;
+        border-radius: 4px !important;
     }
 }
