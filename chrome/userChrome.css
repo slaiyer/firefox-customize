@@ -1,79 +1,83 @@
-#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar>.toolbar-items {
-  opacity: 0;
-  pointer-events: none;
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+    opacity: 0;
+    pointer-events: none;
 }
 
 #main-window:not([tabsintitlebar="true"]) #TabsToolbar {
-  visibility: collapse !important;
+    visibility: collapse !important;
 }
 
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
-  display: none;
+    display: none;
 }
 
 .tab {
-  margin-left: 1px;
-  margin-right: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 #navigator-toolbox {
-  font: 13px 'LucidaGrande Nerd Font Light', sans-serif !important;
-  border-bottom: 1px solid var(--chrome-content-separator-color) !important;
+    font:
+        13px "Lucida Grande",
+        sans-serif !important;
+    border-bottom: 1px solid var(--chrome-content-separator-color) !important;
 }
 
 :root {
-  --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-  --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 25)) !important;
-  --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.11 25)) !important;
-  --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-  --color-accent-attention: light-dark(oklch(73% 0.13 174), oklch(66% 0.14 25)) !important;
-  --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-  --toolbarbutton-inner-padding: 0px !important;
-  --tab-min-height: 0px !important;
-  --sidebar-border-color: black !important;
-  --button-border-radius: var(--border-radius-xsmall) !important;
+    --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 25)) !important;
+    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.11 25)) !important;
+    --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --color-accent-attention: light-dark(oklch(73% 0.13 174), oklch(66% 0.14 25)) !important;
+    --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --toolbarbutton-inner-padding: 0px !important;
+    --tab-min-height: 0px !important;
+    --sidebar-border-color: black !important;
+    --button-border-radius: var(--border-radius-xsmall) !important;
 }
 
 :root,
 #urlbar-container {
-  min-width: 0 !important;
+    min-width: 0 !important;
 }
 
 .titlebar-button {
-  padding-block: 0px !important;
+    padding-block: 0px !important;
 }
 
 #urlbar-container,
 #search-container {
-  padding-block: 0px !important;
-  background-color: black;
+    padding-block: 0px !important;
+    background-color: black;
 }
 
 #urlbar-input {
-  font: 13px 'M+CodeLat50 Nerd Font Mono', monospace !important;
+    font:
+        13px "M+CodeLat50 Nerd Font Mono",
+        monospace !important;
 }
 
 #titlebar {
-  appearance: none !important;
+    appearance: none !important;
 }
 
 :root[sizemode="maximized"] #navigator-toolbox {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 
 #tabbrowser-tabs .tab-text {
-  font-size: 13px !important;
+    font-size: 13px !important;
 }
 
 #urlbar {
-  font-size: 13px !important;
+    font-size: 13px !important;
 }
 
 #nav-bar-customization-target,
 #PanelUI-button,
 #identity-icon-box,
 #urlbar-searchmode-switcher {
-  background-color: black !important;
+    background-color: black !important;
 }
 
 /*
@@ -93,28 +97,28 @@
 #TabsToolbar,
 #toolbar-menubar,
 .urlbar-background {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 #urlbar,
 .searchbar-textbox {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 #urlbarView,
 .urlbarView {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 .searchbar-engine-one-off-item,
 .search-one-offs,
 .autocomplete-richlistbox,
 .autocomplete-richlistitem {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 panel,
@@ -122,26 +126,26 @@ panelview,
 #widget-overflow,
 #customizationui-widget-panel,
 #unified-extensions-panel {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 #appMenu-popup,
 panelview {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 #identity-popup,
 .identity-popup {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 #protections-popup,
 .protections-popup {
-  background-color: black !important;
-  color: white !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 toolbarbutton,
@@ -150,44 +154,52 @@ label,
 .description,
 menu,
 menuitem {
-  color: white !important;
+    color: white !important;
 }
 
 panel,
 panelview,
 #urlbarView,
 .autocomplete-richlistbox {
-  border: none !important;
+    border: none !important;
+}
+
+#main-window:-moz-window-inactive {
+    #urlbar,
+    .searchbar-textbox,
+    #urlbarView,
+    .urlbar-background {
+        background-color: #3F3F3F !important;
+    }
 }
 
 :root[privatebrowsingmode="temporary"] {
+    #navigator-toolbox,
+    #nav-bar,
+    #PersonalToolbar,
+    #TabsToolbar,
+    #toolbar-menubar,
+    .urlbar-background {
+        background-color: var(--tabpanel-background-color) !important;
+        color: white !important;
+    }
 
-  #navigator-toolbox,
-  #nav-bar,
-  #PersonalToolbar,
-  #TabsToolbar,
-  #toolbar-menubar,
-  .urlbar-background {
-    background-color: var(--tabpanel-background-color) !important;
-    color: white !important;
-  }
+    #urlbar,
+    .searchbar-textbox {
+        background-color: var(--tabpanel-background-color) !important;
+        color: white !important;
+    }
 
-  #urlbar,
-  .searchbar-textbox {
-    background-color: var(--tabpanel-background-color) !important;
-    color: white !important;
-  }
+    #nav-bar-customization-target,
+    #PanelUI-button,
+    #identity-icon-box,
+    #urlbar-searchmode-switcher {
+        background-color: var(--tabpanel-background-color) !important;
+    }
 
-  #nav-bar-customization-target,
-  #PanelUI-button,
-  #identity-icon-box,
-  #urlbar-searchmode-switcher {
-    background-color: var(--tabpanel-background-color) !important;
-  }
-
-  #urlbar-container,
-  #search-container {
-    padding-block: 0px !important;
-    background-color: var(--tabpanel-background-color);
-  }
+    #urlbar-container,
+    #search-container {
+        padding-block: 0px !important;
+        background-color: var(--tabpanel-background-color);
+    }
 }
