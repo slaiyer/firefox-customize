@@ -278,7 +278,7 @@
     --toolbarbutton-background-color-hover: color-mix(in srgb, currentColor 17%, transparent) !important;
     --toolbarbutton-background-color-active: color-mix(in srgb, currentColor 30%, transparent) !important;
     --toolbarbutton-icon-fill: light-dark(#5b5b66, #fbfbfe) !important;
-    --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(76% 0.14 205)) !important;
+    --toolbarbutton-icon-fill-attention: var(--color-accent-primary) !important;
     --toolbarbutton-opacity-disabled: var(--button-opacity-disabled) !important;
     --toolbarbutton-outline-color: transparent !important;
     --toolbarbutton-outline-color-selected: var(--toolbarbutton-outline-color-active) !important;
@@ -492,56 +492,16 @@ toolbarseparator.proton-zap::before {
     color: var(--uc-fg) !important;
 }
 
-toolbarbutton,
-toolbarbutton .toolbarbutton-text,
-label,
-.description,
-menu,
-menuitem {
-    color: var(--uc-fg) !important;
-}
-
 /* =========================================================
-   URL autocomplete
+   URL bar
    ========================================================= */
-
-#urlbarView,
-.urlbarView,
-.searchbar-engine-one-off-item,
-.search-one-offs,
-.autocomplete-richlistbox,
-.autocomplete-richlistitem {
-    background: var(--uc-bg) !important;
-    color: var(--uc-fg) !important;
-}
-
-panel,
-panelview,
-#widget-overflow,
-#customizationui-widget-panel,
-#unified-extensions-panel,
-#appMenu-popup,
-#identity-popup,
-.identity-popup,
-#protections-popup,
-.protections-popup {
-    background: var(--uc-bg) !important;
-    color: var(--uc-fg) !important;
-}
-
-panel,
-panelview,
-#urlbarView,
-.autocomplete-richlistbox {
-    border: none !important;
-}
 
 #urlbar,
 .searchbar-textbox,
 #urlbarView,
 .urlbar-background {
     border: none !important;
-    padding-top: 2px !important;
+    padding-top: 3px !important;
 }
 
 /* =========================================================
@@ -560,32 +520,6 @@ panelview,
    ========================================================= */
 
 :root[privatebrowsingmode="temporary"] {
-    /* Private-window toolbars */
-    #navigator-toolbox,
-    #nav-bar,
-    #PersonalToolbar,
-    #TabsToolbar,
-    #toolbar-menubar,
-    #nav-bar-customization-target,
-    #PanelUI-button,
-    #identity-icon-box,
-    #urlbar-searchmode-switcher {
-        background-color: var(--tabpanel-background-color) !important;
-        color: white !important;
-    }
-
-    /* URL/search text */
-    #urlbar,
-    .searchbar-textbox {
-        color: white !important;
-    }
-
-    /* Compact URL/search containers */
-    #urlbar-container,
-    #search-container {
-        padding-block: 0 !important;
-    }
-
     /* URL/search fields */
     #urlbar,
     .searchbar-textbox,
@@ -597,15 +531,3 @@ panelview,
         padding-top: 1px !important;
     }
 }
-
-/* =========================================================
-   Hide navigation buttons
-   ========================================================= */
-
-/*
-#back-button,
-#forward-button,
-#page-action-buttons {
-    display: none !important;
-}
-*/
