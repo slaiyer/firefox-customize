@@ -1,54 +1,129 @@
-#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
-    opacity: 0;
-    pointer-events: none;
-}
-
-#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
-    visibility: collapse !important;
-}
-
-#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
-    display: none;
-}
-
-.tab {
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-#navigator-toolbox {
-    font:
-        13px "Lucida Grande",
-        sans-serif !important;
-    border-bottom: 1px solid var(--chrome-content-separator-color) !important;
-}
+/* =========================================================
+   Firefox userChrome.css — macOS
+   ========================================================= */
 
 :root {
-    --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-    --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 25)) !important;
-    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.11 25)) !important;
-    --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-    --color-accent-attention: light-dark(oklch(73% 0.13 174), oklch(66% 0.14 25)) !important;
-    --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
-    --toolbarbutton-inner-padding: 0px !important;
+    /* Accent */
+    --color-accent-primary: light-dark(
+        oklch(55% 0.24 260),
+        oklch(66% 0.14 25)
+    ) !important;
+
+    --color-accent-primary-active: light-dark(
+        oklch(41% 0.17 260),
+        oklch(66% 0.14 25)
+    ) !important;
+
+    --color-accent-primary-hover: light-dark(
+        oklch(48% 0.20 260),
+        oklch(75% 0.11 25)
+    ) !important;
+
+    --color-accent-primary-selected: light-dark(
+        oklch(55% 0.24 260),
+        oklch(66% 0.14 25)
+    ) !important;
+
+    --color-accent-attention: light-dark(
+        oklch(73% 0.13 174),
+        oklch(66% 0.14 25)
+    ) !important;
+
+    --toolbarbutton-icon-fill-attention: light-dark(
+        oklch(55% 0.24 260),
+        oklch(66% 0.14 25)
+    ) !important;
+
+    /* Dimensions */
+    --toolbarbutton-inner-padding: 0 !important;
     --tab-min-height: 0px !important;
-    --sidebar-border-color: black !important;
     --button-border-radius: var(--border-radius-xsmall) !important;
+
+    /* Custom colors */
+    --uc-bg: #000 !important;
+    --uc-fg: #fff !important;
+    --uc-inactive-bg: #303030 !important;
+    --sidebar-border-color: #000 !important;
+
+    min-width: 0 !important;
 }
+
+/* =========================================================
+   Global / Toolbox
+   ========================================================= */
 
 :root,
 #urlbar-container {
     min-width: 0 !important;
 }
 
+#navigator-toolbox {
+    font:
+        13px "Lucida Grande",
+        sans-serif !important;
+
+    background: var(--uc-bg) !important;
+    color: var(--uc-fg) !important;
+    border-bottom: 1px solid var(--chrome-content-separator-color) !important;
+}
+
+/* =========================================================
+   Tabs
+   ========================================================= */
+
+/* Hide native tab controls when tabs are in the titlebar */
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"])
+    #TabsToolbar > .toolbar-items {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Hide the entire tab toolbar otherwise */
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+
+#tabbrowser-tabs .tab-text {
+    font-size: 13px !important;
+}
+
+.tab {
+    margin-inline: 1px;
+}
+
+/* Tree Style Tab */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]
+    #sidebar-header {
+    display: none;
+}
+
+/* =========================================================
+   Navigation / URL bar
+   ========================================================= */
+
+#titlebar {
+    appearance: none !important;
+}
+
 .titlebar-button {
-    padding-block: 0px !important;
+    padding-block: 0 !important;
+}
+
+:root[sizemode="maximized"] #navigator-toolbox {
+    margin-top: 0;
 }
 
 #urlbar-container,
 #search-container {
-    padding-block: 0px !important;
-    background-color: black;
+    padding-block: 0 !important;
+    background: var(--uc-bg);
+}
+
+#urlbar,
+.searchbar-textbox {
+    background: var(--uc-bg) !important;
+    color: var(--uc-fg) !important;
+    font-size: 13px !important;
 }
 
 #urlbar-input {
@@ -57,152 +132,129 @@
         monospace !important;
 }
 
-#titlebar {
-    appearance: none !important;
-}
-
-:root[sizemode="maximized"] #navigator-toolbox {
-    margin-top: 0px;
-}
-
-#tabbrowser-tabs .tab-text {
-    font-size: 13px !important;
-}
-
-#urlbar {
-    font-size: 13px !important;
-}
-
 #nav-bar-customization-target,
 #PanelUI-button,
 #identity-icon-box,
 #urlbar-searchmode-switcher {
-    background-color: black !important;
+    background: var(--uc-bg) !important;
 }
 
-/*
-#back-button,
-#forward-button {
-  display: none !important;
-}
+/* =========================================================
+   General Firefox chrome
+   ========================================================= */
 
-#page-action-buttons {
-  display: none !important;
-}
-*/
-
-#navigator-toolbox,
-#nav-bar,
-#PersonalToolbar,
-#TabsToolbar,
-#toolbar-menubar,
-.urlbar-background {
-    background-color: black !important;
-    color: white !important;
-}
-
-#urlbar,
-.searchbar-textbox {
-    background-color: black !important;
-    color: white !important;
-}
-
-#urlbarView,
-.urlbarView {
-    background-color: black !important;
-    color: white !important;
-}
-
-.searchbar-engine-one-off-item,
-.search-one-offs,
-.autocomplete-richlistbox,
-.autocomplete-richlistitem {
-    background-color: black !important;
-    color: white !important;
-}
-
-panel,
-panelview,
-#widget-overflow,
-#customizationui-widget-panel,
-#unified-extensions-panel {
-    background-color: black !important;
-    color: white !important;
-}
-
-#appMenu-popup,
-panelview {
-    background-color: black !important;
-    color: white !important;
-}
-
-#identity-popup,
-.identity-popup {
-    background-color: black !important;
-    color: white !important;
-}
-
-#protections-popup,
-.protections-popup {
-    background-color: black !important;
-    color: white !important;
-}
-
-toolbarbutton,
-toolbarbutton .toolbarbutton-text,
-label,
-.description,
-menu,
-menuitem {
-    color: white !important;
-}
-
-panel,
-panelview,
-#urlbarView,
-.autocomplete-richlistbox {
-    border: none !important;
-}
-
-#main-window:-moz-window-inactive {
-    #urlbar,
-    .searchbar-textbox,
-    #urlbarView,
-    .urlbar-background {
-        background-color: #303030 !important;
-        border-radius: 4px !important;
-    }
-}
-
-:root[privatebrowsingmode="temporary"] {
+:is(
     #navigator-toolbox,
     #nav-bar,
     #PersonalToolbar,
     #TabsToolbar,
     #toolbar-menubar,
-    .urlbar-background {
-        background-color: var(--tabpanel-background-color) !important;
-        color: white !important;
-    }
+    .urlbar-background
+) {
+    background: var(--uc-bg) !important;
+    color: var(--uc-fg) !important;
+}
 
-    #urlbar,
-    .searchbar-textbox {
-        color: white !important;
-    }
+:is(
+    toolbarbutton,
+    toolbarbutton .toolbarbutton-text,
+    label,
+    .description,
+    menu,
+    menuitem
+) {
+    color: var(--uc-fg) !important;
+}
 
+/* =========================================================
+   URL autocomplete
+   ========================================================= */
+
+:is(
+    #urlbarView,
+    .urlbarView,
+    .searchbar-engine-one-off-item,
+    .search-one-offs,
+    .autocomplete-richlistbox,
+    .autocomplete-richlistitem
+) {
+    background: var(--uc-bg) !important;
+    color: var(--uc-fg) !important;
+}
+
+:is(
+    panel,
+    panelview,
+    #widget-overflow,
+    #customizationui-widget-panel,
+    #unified-extensions-panel,
+    #appMenu-popup,
+    #identity-popup,
+    .identity-popup,
+    #protections-popup,
+    .protections-popup
+) {
+    background: var(--uc-bg) !important;
+    color: var(--uc-fg) !important;
+}
+
+:is(
+    panel,
+    panelview,
+    #urlbarView,
+    .autocomplete-richlistbox
+) {
+    border: none !important;
+}
+
+/* =========================================================
+   Inactive window
+   ========================================================= */
+
+#main-window:-moz-window-inactive {
+    :is(
+        #urlbar,
+        .searchbar-textbox,
+        #urlbarView,
+        .urlbar-background
+    ) {
+        background: var(--uc-inactive-bg) !important;
+        border-radius: 4px !important;
+    }
+}
+
+/* =========================================================
+   Private browsing
+   ========================================================= */
+
+:root[privatebrowsingmode="temporary"] {
+    /* Private-window toolbars */
+    #navigator-toolbox,
+    #nav-bar,
+    #PersonalToolbar,
+    #TabsToolbar,
+    #toolbar-menubar,
     #nav-bar-customization-target,
     #PanelUI-button,
     #identity-icon-box,
     #urlbar-searchmode-switcher {
         background-color: var(--tabpanel-background-color) !important;
+        color: white !important;
     }
 
+    /* URL/search text */
+    #urlbar,
+    .searchbar-textbox {
+        color: white !important;
+    }
+
+    /* Compact URL/search containers */
     #urlbar-container,
     #search-container {
-        padding-block: 0px !important;
-        background-color: var(--tabpanel-background-color);
+        padding-block: 0 !important;
     }
 
+    /* URL/search fields */
     #urlbar,
     .searchbar-textbox,
     #urlbarView,
@@ -212,3 +264,15 @@ panelview,
         border-radius: 4px !important;
     }
 }
+
+/* =========================================================
+   Hide navigation buttons
+   ========================================================= */
+
+/*
+#back-button,
+#forward-button,
+#page-action-buttons {
+    display: none !important;
+}
+*/
