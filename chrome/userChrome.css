@@ -358,6 +358,16 @@
     color: #ffffff !important;
 }
 
+.urlbar,
+#searchbar {
+    --urlbar-background-border: none !important;
+    --urlbar-background-border-breakout: none !important;
+    --urlbar-background-border-focused: none !important;
+    --urlbar-input-container-border: none !important;
+    --urlbar-input-container-outline-breakout: none !important;
+    --urlbar-input-container-outline-breakout-focused: none !important;
+}
+
 toolbarseparator.proton-zap::before {
     border-image: var(--panel-separator-zap-gradient, none) 1 !important;
 }
