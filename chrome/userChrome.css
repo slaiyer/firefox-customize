@@ -269,7 +269,7 @@
     --toolbar-field-text-color: light-dark(#15141a, #fbfbfe) !important;
     --toolbar-field-text-color-focus: light-dark(#000000, #fbfbfe) !important;
 
-    --panel-background-color: light-dark(#ffffff, rgb(66, 65, 77)) !important;
+    --panel-background-color: light-dark(#ffffff, #000000) !important;
     --panel-border-color: light-dark(rgb(240, 240, 244), rgb(82, 82, 94)) !important;
     --panel-text-color: light-dark(#000000, rgb(251, 251, 254)) !important;
     --popup-border-color: light-dark(rgb(240, 240, 244), rgb(82, 82, 94)) !important;
