@@ -337,10 +337,6 @@
     order: -1;
 }
 
-.urlbarView-row .urlbarView-url {
-    color: #0bcae9 !important;
-}
-
 .tabbrowser-tab,
 .tabbrowser-tab[selected="true"],
 .tab-background,
