@@ -354,7 +354,7 @@
 #urlbar-input:not(:focus)::selection,
 .urlbar-input:not(:focus)::selection,
 .searchbar-textbox:not(:focus-within)::selection {
-    background-color: #2e7183 !important;
+    background-color: #0040dd !important;
     color: #ffffff !important;
 }
 
