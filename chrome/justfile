@@ -1,6 +1,6 @@
 install:
   mkdir -p ../profile/chrome
-  cp -f ./userChrome.css ../profile/chrome/userChrome.css
+  cp -f ./userChrome.css ./userContent.css ../profile/chrome/
 
 backup:
-  cp -f ../profile/chrome/userChrome.css ./userChrome.css
+  cp -f ../profile/chrome/userChrome.css ../profile/chrome/userContent.css ./
