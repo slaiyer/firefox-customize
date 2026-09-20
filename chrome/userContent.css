@@ -1,5 +1,5 @@
 :root {
     --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.07 25)) !important;
 
-    --button-background-color-hover: light-dark(oklch(33% 0.12 260), oklch(33% 0.07 25)) !important;
+    --button-background-color-hover: light-dark(oklch(55% 0.24 260), oklch(50% 0.07 25)) !important;
 }
