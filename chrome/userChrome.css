@@ -382,6 +382,7 @@ toolbarseparator.proton-zap::before {
 #navigator-toolbox {
     margin: 0 !important;
     border: none !important;
+    padding: none !important;
     border-radius: 0 !important;
 
     font:
@@ -390,7 +391,7 @@ toolbarseparator.proton-zap::before {
 
     background: var(--uc-bg) !important;
     color: var(--uc-fg) !important;
-    border-bottom: 1px solid var(--chrome-content-separator-color) !important;
+    border-bottom: 1px solid #222 !important;
 }
 
 #browser {
@@ -410,7 +411,8 @@ toolbarseparator.proton-zap::before {
 }
 
 #nav-bar {
-    border-top: none !important;
+    border: none !important;
+    padding: none !important;
     background-color: var(--toolbar-background-color) !important;
 }
 
@@ -444,7 +446,7 @@ toolbarseparator.proton-zap::before {
 
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
     max-width: 1px !important;
-    background-color: var(--chrome-content-separator-color) !important;
+    background-color: #222 !important;
 }
 
 /* =========================================================
@@ -512,7 +514,7 @@ toolbarseparator.proton-zap::before {
 #urlbarView,
 .urlbar-background {
     border: none !important;
-    padding-top: 3px !important;
+    padding-top: 2px !important;
 }
 
 /* =========================================================
