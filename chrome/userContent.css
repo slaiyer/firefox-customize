@@ -3,3 +3,7 @@
 
     --button-background-color-hover: light-dark(oklch(55% 0.24 260), oklch(50% 0.07 25)) !important;
 }
+
+button.lists-add-button {
+    background-color: light-dark(oklch(55% 0.24 260), oklch(66% 0.07 25)) !important;
+}
