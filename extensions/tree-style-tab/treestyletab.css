@@ -62,7 +62,6 @@ tab-item.pinned:hover tab-closebox {
 }
 
 #pinned-tabs-container-resizer:not(:hover) {
-    max-height: 1px;
 	background-color: #333 !important;
 }
 
