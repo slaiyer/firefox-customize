@@ -22,6 +22,14 @@
     --tab-min-height: 0px !important;
     --button-border-radius: var(--border-radius-xsmall) !important;
 
+    /* Reference: https://github.com/essercodes/tst-autohide/blob/main/userChrome.css */
+    --TST-minimized-size: min(2svw, 34px);
+    --TST-expanded-size: max(20svw, 350px);
+    --TST-transition-time: 0.1s ease-out;
+    --TST-title-margin-left: 80px;
+    --titlebar-height: 0px;
+    --bookmarkbar-height: 0px;
+
     /* Custom colors */
     --uc-bg: #000 !important;
     --uc-fg: #fff !important;
@@ -448,6 +456,135 @@ toolbarseparator.proton-zap::before {
     max-width: 1px !important;
     background-color: #222 !important;
 }
+
+/* Reference: https://github.com/essercodes/tst-autohide/blob/main/userChrome.css */
+/* FULL SCREEN */
+#main-window[inFullscreen] {
+    --TST-minimized-size: 0.5svw;
+    --TST-title-margin-left: unset;
+    /* Windows (not MacOS) */
+    &:not([data-l10n-id*="mac"]) {
+        --titlebar-height: 0;
+    }
+}
+
+/* VIDEO FULLSCREEN */
+#main-window[inDOMFullscreen] {
+    --TST-minimized-size: 0px;
+}
+
+/*
+** swap between normal and TST when open;
+** Only works in Firefox if layout.css.has-selector.enabled is set to true in about:config .
+*/
+/* Windows */
+#main-window:not([data-l10n-id*="mac"])
+    :has(#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"][checked="true"]:not([hidden="true"])) {
+    #TabsToolbar > .titlebar-buttonbox-container {
+        top: 0px;
+        right: 0px;
+    }
+    /* Adding empty space for buttons */
+    #nav-bar {
+        margin-right: 125px !important;
+    }
+
+    .titlebar-button {
+        padding: 15px !important;
+    }
+}
+
+/* MacOS */
+#main-window[data-l10n-id*="mac"]
+    :has(#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"][checked="true"]:not([hidden="true"])) {
+    #TabsToolbar > .titlebar-buttonbox-container {
+        top: 0px;
+        left: 0px;
+    }
+    #nav-bar-customization-target {
+        margin-left: var(--TST-title-margin-left);
+    }
+}
+
+/* MacOS and Windows */
+#main-window
+    :has(#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"][checked="true"]:not([hidden="true"])) {
+    #TabsToolbar,
+    #TabsToolbar > * {
+        min-height: 0 !important;
+        max-height: 0 !important;
+    }
+
+    #TabsToolbar > .titlebar-buttonbox-container {
+        display: block;
+        position: absolute;
+    }
+
+    /* add space for fixed sidebar */
+    #tabbrowser-tabbox {
+        /* on left */
+        margin-left: var(--TST-minimized-size) !important;
+    }
+    #sidebar-box[positionend] ~ #tabbrowser-tabbox {
+        /* on right */
+        margin-left: 0 !important;
+        margin-right: var(--TST-minimized-size) !important;
+    }
+}
+
+/* Collapse in default state and add transition */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
+    /* on left */
+    left: 0;
+    border-right: 1px solid #0c0c0d;
+
+    &[positionend] {
+        /* on right */
+        left: inherit;
+        right: 0;
+        border-right: inherit;
+        border-left: 1px ridge #222;
+    }
+
+    /* full window minus topbar */
+    height: calc(100% - var(--titlebar-height)) !important;
+
+    /* put TST header on bottom */
+    flex-direction: column-reverse;
+
+    position: fixed;
+    overflow: hidden;
+    min-width: var(--TST-minimized-size) !important;
+    max-width: var(--TST-minimized-size) !important;
+    transition: var(--TST-transition-time);
+    transition-property: min-width, max-width;
+    z-index: 4 !important;
+
+    /* Expand on hover */
+    &:hover,
+    & #sidebar {
+        min-width: var(--TST-expanded-size) !important;
+        max-width: var(--TST-expanded-size) !important;
+    }
+}
+
+/*
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
+    overflow: hidden;
+    min-width: 16px !important;
+    max-width: 16px !important;
+    transition: all 0.1s ease-out;
+    border-right: 1px solid #222;
+    z-index: 2;
+}
+
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover,
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
+    min-width: 320px !important;
+    max-width: 320px !important;
+    z-index: 3;
+}
+*/
 
 /* =========================================================
    Navigation / URL bar
