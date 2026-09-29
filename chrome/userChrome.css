@@ -295,6 +295,14 @@
    Global / Toolbox
    ========================================================= */
 
+#sidebar-panel-header {
+    display: none !important;
+}
+
+div.wrapper {
+    display: none !important;
+}
+
 :root,
 #urlbar-container {
     min-width: 0 !important;
@@ -304,6 +312,11 @@
 #sidebar-container {
     --chrome-window-gap: 0px !important;
     --chrome-block-radius: 0px !important;
+}
+
+#sidebar-box {
+    border-left-width: 0 !important;
+    border-top-width: 0 !important;
 }
 
 :root[uidensity="compact"] {
