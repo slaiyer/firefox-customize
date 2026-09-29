@@ -449,6 +449,11 @@ toolbarseparator.proton-zap::before {
     background-color: #222 !important;
 }
 
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
+    min-width: 260px !important;
+    max-width: 350px !important;
+}
+
 /* =========================================================
    Navigation / URL bar
    ========================================================= */

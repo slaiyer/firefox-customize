@@ -4,6 +4,7 @@
   "autoCollapseExpandSubtreeOnAttach": false,
   "autoCollapseExpandSubtreeOnSelectExceptActiveTabRemove": false,
   "autoExpandIntelligently": false,
+  "avoidDiscardedTabToBeActivatedExceptGroupTabs": false,
   "avoidDiscardedTabToBeActivatedIfPossible": true,
   "cachedExternalAddons": [
     "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
@@ -25,6 +26,9 @@
   "middleClickPasteURLOnNewTabButton": true,
   "moveParentBehavior_noSidebar_collapsed": 2,
   "notifiedFeaturesVersion": 9,
+  "optionsExpandedGroups": [
+    "group-allConfigs"
+  ],
   "optionsExpandedSections": [
     "section-advanced",
     "section-drag",
@@ -43,20 +47,7 @@
   "sidebarPosition": 1,
   "sidebarPositionInvertedNotificationShown": true,
   "sidebarWidthInWindow": {
-    "3": 325,
-    "7": 325,
-    "15": 325,
-    "63": 325,
-    "80": 325,
-    "85": 216,
-    "87": 216,
-    "88": 325,
-    "95": 216,
-    "111": 216,
-    "2766": 0,
-    "3202": 325,
-    "6285": 216,
-    "6494": 325
+    "3": 260
   },
   "style": "none",
   "suppressGapFromShownOrHiddenToolbarOnNewTab": false,
@@ -66,7 +57,7 @@
       "id": "device-1788227025680-36003",
       "name": "m1-ff",
       "icon": "device-desktop",
-      "timestamp": 1790274965310
+      "timestamp": 1790693416077
     }
   },
   "tabsLoadInBackgroundDiscarded": true,
