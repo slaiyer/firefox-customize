@@ -9,7 +9,7 @@
 
     --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 50)) !important;
 
-    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.28 50)) !important;
+    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(55% 0.21 50)) !important;
 
     --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 50)) !important;
 
