@@ -534,6 +534,10 @@ toolbarseparator.proton-zap::before {
     border: none !important;
 }
 
+.urlbarView-background {
+    background-color: #000 !important;
+}
+
 /* =========================================================
    Inactive window
    ========================================================= */
@@ -556,7 +560,8 @@ toolbarseparator.proton-zap::before {
     #urlbarView,
     .urlbar-background {
         background-color: indigo !important;
-        border: 2px solid indigo !important;
+        outline: 4px solid indigo !important;
+        outline-offset: -4px;
         border-radius: 4px !important;
     }
 }
