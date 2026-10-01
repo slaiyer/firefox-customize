@@ -57,6 +57,10 @@ tab-item-substance.pinned .background {
     
 }
 
+tab-favicon .throbber {
+    --throbber-color: silver;
+}
+
 tab-item-substance:not(:hover) tab-closebox {
     visibility: hidden !important;
 }
