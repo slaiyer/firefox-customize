@@ -5,17 +5,17 @@
 
 :root {
     /* Accent */
-    --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --color-accent-primary: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 50)) !important;
 
-    --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 25)) !important;
+    --color-accent-primary-active: light-dark(oklch(41% 0.17 260), oklch(66% 0.14 50)) !important;
 
-    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.11 25)) !important;
+    --color-accent-primary-hover: light-dark(oklch(48% 0.2 260), oklch(75% 0.28 50)) !important;
 
-    --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --color-accent-primary-selected: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 50)) !important;
 
-    --color-accent-attention: light-dark(oklch(73% 0.13 174), oklch(66% 0.14 25)) !important;
+    --color-accent-attention: light-dark(oklch(73% 0.13 174), oklch(66% 0.14 50)) !important;
 
-    --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 25)) !important;
+    --toolbarbutton-icon-fill-attention: light-dark(oklch(55% 0.24 260), oklch(66% 0.14 50)) !important;
 
     /* Dimensions */
     --toolbarbutton-inner-padding: 0 !important;
@@ -532,7 +532,6 @@ toolbarseparator.proton-zap::before {
 #urlbarView,
 .urlbar-background {
     border: none !important;
-    padding-top: 2px !important;
 }
 
 /* =========================================================
@@ -559,6 +558,5 @@ toolbarseparator.proton-zap::before {
         background-color: indigo !important;
         border: 2px solid indigo !important;
         border-radius: 4px !important;
-        padding-top: 1px !important;
     }
 }
