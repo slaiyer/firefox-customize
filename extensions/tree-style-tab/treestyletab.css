@@ -93,7 +93,7 @@ tab-item-substance.active .background {
 }
 
 tab-item-substance.highlighted:not(.active) .background {
-    outline: 2px ridge rgb(var(--macblue));
+    outline: 2px solid rgb(var(--macblue));
     outline-offset: -1px;
 }
 
@@ -108,7 +108,7 @@ tab-favicon {
 
 tab-item-substance:hover .background {
     border-radius: 4px;
-    outline: 1px ridge silver !important;
+    outline: 1px solid silver !important;
     outline-offset: -1px;
 }
 
@@ -134,12 +134,12 @@ tab-closebox {
 
 tab-item-substance.sound-playing .background {
     background-color: rgb(var(--bloodred));
-    outline: 1px ridge red;
+    outline: 1px solid red;
     outline-offset: -1px;
 }
 
 tab-item-substance.muted .background {
     background-color: rgb(var(--bloodred), 0.5);
-    outline: 1px ridge red;
+    outline: 1px solid red;
     outline-offset: -1px;
 }
