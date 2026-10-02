@@ -44,6 +44,7 @@ tab-item {
 
 tab-item .contextual-identity-marker {
     --contextual-identity-marker-size: 1px;
+    margin-right: 2px;
 }
 
 tab-item .background {
@@ -72,7 +73,7 @@ tab-item-substance.pinned:hover tab-closebox {
 }
 
 #tabbar:hover tab-item.split-view .background {
-    border-left: 1px ridge silver !important;
+    border-left: 1px solid silver !important;
 }
 
 tab-item-substance.active .background {
