@@ -100,8 +100,15 @@ tab-item-substance.discarded {
     color: silver;
 }
 
+tab-item-substance.discarded:hover {
+    color: white;
+}
+
 tab-favicon {
-    margin-inline-end: 2px;
+    margin-inline-end: 4px;
+}
+
+tab-favicon:not(.discarded) {
     opacity: 0.8;
 }
 
