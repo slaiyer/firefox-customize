@@ -5,7 +5,6 @@
     --multiselected-color: Highlight;
     --subpanel-area-size: 0px !important;
     --tab-size: 20px;
-    --throbber-size: 16px;
 }
 
 :root.mutiple-highlighted tab-item-substance.highlighted tab-item-substance::after {
@@ -54,7 +53,6 @@ tab-item .background {
 tab-item-substance.pinned .background {
     background-color: rgba(var(--macblue), 0.5);
     border-radius: 0px !important;
-    
 }
 
 tab-favicon .throbber {
@@ -93,6 +91,7 @@ tab-item-substance.active .background {
 }
 
 tab-item-substance.highlighted:not(.active) .background {
+    background-color: rgba(var(--macblue), 0.5);
     outline: 2px solid rgb(var(--macblue));
     outline-offset: -1px;
 }
@@ -112,7 +111,7 @@ tab-item-substance:hover .background {
     outline-offset: -1px;
 }
 
-tab-item-substance:hover tab-favicon {
+tab-item-substance:is(:hover, .active) tab-favicon {
     opacity: 1;
 }
 
