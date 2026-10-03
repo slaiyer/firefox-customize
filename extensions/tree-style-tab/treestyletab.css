@@ -113,6 +113,12 @@ tab-favicon:not(.discarded) {
     opacity: 0.8;
 }
 
+tab-item-substance.discarded:hover .favicon-image {
+    opacity: 1;
+    filter: none;
+    transition: all 0.1s ease-out;
+}
+
 tab-item-substance:hover .background {
     border-radius: 4px;
     outline: 1px solid silver !important;
