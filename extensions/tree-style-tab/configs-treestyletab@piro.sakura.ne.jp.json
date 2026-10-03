@@ -6,7 +6,6 @@
   "autoExpandIntelligently": false,
   "avoidDiscardedTabToBeActivatedExceptGroupTabs": false,
   "avoidDiscardedTabToBeActivatedIfPossible": true,
-  "burstDuration": 100,
   "cachedExternalAddons": [
     "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
     "tst-indent-line@piro.sakura.ne.jp"
