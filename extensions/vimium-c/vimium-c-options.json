@@ -1,12 +1,26 @@
 {
 	"name": "Vimium C",
-	"@time": "9/10/2026, 9:51:29 PM",
-	"time": 1789057289225,
+	"@time": "10/4/2026, 6:21:42 PM",
+	"time": 1791118302414,
 	"environment": {
 		"extension": "2.12.3",
 		"platform": "mac",
-		"firefox": 155
+		"firefox": 157
 	},
+	"exclusionRules": [
+		{
+			"passKeys": "",
+			"pattern": ":https://mail.google.com/"
+		},
+		{
+			"passKeys": "d f j k l m s t ",
+			"pattern": ":https://www.youtube.com/"
+		},
+		{
+			"passKeys": "f m ",
+			"pattern": ":https://www.hotstar.com/"
+		}
+	],
 	"filterLinkHints": true,
 	"keyLayout": 2,
 	"keyMappings": [
@@ -16,6 +30,8 @@
 		"unmap r",
 		"unmap R",
 		"unmap p",
+		"map J nextTab",
+		"map K previousTab",
 		"map <c-f> LinkHints.activateWithQueue",
 		"map <c-m> Marks.clearLocal",
 		"map <c-s-m> Marks.clearGlobal",
