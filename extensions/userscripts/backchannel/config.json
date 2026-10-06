@@ -1,0 +1,44 @@
+{
+  "HNewhere:auth:hn": {
+    "state": "in",
+    "at": 1791053317103
+  },
+  "HNewhere:button_position": {
+    "x": 999999999,
+    "y": 0
+  },
+  "HNewhere:collapsed_comments": [],
+  "HNewhere:migrated": 1,
+  "HNewhere:migrated_queue_keys": 1,
+  "HNewhere:migrated_source_keys": 1,
+  "HNewhere:queue": [],
+  "HNewhere:seeded_sources": 1,
+  "HNewhere:settings": {
+    "annotations": true,
+    "annotationsWhenSidebarClosed": false,
+    "notepad": true,
+    "pdfReader": true,
+    "autoOpenSidebar": false,
+    "autoOpenSidebarOnlyFromHN": false,
+    "hideWithoutDiscussion": false,
+    "showButtonWithQueue": false,
+    "sources": {
+      "hn": true,
+      "reddit": false,
+      "bsky": true,
+      "lobsters": true,
+      "wikipedia": true,
+      "hypothesis": true,
+      "mastodon": true,
+      "lemmy": true
+    },
+    "theme": "auto",
+    "buttonShape": "squircle",
+    "buttonSize": 24,
+    "buttonMark": "BC",
+    "accentColor": null,
+    "commentSort": "best",
+    "newCommentsFirst": false,
+    "keepSidebarSize": true
+  }
+}
