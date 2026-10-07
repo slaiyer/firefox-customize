@@ -51,6 +51,16 @@ tab-item .background {
     border-radius: 4px;
 }
 
+tab-item-substance.last-active .background {
+    background-color: rgba(var(--macblue), 0.5);
+    border: 2px solid rgb(var(--macblue));
+}
+
+tab-item-substance.last-active {
+    text-shadow: 0 0 1px currentColor;
+}
+
+
 tab-item-substance.pinned .background {
     background-color: rgba(var(--macblue), 0.5);
     border-radius: 0px !important;
@@ -129,7 +139,7 @@ tab-item-substance:is(:hover, .active) tab-favicon {
 }
 
 tab-item-substance:hover {
-    text-shadow: 0 0 3px currentColor;
+    text-shadow: 0 0 10px currentColor;
 }
 
 .label-content {
