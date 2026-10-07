@@ -1,1 +1,1 @@
-/Users/sid/Library/Application Support/Firefox/Profiles/btd2c4l9.default-release
+/Users/sid/Library/Application Support/Firefox/Profiles/bbh15m2a.default
