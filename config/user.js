@@ -16,3 +16,4 @@ user_pref("browser.urlbar.trimURLs", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.tabs.loadBookmarksInTabs", true);
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+user_pref("full-screen-api.warning.timeout", 0);
