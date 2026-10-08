@@ -52,7 +52,6 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    background-color: rgba(var(--macblue), 0.5);
     border: 2px solid rgb(var(--macblue));
 }
 
