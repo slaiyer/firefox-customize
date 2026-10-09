@@ -53,7 +53,7 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    background-color: rgba(var(--burntorange), 0.3) !important;
+    background-color: rgba(var(--burntorange), 0.3);
     transition: background 0.4s linear;
 }
 
@@ -157,14 +157,14 @@ tab-closebox {
 }
 
 tab-item-substance.sound-playing .background {
-    background-color: rgb(var(--bloodred));
+    background-color: rgb(var(--bloodred)) !important;
     outline: 1px solid red;
     outline-offset: -1px;
     transition: background 0.4s ease;
 }
 
 tab-item-substance.muted .background {
-    background-color: rgb(var(--bloodred), 0.5);
+    background-color: rgb(var(--bloodred), 0.5) !important;
     outline: 1px solid red;
     outline-offset: -1px;
     transition: background 0.4s ease;
