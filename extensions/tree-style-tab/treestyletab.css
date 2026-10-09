@@ -52,7 +52,8 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    border: 2px solid rgb(var(--macblue));
+    outline: 2px solid rgb(var(--macblue));
+    outline-offset: -3px;
 }
 
 tab-item-substance.last-active {
