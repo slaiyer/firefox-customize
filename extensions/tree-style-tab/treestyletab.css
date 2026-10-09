@@ -51,14 +51,14 @@ tab-item .background {
     border-radius: 4px;
 }
 
-tab-item.last-active {
-    border-left: 4px solid rgb(var(--macblue));
+tab-item-substance.last-active .background {
+    background-color: rgba(var(--macblue), 0.6);
+    transition: background-color 0.4s linear;
 }
 
-tab-item-substance.last-active {
+tab-item-substance.pinned {
     text-shadow: 0 0 1px currentColor;
 }
-
 
 tab-item-substance.pinned .background {
     background-color: rgba(var(--macblue), 0.5);
