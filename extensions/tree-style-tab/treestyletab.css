@@ -51,9 +51,8 @@ tab-item .background {
     border-radius: 4px;
 }
 
-tab-item-substance.last-active .background {
-    outline: 2px solid rgb(var(--macblue));
-    outline-offset: -3px;
+tab-item.last-active {
+    border-left: 4px solid rgb(var(--macblue));
 }
 
 tab-item-substance.last-active {
