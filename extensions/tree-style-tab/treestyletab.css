@@ -68,8 +68,8 @@ tab-favicon .throbber {
     --throbber-color: silver;
 }
 
-tab-item-substance:not(:hover) tab-closebox {
-    visibility: hidden;
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+    display: none;
 }
 
 tab-item-substance.pinned:hover tab-closebox {
