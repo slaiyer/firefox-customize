@@ -2,23 +2,8 @@
     --bloodred: 102, 0, 0;
     --favicon-size: 16px;
     --macblue: 0, 64, 221;
-    --multiselected-color: Highlight;
     --subpanel-area-size: 0px;
     --tab-size: 20px;
-}
-
-:root.mutiple-highlighted tab-item-substance.highlighted tab-item-substance::after {
-    background: var(--multiselected-color);
-    bottom: 0;
-    content: "";
-    display: block;
-    inset-inline-end: 0;
-    inset-inline-start: 0;
-    opacity: var(--multiselected-color-opacity);
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    z-index: 10;
 }
 
 #background {
@@ -52,7 +37,7 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    background: border-box linear-gradient(rgb(var(--macblue)), transparent);
+    background: content-box linear-gradient(rgb(var(--macblue)), transparent);
 }
 
 tab-item-substance.pinned {
@@ -93,14 +78,14 @@ tab-item-substance.active .background {
 #tabbar:hover tab-item:has(> tab-item-substance:is(.active, .highlighted)) .extra-items-container::before {
     border-top: 1px solid var(--indent-line-color-active);
     content: "";
-    margin: 0 2px;
+    margin-right: 2px;
     transform: translateY(calc(var(--tab-size) / 2));
     width: 100%;
     z-index: 99999;
 }
 
 tab-item-substance.highlighted:not(.active) .background {
-    background-color: rgba(var(--macblue), 0.8);
+    background-color: rgba(var(--macblue), 0.5);
     border-left: 2px solid silver;
 }
 
@@ -158,7 +143,7 @@ tab-item-substance.sound-playing .background {
 }
 
 tab-item-substance.muted .background {
-    background: border-box linear-gradient(transparent, rgb(var(--bloodred)));
+    background: content-box linear-gradient(transparent, rgb(var(--bloodred)));
     outline: 1px solid red;
     outline-offset: -1px;
 }
