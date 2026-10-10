@@ -37,7 +37,7 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    background: content-box linear-gradient(rgb(var(--macblue)), transparent);
+    background: content-box linear-gradient(#444, transparent);
 }
 
 tab-item-substance.pinned {
@@ -70,7 +70,7 @@ tab-item-substance.pinned:hover tab-closebox {
 }
 
 tab-item-substance.active .background {
-    background-color: rgb(var(--macblue));
+    background-color: rgb(var(--macblue)) !important;
     filter: none;
     border-radius: 4px;
 }
