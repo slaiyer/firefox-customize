@@ -37,7 +37,7 @@ tab-item .background {
 }
 
 tab-item-substance.last-active .background {
-    background: content-box linear-gradient(#444, transparent);
+    background: content-box linear-gradient(gray, transparent, transparent);
 }
 
 tab-item-substance.pinned {
