@@ -1,24 +1,24 @@
-:root {
+:root.sidebar {
     --bloodred: 102, 0, 0;
     --favicon-size: 16px;
     --macblue: 0, 64, 221;
     --subpanel-area-size: 0px;
-    --tab-size: 20px;
 }
 
-#background {
+:root.sidebar #background {
     background-color: black;
 }
 
-.newtab-button-box {
+:root.sidebar .newtab-button-box {
     display: none;
 }
 
-#subpanel-container {
+:root.sidebar #subpanel-container {
     display: none;
 }
 
 tab-item {
+    --tab-size: 20px;
     --indent-line-color-active: silver;
     --indent-line-color: #333;
     --indent-line-opacity: 0;
@@ -36,7 +36,7 @@ tab-item .background {
     border-radius: 4px;
 }
 
-tab-item-substance.last-active .background {
+tab-item-substance.last-active:not(.active) .background {
     background: content-box linear-gradient(gray, transparent 50%);
 }
 
