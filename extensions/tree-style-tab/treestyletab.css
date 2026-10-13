@@ -45,7 +45,7 @@ tab-item-substance.pinned {
 }
 
 tab-item-substance.pinned .background {
-    background-color: rgba(var(--macblue), 0.5)
+    background: content-box linear-gradient(rgb(var(--macblue)), transparent);
 }
 
 tab-favicon .throbber {
@@ -69,7 +69,7 @@ tab-item-substance.pinned:hover tab-closebox {
 }
 
 tab-item-substance.active .background {
-    background: content-box linear-gradient(rgb(var(--macblue)), darkblue 100%) !important;
+    background: content-box linear-gradient(rgb(var(--macblue)), darkblue) !important;
     filter: none;
     border-radius: 4px;
 }
