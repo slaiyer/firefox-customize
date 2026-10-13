@@ -1,4 +1,4 @@
-:root.sidebar {
+:root {
     --bloodred: 102, 0, 0;
     --favicon-size: 16px;
     --macblue: 0, 64, 221;
@@ -32,9 +32,9 @@
     --tab-group-color-green-invert: #26CB49;
     --tab-group-color-green-pale: #26CB49;
 
-    --tab-group-color-gray: #808080;
-    --tab-group-color-gray-invert: #808080;
-    --tab-group-color-gray-pale: #808080;
+    --tab-group-color-grey: #808080;
+    --tab-group-color-grey-invert: #808080;
+    --tab-group-color-grey-pale: #808080;
 
     --tab-group-color-red: #EF284E;
     --tab-group-color-red-invert: #EF284E;
