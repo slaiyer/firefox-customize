@@ -1,3 +1,7 @@
+* {
+    text-rendering: optimizeLegibility !important;
+}
+
 :root {
     --bloodred: #660000;
     --favicon-size: 16px;
@@ -32,9 +36,9 @@
     --tab-group-color-green-invert: #26CB49;
     --tab-group-color-green-pale: #26CB49;
 
-    --tab-group-color-grey: #808080;
-    --tab-group-color-grey-invert: #808080;
-    --tab-group-color-grey-pale: #808080;
+    --tab-group-color-grey: #A0A0A0;
+    --tab-group-color-grey-invert: #A0A0A0;
+    --tab-group-color-grey-pale: #A0A0A0;
 
     --tab-group-color-red: #EF284E;
     --tab-group-color-red-invert: #EF284E;
@@ -77,8 +81,8 @@ tab-item[type="group"] .background {
 }
 
 tab-item[type="group"] .caption {
+    margin-left: 8px;
     border: none;
-    margin-left: 4px;
     color: black;
     background-color: transparent;
     font-variant-caps: small-caps;
