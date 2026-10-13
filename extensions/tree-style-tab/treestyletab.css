@@ -78,7 +78,7 @@ tab-item[type="group"] .background {
 
 tab-item[type="group"] .caption {
     border: none;
-    padding-left: 4px;
+    margin-left: 4px;
     color: black;
     background-color: transparent;
     font-variant-caps: small-caps;
