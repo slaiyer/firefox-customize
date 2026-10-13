@@ -1,7 +1,7 @@
 :root {
-    --bloodred: 102, 0, 0;
+    --bloodred: #660000;
     --favicon-size: 16px;
-    --macblue: 0, 64, 221;
+    --macblue: #0040DD;
     --subpanel-area-size: 0px;
   
     --tab-group-color-blue: #0088EF;
@@ -41,19 +41,6 @@
     --tab-group-color-red-pale: #EF284E;
 }
 
-tab-item-substance[type="group"] {
-    padding-left: 4px;
-}
-
-tab-item-substance[type="group"] .background {
-    background-color: var(--tab-group-color);
-}
-
-tab-item-substance[type="group"] tab-label {
-    color: black;
-    font-variant-caps: small-caps;
-}
-
 :root.sidebar #background {
     background-color: black;
 }
@@ -85,8 +72,21 @@ tab-item .background {
     border-radius: 4px;
 }
 
+tab-item[type="group"] .background {
+    background: content-box linear-gradient(var(--tab-group-color), oklch(from var(--tab-group-color) calc(l - 0.2) c h));
+}
+
+tab-item[type="group"] .caption {
+    border: none;
+    padding-left: 4px;
+    color: black;
+    background-color: transparent;
+    font-variant-caps: small-caps;
+    text-shadow: 0 0 0 silver;
+}
+
 tab-item-substance.last-active:not(.active) .background {
-    background: content-box linear-gradient(gray, transparent 50%);
+    background: content-box linear-gradient(oklch(from silver l c h / 0.5), transparent 50%);
 }
 
 tab-item-substance.pinned {
@@ -94,7 +94,7 @@ tab-item-substance.pinned {
 }
 
 tab-item-substance.pinned .background {
-    background: content-box linear-gradient(rgb(var(--macblue), 0.5), rgb(var(--macblue), 0.25));
+    background: content-box linear-gradient(oklch(from var(--macblue) l c h / 0.75), oklch(from var(--macblue) l c h / 0.25));
 }
 
 tab-favicon .throbber {
@@ -118,7 +118,7 @@ tab-item-substance.pinned:hover tab-closebox {
 }
 
 tab-item-substance.active .background {
-    background: content-box linear-gradient(rgb(var(--macblue)), rgb(var(--macblue), 0.5)) !important;
+    background: content-box linear-gradient(var(--macblue), oklch(from var(--macblue) calc(l - 0.1) c h)) !important;
     filter: none;
     border-radius: 4px;
 }
@@ -133,7 +133,7 @@ tab-item-substance.active .background {
 }
 
 tab-item-substance.highlighted:not(.active) .background {
-    background-color: rgba(var(--macblue), 0.5);
+    background-color: oklch(from var(--macblue) l c h / 0.5);
     border-left: 2px solid silver;
 }
 
@@ -181,13 +181,13 @@ tab-closebox {
 }
 
 tab-item-substance.sound-playing .background {
-    background: content-box linear-gradient(rgb(var(--bloodred)), rgb(var(--bloodred), 0.5));
+    background: content-box linear-gradient(var(--bloodred), oklch(from var(--bloodred) l c h / 0.5));
     outline: 1px solid red;
     outline-offset: -1px;
 }
 
 tab-item-substance.muted .background {
-    background: content-box linear-gradient(transparent, rgb(var(--bloodred)));
-    outline: 1px solid rgb(var(--bloodred));
+    background: content-box linear-gradient(transparent, var(--bloodred));
+    outline: 1px solid var(--bloodred);
     outline-offset: -1px;
 }
