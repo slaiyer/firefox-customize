@@ -18,5 +18,5 @@ user_pref("browser.tabs.loadBookmarksInTabs", true);
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("full-screen-api.warning.timeout", 0);
 user_pref("gfx.color_management.mode", 1);
-user_pref("gfx.color_management.native_srgb", true);
+user_pref("gfx.color_management.native_srgb", false);
 user_pref("gfx.color_management.display_profile", "/System/Library/ColorSync/Profiles/Display P3.icc");
