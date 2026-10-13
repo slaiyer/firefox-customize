@@ -3,6 +3,55 @@
     --favicon-size: 16px;
     --macblue: 0, 64, 221;
     --subpanel-area-size: 0px;
+  
+    --tab-group-color-blue: #0088EF;
+    --tab-group-color-blue-invert: #0088EF;
+    --tab-group-color-blue-pale: #0088EF;
+
+    --tab-group-color-purple: #573CFA;
+    --tab-group-color-purple-invert: #573CFA;
+    --tab-group-color-purple-pale: #573CFA;
+
+    --tab-group-color-cyan: #0fe1b3;
+    --tab-group-color-cyan-invert: #0fe1b3;
+    --tab-group-color-cyan-pale: #0fe1b3;
+
+    --tab-group-color-orange: #FF9200;
+    --tab-group-color-orange-invert: #FF9200;
+    --tab-group-color-orange-pale: #FF9200;
+
+    --tab-group-color-yellow: #FFD500;
+    --tab-group-color-yellow-invert: #FFD500;
+    --tab-group-color-yellow-pale: #FFD500;
+
+    --tab-group-color-pink: #FF20A7;
+    --tab-group-color-pink-invert: #FF20A7;
+    --tab-group-color-pink-pale: #FF20A7;
+
+    --tab-group-color-green: #26CB49;
+    --tab-group-color-green-invert: #26CB49;
+    --tab-group-color-green-pale: #26CB49;
+
+    --tab-group-color-gray: #808080;
+    --tab-group-color-gray-invert: #808080;
+    --tab-group-color-gray-pale: #808080;
+
+    --tab-group-color-red: #EF284E;
+    --tab-group-color-red-invert: #EF284E;
+    --tab-group-color-red-pale: #EF284E;
+}
+
+tab-item-substance[type="group"] {
+    padding-left: 4px;
+}
+
+tab-item-substance[type="group"] .background {
+    background-color: var(--tab-group-color);
+}
+
+tab-item-substance[type="group"] tab-label {
+    color: black;
+    font-variant-caps: small-caps;
 }
 
 :root.sidebar #background {
@@ -117,10 +166,6 @@ tab-item-substance:hover .background {
 
 tab-item-substance:is(:hover, .active) tab-favicon {
     opacity: 1;
-}
-
-tab-item-substance:hover {
-    text-shadow: 0 0 10px currentColor;
 }
 
 .label-content {
