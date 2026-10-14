@@ -10,39 +10,22 @@
   
     --tab-group-color-blue: #0088EF;
     --tab-group-color-blue-invert: #0088EF;
-    --tab-group-color-blue-pale: #0088EF;
-
     --tab-group-color-purple: #573CFA;
     --tab-group-color-purple-invert: #573CFA;
-    --tab-group-color-purple-pale: #573CFA;
-
     --tab-group-color-cyan: #0fe1b3;
     --tab-group-color-cyan-invert: #0fe1b3;
-    --tab-group-color-cyan-pale: #0fe1b3;
-
     --tab-group-color-orange: #FF9200;
     --tab-group-color-orange-invert: #FF9200;
-    --tab-group-color-orange-pale: #FF9200;
-
     --tab-group-color-yellow: #FFD500;
     --tab-group-color-yellow-invert: #FFD500;
-    --tab-group-color-yellow-pale: #FFD500;
-
     --tab-group-color-pink: #FF20A7;
     --tab-group-color-pink-invert: #FF20A7;
-    --tab-group-color-pink-pale: #FF20A7;
-
     --tab-group-color-green: #26CB49;
     --tab-group-color-green-invert: #26CB49;
-    --tab-group-color-green-pale: #26CB49;
-
     --tab-group-color-grey: #A0A0A0;
     --tab-group-color-grey-invert: #A0A0A0;
-    --tab-group-color-grey-pale: #A0A0A0;
-
     --tab-group-color-red: #EF284E;
     --tab-group-color-red-invert: #EF284E;
-    --tab-group-color-red-pale: #EF284E;
 }
 
 :root.sidebar #background {
@@ -83,10 +66,9 @@ tab-item[type="group"] .background {
 tab-item[type="group"] .caption {
     margin-left: 8px;
     border: none;
-    color: black;
+    color: contrast-color(var(--tab-group-color));
     background-color: transparent;
     font-variant-caps: small-caps;
-    text-shadow: 0 0 0 silver;
 }
 
 tab-item-substance.last-active:not(.active) .background {
