@@ -320,11 +320,11 @@ div.wrapper {
 }
 
 :root[uidensity="compact"] {
-    --tab-min-height: 29px !important;
+    --tab-min-height: 24px !important;
     --tab-margin-block: 0px !important;
     --tab-inline-padding: 8px !important;
     --tab-group-label-size: 24px !important;
-    --urlbar-height: max(26px, 1.4em) !important;
+    --urlbar-height: max(24px, 1.4em) !important;
 }
 
 .urlbar-background {
@@ -458,13 +458,8 @@ toolbarseparator.proton-zap::before {
 }
 
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] + #sidebar-splitter {
-    max-width: 1px !important;
-    background-color: #222 !important;
-}
-
-#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
-    min-width: 260px !important;
-    max-width: 350px !important;
+    max-width: 1px;
+    background-color: #222;
 }
 
 /* =========================================================
