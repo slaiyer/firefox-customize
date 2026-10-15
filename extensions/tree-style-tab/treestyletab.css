@@ -69,6 +69,7 @@ tab-item[type="group"] .caption {
     color: contrast-color(var(--tab-group-color));
     background-color: transparent;
     font-variant-caps: small-caps;
+    letter-spacing: 1px;
 }
 
 tab-item-substance.last-active:not(.active) .background {
