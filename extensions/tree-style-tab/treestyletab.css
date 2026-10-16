@@ -1,12 +1,8 @@
-* {
-    text-rendering: optimizeLegibility !important;
-}
-
-:root {
+:root.sidebar {
     --bloodred: #660000;
     --favicon-size: 16px;
     --macblue: #0040DD;
-    --subpanel-area-size: 0px;
+    --subpanel-area-size: 0px !important;
   
     --tab-group-color-blue: #0088EF;
     --tab-group-color-blue-invert: #0088EF;
