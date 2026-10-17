@@ -38,7 +38,7 @@
 
 tab-item {
     --tab-size: 20px;
-    --indent-line-color-active: silver;
+    --indent-line-color-active: gray;
     --indent-line-color: #333;
     --indent-line-opacity: 0;
     --indent-line-width-active: 1px;
