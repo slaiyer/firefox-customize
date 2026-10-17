@@ -143,7 +143,7 @@ tab-item-substance.discarded:hover .favicon-image {
 
 tab-item-substance:hover .background {
     border-radius: 4px;
-    outline: 1px solid silver !important;
+    outline: 1px solid gray !important;
     outline-offset: -1px;
 }
 
